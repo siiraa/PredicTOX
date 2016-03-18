@@ -1,0 +1,2450 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://ontofox.hegroup.org/c04p7gch.owl#"
+     xml:base="http://ontofox.hegroup.org/c04p7gch.owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:span="http://www.ifomis.org/bfo/1.1/span#">
+    <owl:Ontology rdf:about="http://ontofox.hegroup.org/c04p7gch.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#shorthand">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">shorthand</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">textual definition</rdfs:label>
+        <rdfs:label>definition</rdfs:label>
+        <rdfs:label xml:lang="en">definition</rdfs:label>
+        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">The official OBI definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">The official definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.</obo:IAO_0000115>
+        <obo:IAO_0000111 xml:lang="en">definition</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000116">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">editor note</rdfs:label>
+        <rdfs:label>editor note</rdfs:label>
+        <rdfs:label xml:lang="en">editor note</rdfs:label>
+        <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</oboInOwl:is_metadata_tag>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IAO:0000116</oboInOwl:hasDbXref>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">editor_note</oboInOwl:id>
+        <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">editor_note</oboInOwl:shorthand>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uberon</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000115 xml:lang="en">An administrative note intended for its editor. It may not be included in the publication version of the ontology, so it should contain nothing necessary for end users to understand the ontology.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obfoundry.org/obo/obi&gt;</obo:IAO_0000119>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
+        <obo:IAO_0000111 xml:lang="en">editor note</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
+        <rdfs:label>imported from</rdfs:label>
+        <rdfs:label xml:lang="en">imported from</rdfs:label>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">database_cross_reference</rdfs:label>
+        <rdfs:label>database_cross_reference</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000114">
+        <rdfs:label>has curation status</rdfs:label>
+        <rdfs:label xml:lang="en">has curation status</rdfs:label>
+        <obo:IAO_0000119 xml:lang="en">OBI_0000281</obo:IAO_0000119>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Alan Ruttenberg</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Bill Bug</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Melanie Courtot</obo:IAO_0000117>
+        <obo:IAO_0000111 xml:lang="en">has curation status</obo:IAO_0000111>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000232">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">curator notes</rdfs:label>
+        <rdfs:label>curator note</rdfs:label>
+        <rdfs:label xml:lang="en">curator note</rdfs:label>
+        <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</oboInOwl:is_metadata_tag>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IAO:0000232</oboInOwl:hasDbXref>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">curator_notes</oboInOwl:id>
+        <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">curator_notes</oboInOwl:shorthand>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uberon</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000115 xml:lang="en">An administrative note of use for a curator but of no use for a user</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Alan Ruttenberg</obo:IAO_0000117>
+        <obo:IAO_0000111 xml:lang="en">curator note</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119">
+        <rdfs:label>definition source</rdfs:label>
+        <rdfs:label xml:lang="en">definition source</rdfs:label>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Discussion on obo-discuss mailing-list, see http://bit.ly/hgm99w</obo:IAO_0000119>
+        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
+        <obo:IAO_0000111 xml:lang="en">definition source</obo:IAO_0000111>
+        <obo:IAO_0000115 xml:lang="en">formal citation, e.g. identifier in external database to indicate / attribute source(s) for the definition. Free text indicate / attribute source(s) for the definition. EXAMPLE: Author Name, URI, MeSH Term C04, PUBMED ID, Wiki uri on 31.01.2007</obo:IAO_0000115>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000117">
+        <rdfs:label>definition editor</rdfs:label>
+        <rdfs:label>term editor</rdfs:label>
+        <rdfs:label xml:lang="en">definition editor</rdfs:label>
+        <rdfs:label xml:lang="en">term editor</rdfs:label>
+        <obo:IAO_0000116 xml:lang="en">20110707, MC: label update to term editor and definition modified accordingly. See http://code.google.com/p/information-artifact-ontology/issues/detail?id=115.</obo:IAO_0000116>
+        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
+        <obo:IAO_0000115 xml:lang="en">Name of editor entering the definition in the file. The definition editor is a point of contact for information regarding the term. The definition editor may be, but is not always, the author of the definition, which may have been worked upon by several people</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Name of editor entering the term in the file. The term editor is a point of contact for information regarding the term. The term editor may be, but is not always, the author of the definition, which may have been worked upon by several people</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
+        <obo:IAO_0000111 xml:lang="en">definition editor</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">term editor</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118">
+        <rdfs:label>alternative term</rdfs:label>
+        <rdfs:label xml:lang="en">alternative term</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">An alternative name for a class or property which means the same thing as the preferred name (semantically equivalent)</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
+        <obo:IAO_0000111 xml:lang="en">alternative term</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#is_metadata_tag"/>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_obo_namespace</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OAE_0001849">
+        <rdfs:label xml:lang="en">Chinese translation</rdfs:label>
+        <obo:IAO_0000117>YH, JX</obo:IAO_0000117>
+        <rdfs:comment>a chinese translation represents a chinese translation of the existing term.</rdfs:comment>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000111">
+        <rdfs:label>editor preferred term</rdfs:label>
+        <rdfs:label xml:lang="en">editor preferred term</rdfs:label>
+        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">The concise, meaningful, and human-friendly name for a class or property preferred by the ontology developers. (US-English)</obo:IAO_0000115>
+        <obo:IAO_0000111 xml:lang="en">editor preferred term</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000062 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000062">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">preceded_by</rdfs:label>
+        <rdfs:label xml:lang="en">is preceded by</rdfs:label>
+        <rdfs:label xml:lang="en">preceded by</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000066 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000066">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">occurs in</rdfs:label>
+        <rdfs:label xml:lang="en">occurs in</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001735 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OAE_0001735">
+        <rdfs:label xml:lang="en">is evidence of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000001">
+        <rdfs:label>adverse event</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000061"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000062"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OAE_0000002"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000116>YH: The main scope of OAE includes: (1) represent terms and relations in the area of adverse events, (2) assess possible associations between an adverse event and a medical intervention, particularly, identify any causal effect of a medical intervention to an adverse event; and (2) understand the mechanism (including molecular mechanisms) of causal adverse events.</obo:IAO_0000116>
+        <rdfs:comment>The OAE official website is: http://www.oae-ontology.org/.</rdfs:comment>
+        <obo:IAO_0000116>Melanie Courtot and YH: More work is needed on how to restrict the scope of a term to be an &#39;adverse event&#39;, notably regarding temporal association. When is an appropirate time interval between a medical intervention and an adverse event observed? One week, one month, one year, or a lifetime? For some well-studied medical interventions (e.g., administration of many vaccines or drugs), we probably have a general idea. For many new interventions, we don&#39;t know much. In OAE, this issue is associated with defining the &#39;adverse event incubation time&#39;.</obo:IAO_0000116>
+        <obo:IAO_0000118>AE</obo:IAO_0000118>
+        <obo:IAO_0000116>YH: An adverse event is a process that has specified output of some adverse medical outcome (e.g., symptom, sign or accident) after a medical intervention (or process) (e.g., administration of drug or vaccine). The medical intervention can be an administration of a drug, a vaccine (i.e., vaccination), or a special nutritional product (for example, dietary supplement, infant formula, medical food), surgery, or usage of a medical device.</obo:IAO_0000116>
+        <obo:IAO_0000119>WEB: http://www.fda.gov/Safety/MedWatch/HowToReport/ucm053087.htm</obo:IAO_0000119>
+        <obo:IAO_0000119>WEB: http://www.ncbi.nlm.nih.gov/pubmed/25093068</obo:IAO_0000119>
+        <obo:IAO_0000116>YH: An adverse event is possibly induced by the medical intervention. It can be caused by the medical intervention, or may not be caused by the medical intervention. One ultimate goal (or the goal in clinics) of study adverse events is to assess if the adverse event outcome is due to the medical intervention.</obo:IAO_0000116>
+        <obo:IAO_0000116>YH: There has been discussion regarding whether the term &#39;side effect&#39; is an alternative term for &#39;adverse event&#39;. In AERO, the term &#39;AERO:adverse event&#39; represents a subset of those adverse events for which causality has been established. In OAE, an adverse event for which causality has been established is called &#39;causal adverse event&#39;.</obo:IAO_0000116>
+        <obo:IAO_0000119>WEB: http://en.wikipedia.org/wiki/Adverse_event</obo:IAO_0000119>
+        <obo:IAO_0000118>adverse reaction</obo:IAO_0000118>
+        <obo:IAO_0000115>a pathological bodily process that occurs after a medical intervention. An adverse event is likely caused by the medical intervention; however, such a causal association is not required to be an adverse event.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000002">
+        <rdfs:label>medical intervention</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000038 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000038">
+        <rdfs:label>myocardial infarction AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000084"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OAE_0001735"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OAE_0000320"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OAE_0001735"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OAE_0001047"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OAE_0001735"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OAE_0001743"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:seeAlso>SIDER: C0027051</rdfs:seeAlso>
+        <obo:IAO_0000117>SS</obo:IAO_0000117>
+        <rdfs:seeAlso>HPO: HP_0001658</rdfs:seeAlso>
+        <obo:OAE_0001849>心肌梗塞</obo:OAE_0001849>
+        <rdfs:seeAlso>MedDRA: 10028596</rdfs:seeAlso>
+        <obo:IAO_0000119>WEB: http://www.ncbi.nlm.nih.gov/mesh/68009203</obo:IAO_0000119>
+        <obo:IAO_0000115>a cardiac disorder AE that is characterized by a necrosis of the myocardium caused by an obstruction of the blood supply to the heart</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000084 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000084">
+        <rdfs:label>cardiac disorder AE</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OAE_0000001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000948"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000119>WEB: Primary Source: http://medical-dictionary.thefreedictionary.com/heart+disease Secondary Source: http://www.ncbi.nlm.nih.gov/pubmed/23091623</obo:IAO_0000119>
+        <rdfs:seeAlso>MedDRA (PT): 10061024</rdfs:seeAlso>
+        <rdfs:seeAlso>SIDER: C0018799</rdfs:seeAlso>
+        <rdfs:seeAlso>HPO: HP_0001627</rdfs:seeAlso>
+        <obo:IAO_0000117>SS, YH</obo:IAO_0000117>
+        <obo:IAO_0000115>a cardiovascular disorder AE that has a cardiac disorder outcome. </obo:IAO_0000115>
+        <rdfs:seeAlso>MedDRA (SOC) : 10007541</rdfs:seeAlso>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000218 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000218">
+        <rdfs:label xml:lang="en">bradycardia AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000621"/>
+        <obo:IAO_0000119>WEB: http://medical-dictionary.thefreedictionary.com/bradycardia</obo:IAO_0000119>
+        <obo:IAO_0000119>WEB: http://en.wikipedia.org/wiki/Bradycardia</obo:IAO_0000119>
+        <rdfs:seeAlso>HPO: HP_0001662</rdfs:seeAlso>
+        <rdfs:seeAlso>SIDER: C0428977</rdfs:seeAlso>
+        <rdfs:seeAlso>MedDRA: 10006093</rdfs:seeAlso>
+        <obo:IAO_0000115 xml:lang="en">a decreased heart rate AE that results in a resting heart rate of under 60 beats per minutes (BPM). </obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000280 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000280">
+        <rdfs:label>angina pectoris AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0002122"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OAE_0001735"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OAE_0001321"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>a cardiac disorder AE that is stable and shows the symptom of a chest pain due to ischemia of the heart</obo:IAO_0000115>
+        <obo:IAO_0000118>stable angina AE</obo:IAO_0000118>
+        <rdfs:seeAlso>HPO: HP_0001681</rdfs:seeAlso>
+        <rdfs:seeAlso>SIDER: C0002962</rdfs:seeAlso>
+        <obo:IAO_0000119>WEB: http://www.heart.org/HEARTORG/Conditions/HeartAttack/SymptomsDiagnosisofHeartAttack/Angina-Pectoris-Stable-Angina_UCM_437515_Article.jsp#</obo:IAO_0000119>
+        <rdfs:seeAlso>MedDRA: 10002383</rdfs:seeAlso>
+        <obo:IAO_0000117>DJ, SS, YH</obo:IAO_0000117>
+        <obo:IAO_0000119>WEB: http://www.ncbi.nlm.nih.gov/pubmed/23016723</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000281 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000281">
+        <rdfs:label>angina unstable AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0002122"/>
+        <obo:IAO_0000115>a angina AE that is unstable and has an outcome of a condition in which the heart doesn&#39;t get enough blood flow through the blood vessels of the heart muscle, may lead to heart attack.</obo:IAO_0000115>
+        <rdfs:seeAlso>HPO: HP_0001681</rdfs:seeAlso>
+        <obo:IAO_0000119>WEB: http://www.ncbi.nlm.nih.gov/pubmedhealth/PMH0001250/</obo:IAO_0000119>
+        <rdfs:seeAlso>MedDRA: 10002388</rdfs:seeAlso>
+        <obo:IAO_0000117>DJ, SS, YH</obo:IAO_0000117>
+        <rdfs:seeAlso>SIDER: C0002965</rdfs:seeAlso>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000285 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000285">
+        <rdfs:label>aortic valve incompetence AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000782"/>
+        <obo:IAO_0000119>WEB: http://www.rightdiagnosis.com/a/aortic_valve_incompetence/intro.htm</obo:IAO_0000119>
+        <obo:IAO_0000117>DJ, SS, YH</obo:IAO_0000117>
+        <obo:IAO_0000115>a cardiac valve disease AE that has an outcome of inability of the aortic valve to function effectively</obo:IAO_0000115>
+        <rdfs:seeAlso>HPO: HP_0001659</rdfs:seeAlso>
+        <rdfs:seeAlso>SIDER: C0003504</rdfs:seeAlso>
+        <rdfs:seeAlso>MedDRA: 10002915</rdfs:seeAlso>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000301 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000301">
+        <rdfs:label>atrial flutter AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000660"/>
+        <obo:IAO_0000119>WEB: http://medical-dictionary.thefreedictionary.com/atrial+flutter</obo:IAO_0000119>
+        <rdfs:seeAlso>SIDER: C0004239</rdfs:seeAlso>
+        <obo:IAO_0000118>auricular flutter</obo:IAO_0000118>
+        <rdfs:seeAlso>HPO: HP_0004749</rdfs:seeAlso>
+        <obo:IAO_0000117>SS</obo:IAO_0000117>
+        <rdfs:seeAlso>MedDRA: 10003662</rdfs:seeAlso>
+        <obo:IAO_0000115>an arrhythmia AE that is characterized by rapid regular atrial contractions occurring usually at rates between 250 and 400 per minute and often producing saw-tooth waves in an electrocardiogram.</obo:IAO_0000115>
+        <obo:IAO_0000118>AF</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000315 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000315">
+        <rdfs:label>bundle branch block right AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000316"/>
+        <obo:IAO_0000115>A conduction system disorder AE that is a condition in which the electrical impulse from the bundle of His to the ventricles is delayed or fails to conduct along the right bundle branch, resulting in right ventricular depolarization by cell-to-cell conduction spreading from the interventricular septum and left ventricle to the right ventricle–ie, slow and uncoordinated Natural history Surgically induced RBBB has few acute hemodynamic consequences and a generally benign course long term; rarely, progression to complete heart block and sudden death occur, especially if accompanied by major His-Purkinje system–eg, left anterior hemiblock, first-degree AV block–injury; tetralogy of Fallot repair with an RBBB and a markedly prolonged QRS duration &gt;180 ms have an ↑ risk for ventricular arrhythmias and sudden death.</obo:IAO_0000115>
+        <obo:IAO_0000118>right bundle branch block</obo:IAO_0000118>
+        <rdfs:seeAlso>SIDER: C0085615</rdfs:seeAlso>
+        <rdfs:seeAlso>HPO: HP_0011712</rdfs:seeAlso>
+        <obo:IAO_0000118>RBBB</obo:IAO_0000118>
+        <rdfs:seeAlso>MedDRA: 10006582</rdfs:seeAlso>
+        <obo:IAO_0000119>WEB: http://medical-dictionary.thefreedictionary.com/right+bundle+branch+block</obo:IAO_0000119>
+        <obo:IAO_0000117>SS</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000316 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000316">
+        <rdfs:label>conduction system disorder AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000084"/>
+        <obo:IAO_0000119>WEB: http://www.medterms.com/script/main/art.asp?articlekey=8407</obo:IAO_0000119>
+        <obo:IAO_0000117>SS</obo:IAO_0000117>
+        <obo:IAO_0000118>cardiac conduction disorder AE</obo:IAO_0000118>
+        <obo:IAO_0000115>a cardiac disorder AE of the electrical conduction system that controls the heart rate, generates and conducts electrical impulses throughout the muscle of the heart, stimulating the heart to contract and pump blood.</obo:IAO_0000115>
+        <rdfs:seeAlso>MedDRA: 10000032</rdfs:seeAlso>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000320 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000320">
+        <rdfs:label>arteriosclerosis coronary artery AE</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000355 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000355">
+        <rdfs:label>tachycardia AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000590"/>
+        <rdfs:seeAlso>SIDER: C0039231</rdfs:seeAlso>
+        <rdfs:seeAlso>MedDRA ID: 10043071</rdfs:seeAlso>
+        <rdfs:seeAlso>HPO: HP_0001649</rdfs:seeAlso>
+        <obo:IAO_0000117>SS, YH</obo:IAO_0000117>
+        <obo:IAO_0000119>WEB: http://en.wikipedia.org/wiki/Tachycardia</obo:IAO_0000119>
+        <obo:IAO_0000115>an increased heart rate AE that has an outcome of tachycardia, which is an increased heart rate that exceeds the normal range for a resting heartrate (heartrate in an inactive or sleeping individual)</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000403 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000403">
+        <rdfs:label>hypertension AE</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000404 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000404">
+        <rdfs:label>aortic valve stenosis AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000782"/>
+        <obo:IAO_0000115>a cardiac valve disease AE that is characterized by a condition of the heart in which the aortic valve, located between the aorta and left ventricle of the heart, is norrower than normal size</obo:IAO_0000115>
+        <rdfs:seeAlso>SIDER: C0003507</rdfs:seeAlso>
+        <obo:IAO_0000117>SS</obo:IAO_0000117>
+        <rdfs:seeAlso>HPO: HP_0005173</rdfs:seeAlso>
+        <obo:IAO_0000119>WEB: http://medical-dictionary.thefreedictionary.com/aortic+valve+stenosis</obo:IAO_0000119>
+        <rdfs:seeAlso>MedDRA: 10002918</rdfs:seeAlso>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000461 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000461">
+        <rdfs:label>heart arrest AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000084"/>
+        <obo:IAO_0000118>cardiopulmonary arrest</obo:IAO_0000118>
+        <obo:IAO_0000119>WEB: http://en.wikipedia.org/wiki/Myocardial_infarction</obo:IAO_0000119>
+        <obo:IAO_0000119>WEB: http://medical-dictionary.thefreedictionary.com/cardiac+arrest</obo:IAO_0000119>
+        <obo:IAO_0000118>asystole</obo:IAO_0000118>
+        <obo:IAO_0000118>circulatory arrest</obo:IAO_0000118>
+        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <rdfs:seeAlso>MedDRA: 10007515</rdfs:seeAlso>
+        <obo:IAO_0000115>a cardiac disorder AE that has an outcome of heartarrest. Heart arrest is the abrupt cessation of normal circulation of the blood due to failure of the heart to contract effectively during systole.</obo:IAO_0000115>
+        <rdfs:seeAlso>MedDRA: 10028596</rdfs:seeAlso>
+        <obo:IAO_0000118>cardiac arrest</obo:IAO_0000118>
+        <rdfs:seeAlso>MedDRA: 10007617</rdfs:seeAlso>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000551 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000551">
+        <rdfs:label>hypotension AE</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000552 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000552">
+        <rdfs:label>irregular heartbeat AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000660"/>
+        <rdfs:seeAlso>MP: MP_0001636</rdfs:seeAlso>
+        <obo:IAO_0000115>an arrhythmia AE that has an outcome of uneven timing of heart contraction</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000590 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000590">
+        <rdfs:label>increased heart rate AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000660"/>
+        <obo:IAO_0000119>WEB: http://en.wikipedia.org/wiki/Tachycardia</obo:IAO_0000119>
+        <obo:IAO_0000118>tachycardia</obo:IAO_0000118>
+        <rdfs:seeAlso>MedDRA: 10019303</rdfs:seeAlso>
+        <rdfs:seeAlso>MP: MP_0002626</rdfs:seeAlso>
+        <obo:IAO_0000115 xml:lang="en">an arrhythmia AE that has an outcome of greater than average resting heart beats per minute, usually measured by the number of times the heart ventricles contract per unit of time, usually per minute</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000621 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000621">
+        <rdfs:label>decreased heart rate AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000660"/>
+        <obo:IAO_0000232>Added MedDRA term LB</obo:IAO_0000232>
+        <obo:IAO_0000115>an arrhythmia AE that has an outcome of fewer than average resting heart beats per minute, usually measured by the number of times the heart ventricles contract per unit of time, usually per minute</obo:IAO_0000115>
+        <rdfs:seeAlso>MedDRA: 10019301</rdfs:seeAlso>
+        <rdfs:seeAlso>MP: MP_0005333</rdfs:seeAlso>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000659 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000659">
+        <rdfs:label>atrial fibrillation AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000660"/>
+        <obo:IAO_0000117>SS, YH</obo:IAO_0000117>
+        <rdfs:seeAlso>MedDRA ID: 10003658</rdfs:seeAlso>
+        <rdfs:seeAlso>SIDER: C0004238</rdfs:seeAlso>
+        <obo:IAO_0000118>AF</obo:IAO_0000118>
+        <obo:IAO_0000119>WEB: http://medical-dictionary.thefreedictionary.com/atrial+fibrillation</obo:IAO_0000119>
+        <obo:IAO_0000115>an arrhythmia AE that involves the two upper chambers (atria) of the heart</obo:IAO_0000115>
+        <rdfs:seeAlso>MedDRA: 10003658</rdfs:seeAlso>
+        <rdfs:comment>Atrial fibrillation (AF or A-fib) is the most common cardiac arrhythmia (abnormal heart rhythm), and involves the two upper chambers (atria) of the heart. Its name comes from the fibrillating (i.e., quivering) of the heart muscles of the atria, instead of a coordinated contraction.</rdfs:comment>
+        <obo:IAO_0000119>WEB: http://en.wikipedia.org/wiki/Atrial_fibrillation</obo:IAO_0000119>
+        <rdfs:seeAlso>HPO: HP_0005110</rdfs:seeAlso>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000660 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000660">
+        <rdfs:label>arrhythmia AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000084"/>
+        <rdfs:seeAlso>MedDRA: 10003119</rdfs:seeAlso>
+        <obo:IAO_0000115>a cardiac disorder AE which has an outcome of abnormal heart rhythm</obo:IAO_0000115>
+        <rdfs:seeAlso>SIDER: C0003811</rdfs:seeAlso>
+        <rdfs:seeAlso>MP: MP_0004085</rdfs:seeAlso>
+        <obo:IAO_0000118>abnormal heartbeat AE</obo:IAO_0000118>
+        <obo:IAO_0000117>SS, YH</obo:IAO_0000117>
+        <obo:IAO_0000119>WEB: http://www.nhlbi.nih.gov/health/health-topics/topics/arr/</obo:IAO_0000119>
+        <obo:IAO_0000118>cardiac arrhythmia AE</obo:IAO_0000118>
+        <rdfs:seeAlso>HPO: HP_0011675</rdfs:seeAlso>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000661 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000661">
+        <rdfs:label>mitral valve stenosis AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000782"/>
+        <rdfs:seeAlso>MedDRA: 10027733</rdfs:seeAlso>
+        <obo:IAO_0000115>a cardiac valve disease AE that is characterized by a condition of the heart in which one of the valve openings has become narrow and restricts the flow of blood from the upper left chamber (left atrium) to the lower left chamber (left ventricle).</obo:IAO_0000115>
+        <obo:IAO_0000119>WEB: http://medical-dictionary.thefreedictionary.com/mitral+valve+stenosis</obo:IAO_0000119>
+        <obo:IAO_0000117>SS</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000760 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000760">
+        <rdfs:label>bradycardia neonatal AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000621"/>
+        <rdfs:seeAlso>HPO: HP_0001662</rdfs:seeAlso>
+        <obo:IAO_0000115>a bradycardia AE that results in a decreased heart rate in a neonate</obo:IAO_0000115>
+        <obo:IAO_0000117>DJ, SS, YH</obo:IAO_0000117>
+        <rdfs:seeAlso>MedDRA: 10056471</rdfs:seeAlso>
+        <obo:IAO_0000119>WEB: http://www.ncbi.nlm.nih.gov/pubmed/10822186</obo:IAO_0000119>
+        <rdfs:seeAlso>SIDER: C1112488</rdfs:seeAlso>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000779 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000779">
+        <rdfs:label>cardiac failure AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000084"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OAE_0001735"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OAE_0000551"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OAE_0001735"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OAE_0000785"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OAE_0001735"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OAE_0000403"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>DJ, SS, YH</obo:IAO_0000117>
+        <rdfs:seeAlso>HPO: HP_0001635</rdfs:seeAlso>
+        <rdfs:seeAlso>SIDER: C0018801</rdfs:seeAlso>
+        <obo:IAO_0000119>WEB: http://medical-dictionary.thefreedictionary.com/cardiac+failure</obo:IAO_0000119>
+        <obo:IAO_0000118>heart failure</obo:IAO_0000118>
+        <rdfs:seeAlso>MedDRA: 10007554</rdfs:seeAlso>
+        <obo:IAO_0000115>a cardiovascular disorder AE that results in the inability of the heart to provide sufficient pump action to distribute blood flow to meet the needs of the body</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000780 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000780">
+        <rdfs:label>cardiac failure congestive AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000779"/>
+        <obo:IAO_0000115>a cardiovascular disorder AE that results in an inability of the heart to provide sufficient pump action to distribute blood flow to meet the needs of the body</obo:IAO_0000115>
+        <rdfs:seeAlso>HPO: HP_0001635</rdfs:seeAlso>
+        <obo:IAO_0000119>WEB: Primary Source: http://medical-dictionary.thefreedictionary.com/congestive+heart+failure Secondary Source: http://www.ncbi.nlm.nih.gov/pubmed/21676684</obo:IAO_0000119>
+        <obo:IAO_0000118>congestive heart failure</obo:IAO_0000118>
+        <rdfs:seeAlso>MedDRA: 10007559</rdfs:seeAlso>
+        <rdfs:seeAlso>SIDER: C0018802</rdfs:seeAlso>
+        <obo:IAO_0000117>DJ, SS, YH</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000782 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000782">
+        <rdfs:label>cardiac valve disease AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000084"/>
+        <obo:IAO_0000115>a cardiac disorder AE that has an outcome of disease involving one or more of the valves of the heart</obo:IAO_0000115>
+        <obo:IAO_0000118>valvular disease AE</obo:IAO_0000118>
+        <obo:IAO_0000117>DJ, SS, YH</obo:IAO_0000117>
+        <rdfs:seeAlso>HPO: HP_0001654</rdfs:seeAlso>
+        <obo:IAO_0000119>WEB: http://medical-dictionary.thefreedictionary.com/valvular+heart+disease</obo:IAO_0000119>
+        <rdfs:seeAlso>MedDRA: 10061406</rdfs:seeAlso>
+        <rdfs:seeAlso>SIDER: C0018824</rdfs:seeAlso>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000783 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000783">
+        <rdfs:label>cardiac ventricular disorder AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000084"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OAE_0001735"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OAE_0000785"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:seeAlso>MedDRA: 10057455</rdfs:seeAlso>
+        <obo:IAO_0000115>a cardiac disorder AE that has an outcome of a disorder involving the ventricle(s) in the heart</obo:IAO_0000115>
+        <obo:IAO_0000119>WEB: Primary Source: http://medical-dictionary.thefreedictionary.com/ventricular Secondary Source: http://www.ncbi.nlm.nih.gov/pubmed/15473469</obo:IAO_0000119>
+        <obo:IAO_0000117>DJ, SS, YH</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000785 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000785">
+        <rdfs:label>cardiomyopathy AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000084"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OAE_0001735"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OAE_0000551"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OAE_0001735"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OAE_0000779"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OAE_0001735"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OAE_0000403"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:seeAlso>MedDRA: 10007636</rdfs:seeAlso>
+        <obo:IAO_0000115>a cardiovascular disorder AE that has an outcome of deterioration of the function of the myocardium, usually leads to heart failure</obo:IAO_0000115>
+        <rdfs:seeAlso>SIDER: C0878544</rdfs:seeAlso>
+        <rdfs:seeAlso>HPO: HP_0001638</rdfs:seeAlso>
+        <obo:IAO_0000119>WEB: http://medical-dictionary.thefreedictionary.com/cardiomyopathy</obo:IAO_0000119>
+        <obo:IAO_0000117>DJ, SS, YH</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000786 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000786">
+        <rdfs:label>cardiotoxicity AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000084"/>
+        <obo:IAO_0000119>WEB: http://medical-dictionary.thefreedictionary.com/cardiomyopathy</obo:IAO_0000119>
+        <rdfs:seeAlso>MedDRA: 10048610</rdfs:seeAlso>
+        <obo:IAO_0000117>DJ, SS, YH</obo:IAO_0000117>
+        <obo:IAO_0000115>a cardiovascular disorder AE that has an outcome of heart electrophysiology dysfunction and/or muscle damage. Is not efficient at pumping/circulating blood</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000794 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000794">
+        <rdfs:label>catheterization cardiac abnormal AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000084"/>
+        <obo:IAO_0000119>WEB: http://medical-dictionary.thefreedictionary.com/cardiac+catheterization</obo:IAO_0000119>
+        <obo:IAO_0000118>catheterisation cardiac abnormal AE</obo:IAO_0000118>
+        <obo:IAO_0000117>DJ, SS, YH</obo:IAO_0000117>
+        <rdfs:seeAlso>MedDRA: 10007816</rdfs:seeAlso>
+        <obo:IAO_0000115>a cardiac disorder AE that has an outcome of a problem after inserting a catheter into the heart</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000808 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000808">
+        <rdfs:label>alcohol cardiomyopathy AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0001047"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000836 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000836">
+        <rdfs:label>congestive cardiomyopathy AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000785"/>
+        <rdfs:seeAlso>MedDRA: 10056370</rdfs:seeAlso>
+        <obo:IAO_0000117>DJ, SS, YH</obo:IAO_0000117>
+        <obo:IAO_0000115>a cardiomyopathy AE that is characterized by the walls of the heart chambers stretching to hold a greater volume of blood than normal</obo:IAO_0000115>
+        <rdfs:seeAlso>SIDER: C0007193</rdfs:seeAlso>
+        <obo:IAO_0000119>WEB: http://medical-dictionary.thefreedictionary.com/congestive+cardiomyopathy</obo:IAO_0000119>
+        <rdfs:seeAlso>HPO: HP_0001635</rdfs:seeAlso>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000848 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000848">
+        <rdfs:label>viral cardiomyopathy AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000785"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000877 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000877">
+        <rdfs:label>diastolic dysfunction AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000084"/>
+        <obo:IAO_0000117>DJ, SS, YH</obo:IAO_0000117>
+        <obo:IAO_0000115>a cardiac disorder AE with an outcome of decline in performance of one or both ventricles of the heart during the time phase of diastole, when heart filling with incoming blood</obo:IAO_0000115>
+        <rdfs:seeAlso>MedDRA: 10052337</rdfs:seeAlso>
+        <obo:IAO_0000119>WEB: http://encyclopedia.thefreedictionary.com/diastolic+dysfunction</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000878 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000878">
+        <rdfs:label>dilatation ventricular AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000783"/>
+        <rdfs:seeAlso>MedDRA: 10013012</rdfs:seeAlso>
+        <obo:IAO_0000115>a cardiac ventricular disorder AE that has an outcome of enlargement of a heart chamber that pumps blood away from the heart</obo:IAO_0000115>
+        <obo:IAO_0000117>DJ, SS, YH</obo:IAO_0000117>
+        <obo:IAO_0000119>WEB: http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1721391/</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000908 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000908">
+        <rdfs:label>ejection fraction decreased AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0001119"/>
+        <obo:IAO_0000115>a left ventricular dysfunction AE that has an outcome of decreased percentage of blood leaving the heart each time it contracts</obo:IAO_0000115>
+        <obo:IAO_0000119>WEB: http://www.mayoclinic.com/health/ejection-fraction/AN00360</obo:IAO_0000119>
+        <rdfs:seeAlso>MedDRA: 10050528</rdfs:seeAlso>
+        <obo:IAO_0000117>DJ, SS, YH</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000962 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000962">
+        <rdfs:label>gallop rhythm present AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000660"/>
+        <rdfs:seeAlso>MedDRA: 10017648</rdfs:seeAlso>
+        <obo:IAO_0000115>an arrhythmia AE that results in an abnormal heart sound</obo:IAO_0000115>
+        <obo:IAO_0000119>WEB: http://circ.ahajournals.org/content/20/6/1053.full.pdf</obo:IAO_0000119>
+        <obo:IAO_0000117>DJ, SS, YH</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001008 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001008">
+        <rdfs:label>bundle branch block left AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000316"/>
+        <obo:IAO_0000118>left bundle branch block</obo:IAO_0000118>
+        <obo:IAO_0000118>LBBB</obo:IAO_0000118>
+        <rdfs:seeAlso>MedDRA: 10006580</rdfs:seeAlso>
+        <obo:IAO_0000119>WEB: http://medical-dictionary.thefreedictionary.com/left+bundle+branch+block</obo:IAO_0000119>
+        <rdfs:seeAlso>HPO: HP_0011713</rdfs:seeAlso>
+        <obo:IAO_0000117>YH, SS</obo:IAO_0000117>
+        <obo:IAO_0000115>A conduction system disorder AE that is a condition in which ventricular contraction is not completely synchronized due to a block in conduction of an electrical impulse to the ventricles; in LBBB, right ventricular endocardial activation begins before, and is often completed before, initiation of left ventricular endocardial activation; benign LBBB is rare; preexisting LBBB in absence of clinical evidence of heart disease is rare; newly acquired LBBB has a 10-fold ↑ in mortality Clinical Generally asymptomatic, or absent or diminished 1st heart sound–HS and reversed splitting of 2nd HS EKG Lead V1–QS or rS; lead V6–late intrinsicoid deflection, monophasic R; lead I–monophasic R Management Pacemaker, if syncope or significant arrhythmias Followup Telemetry PRN.</obo:IAO_0000115>
+        <rdfs:seeAlso>SIDER: C0023211</rdfs:seeAlso>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001047 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001047">
+        <rdfs:label>toxin-induced cardiomyopathy AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000785"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001048 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001048">
+        <rdfs:label>cocaine-induced cardiomyopathy AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0001047"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001060 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001060">
+        <rdfs:label>intraventricular conduction delay AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000316"/>
+        <obo:IAO_0000115>a conduction system disorder AE that refers to the slow conduction of electricity through ventricular walls of the heart.</obo:IAO_0000115>
+        <obo:IAO_0000117>SS</obo:IAO_0000117>
+        <obo:IAO_0000118>IVCD</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001070 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001070">
+        <rdfs:label>cardiomegaly AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000084"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OAE_0001735"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OAE_0000785"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OAE_0001735"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OAE_0000780"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OAE_0001735"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OAE_0000782"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OAE_0001735"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OAE_0000403"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:seeAlso>SIDER: C0018800</rdfs:seeAlso>
+        <obo:IAO_0000117>YH, SS</obo:IAO_0000117>
+        <rdfs:seeAlso>HPO: HP_0001640</rdfs:seeAlso>
+        <obo:IAO_0000115>A cardiac disorder AE that has an outcome of an abnormal enlargement of the heart</obo:IAO_0000115>
+        <obo:IAO_0000232>added MedDRA term LB</obo:IAO_0000232>
+        <obo:IAO_0000119>WEB: http://medical-dictionary.thefreedictionary.com/cardiomegaly</obo:IAO_0000119>
+        <rdfs:seeAlso>MedDRA: 10007632</rdfs:seeAlso>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001118 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001118">
+        <rdfs:label>left atrial dilatation AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0001173"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002079"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>WEB: http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3096293/</obo:IAO_0000119>
+        <obo:IAO_0000117>SZ, DJ, SS, YH</obo:IAO_0000117>
+        <obo:IAO_0000115>a dilatation atrial AE that results in the left atrium of the heart becoming enlarged</obo:IAO_0000115>
+        <rdfs:seeAlso>MedDRA: 10067286</rdfs:seeAlso>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001119 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001119">
+        <rdfs:label>left ventricular dysfunction AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000783"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002084"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>WEB: http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1766527/</obo:IAO_0000119>
+        <obo:IAO_0000115>a cardiac ventricular disorder AE that has an outcome of inability of the left ventricle to pump blood, may lead to heart failure</obo:IAO_0000115>
+        <obo:IAO_0000117>SZ, DJ, SS, YH</obo:IAO_0000117>
+        <rdfs:seeAlso>MedDRA: 10049694</rdfs:seeAlso>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001120 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001120">
+        <rdfs:label>left ventricular failure AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0001119"/>
+        <obo:IAO_0000117>SZ, DJ, SS, YH</obo:IAO_0000117>
+        <rdfs:seeAlso>SIDER: C0023212</rdfs:seeAlso>
+        <rdfs:seeAlso>MedDRA: 10024119</rdfs:seeAlso>
+        <rdfs:seeAlso>HPO: HP_0001635</rdfs:seeAlso>
+        <obo:IAO_0000115>a left ventricular dysfunction AE that has an outcome of congestive heart failure marked by pulmonary congestion and edema, the left ventricle fals to contract forcefully enough to maintain normal cardiac output and peripheral perfusion</obo:IAO_0000115>
+        <obo:IAO_0000119>WEB: http://medical-dictionary.thefreedictionary.com/left+ventricular+failure</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001121 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001121">
+        <rdfs:label>left ventricular hypertrophy AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0001119"/>
+        <obo:IAO_0000119>WEB: http://www.ncbi.nlm.nih.gov/pubmed/18030317</obo:IAO_0000119>
+        <obo:IAO_0000115>a left ventricular dysfunction disorder AE that has an outcome of the thickening of the myocardium of the left ventricle of the heart</obo:IAO_0000115>
+        <rdfs:seeAlso>MedDRA: 10049773</rdfs:seeAlso>
+        <obo:IAO_0000117>SZ, DJ, SS, YH</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001173 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001173">
+        <rdfs:label>dilatation atrial AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000084"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OAE_0001735"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OAE_0000782"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:seeAlso>MedDRA: 10013002</rdfs:seeAlso>
+        <obo:IAO_0000115>A cardiac disorder AE that has an outcome of enlargement of the heart</obo:IAO_0000115>
+        <obo:IAO_0000117>YH, SS</obo:IAO_0000117>
+        <obo:IAO_0000118>atrial dilatation, atrial enlargement</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001188 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001188">
+        <rdfs:label>mitral valve incompetence AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000782"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002135"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:seeAlso>MedDRA: 10027727</rdfs:seeAlso>
+        <rdfs:seeAlso>SIDER: C0026266</rdfs:seeAlso>
+        <obo:IAO_0000117>SZ, SS, YH</obo:IAO_0000117>
+        <obo:IAO_0000115>a cardiac valve disease AE that is characterized by the inability of the heart&#39;s mitral valve to close tightly, allowing blood to flow backward in the heart</obo:IAO_0000115>
+        <obo:IAO_0000119>WEB: http://medical-dictionary.thefreedictionary.com/Mitral+Valve+Insufficiency</obo:IAO_0000119>
+        <rdfs:seeAlso>HPO: HP_0001653</rdfs:seeAlso>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001281 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001281">
+        <rdfs:label>pericardial effusion AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000084"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OAE_0001735"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OAE_0000038"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OAE_0001735"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OAE_0000848"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:seeAlso>SIDER: C0031039</rdfs:seeAlso>
+        <obo:IAO_0000115>a cardiac disorder AE that has an outcome of abnormal accumulation of fluid in the pericardial cavity</obo:IAO_0000115>
+        <obo:IAO_0000117>SZ, SS, YH</obo:IAO_0000117>
+        <obo:IAO_0000119>WEB: http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3110902/</obo:IAO_0000119>
+        <rdfs:seeAlso>MedDRA: 10034474</rdfs:seeAlso>
+        <rdfs:seeAlso>HPO: HP_0001698</rdfs:seeAlso>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001297 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001297">
+        <rdfs:label xml:lang="en">atrioventricular block AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000316"/>
+        <rdfs:seeAlso>SIDER: C0004245</rdfs:seeAlso>
+        <obo:IAO_0000118>heart block</obo:IAO_0000118>
+        <rdfs:seeAlso>HPO: HP_0001678</rdfs:seeAlso>
+        <obo:IAO_0000115>a conduction system disorder AE that refers to partial or complete block of electrical impulses originating in the atrium or sinus node, preventing them from reaching the AV node and ventricles</obo:IAO_0000115>
+        <obo:IAO_0000118>AV block</obo:IAO_0000118>
+        <obo:IAO_0000119>WEB: http://www.medilexicon.com/medicaldictionary.php?t=10751</obo:IAO_0000119>
+        <rdfs:seeAlso>MedDRA: 10003671</rdfs:seeAlso>
+        <obo:IAO_0000117>SS</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001321 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001321">
+        <rdfs:label>prinzmetal angina AE</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001379 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001379">
+        <rdfs:label>right ventricular failure AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0001741"/>
+        <rdfs:seeAlso>HPO: HP_0001708</rdfs:seeAlso>
+        <obo:IAO_0000115>a right ventricular dysfunction AE that has an outcome of congestive heart failure manifested by distention of the neck veins, enlargement of the liver, and dependent edema</obo:IAO_0000115>
+        <obo:IAO_0000117>SZ, SS, YH</obo:IAO_0000117>
+        <rdfs:seeAlso>SIDER: C2939447</rdfs:seeAlso>
+        <obo:IAO_0000119>WEB: http://medical-dictionary.thefreedictionary.com/right+ventricular+failure</obo:IAO_0000119>
+        <rdfs:seeAlso>MedDRA: 10039163</rdfs:seeAlso>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001393 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001393">
+        <rdfs:label>sinus tachycardia AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000355"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002351"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>WEB: http://medical-dictionary.thefreedictionary.com/sinus+tachycardia</obo:IAO_0000119>
+        <rdfs:seeAlso>SIDER: C0039239</rdfs:seeAlso>
+        <rdfs:seeAlso>HPO: HP_0001649</rdfs:seeAlso>
+        <obo:IAO_0000115>a tachycardia AE that has an outcome of elevated impulses originating from the sinoatrial node, greater than 100 bpm</obo:IAO_0000115>
+        <rdfs:seeAlso>MedDRA: 10040752</rdfs:seeAlso>
+        <obo:IAO_0000117>SZ, SS, YH</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001436 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001436">
+        <rdfs:label>supraventricular extrasystoles AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0001877"/>
+        <rdfs:seeAlso>MedDRA: 10042602</rdfs:seeAlso>
+        <rdfs:seeAlso>SIDER: C0033036</rdfs:seeAlso>
+        <obo:IAO_0000119>WEB: http://sideeffects.embl.de/se/C0033036/</obo:IAO_0000119>
+        <obo:IAO_0000115>an arrhythmia AE that has an outcome of premature atrial contractions or beats caused by signals originating from ectopic atrial sites</obo:IAO_0000115>
+        <obo:IAO_0000117>SZ, SS, YH</obo:IAO_0000117>
+        <rdfs:seeAlso>HPO: HP_0005115</rdfs:seeAlso>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001437 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001437">
+        <rdfs:label>supraventricular tachycardia AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000355"/>
+        <rdfs:seeAlso>HPO: HP_0004765</rdfs:seeAlso>
+        <rdfs:seeAlso>SIDER: C0039240</rdfs:seeAlso>
+        <rdfs:seeAlso>MedDRA: 10042604</rdfs:seeAlso>
+        <obo:IAO_0000115>a tachycardia AE that has an outcome of rapid heart rhythm originating at or above the atrioventricular node</obo:IAO_0000115>
+        <obo:IAO_0000119>WEB: Primary Source: http://www.ncbi.nlm.nih.gov/pubmedhealth/PMH0001235/ Secondary Source: http://www.ncbi.nlm.nih.gov/pubmed/23233691</obo:IAO_0000119>
+        <obo:IAO_0000117>SZ, SS, YH</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001441 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001441">
+        <rdfs:label>tachyarrhythmia AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000590"/>
+        <obo:IAO_0000117>SZ, SS, YH</obo:IAO_0000117>
+        <rdfs:seeAlso>HPO: HP_0001649</rdfs:seeAlso>
+        <obo:IAO_0000115>an increased heartbeat AE that is characterized by a distburance of the heart rhythm in which heart rate is abnormally increased</obo:IAO_0000115>
+        <obo:IAO_0000119>WEB: http://medical-dictionary.thefreedictionary.com/tachyarrhythmia</obo:IAO_0000119>
+        <rdfs:seeAlso>SIDER: C0080203</rdfs:seeAlso>
+        <rdfs:seeAlso>MedDRA: 10049447</rdfs:seeAlso>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001442 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001442">
+        <rdfs:label>tachycardia paroxysmal AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000355"/>
+        <obo:IAO_0000117>SZ, SS, YH</obo:IAO_0000117>
+        <obo:IAO_0000115>a tachycardia AE that results in tachycardia beginings and ending in an acute manner</obo:IAO_0000115>
+        <rdfs:seeAlso>MedDRA: 10043079</rdfs:seeAlso>
+        <obo:IAO_0000119>WEB: Primary Source:  http://www.ncbi.nlm.nih.gov/pubmed/11208235 Secondary Source: http://www.nlm.nih.gov/medlineplus/ency/article/000183.htm</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001453 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001453">
+        <rdfs:label>heart rate irregular AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000660"/>
+        <obo:IAO_0000117>YH, SS</obo:IAO_0000117>
+        <rdfs:seeAlso>MedDRA: 10019304</rdfs:seeAlso>
+        <rdfs:seeAlso>SIDER: C0237314</rdfs:seeAlso>
+        <rdfs:seeAlso>HPO: HP_0011675</rdfs:seeAlso>
+        <obo:IAO_0000115>an arrhythmia AE that has an outcome of an irregular rate of the heartbeat</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001468 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001468">
+        <rdfs:label>hypertrophic cardiomyopathy AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000785"/>
+        <rdfs:seeAlso>HPO: HP_0001639</rdfs:seeAlso>
+        <rdfs:seeAlso>MedDRA: 10020871</rdfs:seeAlso>
+        <obo:IAO_0000117>YH, SS</obo:IAO_0000117>
+        <obo:IAO_0000119>WEB: http://www.ncbi.nlm.nih.gov/pubmedhealth/PMH0001243/</obo:IAO_0000119>
+        <obo:IAO_0000118>HCM</obo:IAO_0000118>
+        <obo:IAO_0000115>A cardiomyopathy AE that has an outcome of a condition in which the heart muscle becomes thick. Often, only one part of the heart is thicker than the other parts. The thickening can make it harder for blood to leave the heart, forcing the heart to work harder to pump blood. It also can make it harder for the heart to relax and fill with blood.</obo:IAO_0000115>
+        <rdfs:seeAlso>SIDER: C0007194</rdfs:seeAlso>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001471 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001471">
+        <rdfs:label>tricuspid valve incompetence AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000782"/>
+        <obo:IAO_0000117>SZ, SS, YH</obo:IAO_0000117>
+        <obo:IAO_0000115>a cardiac valve disease AE that is characterized by a tricuspid valve that does not close tightly enough to prevent leakage</obo:IAO_0000115>
+        <rdfs:seeAlso>MedDRA: 10044640</rdfs:seeAlso>
+        <obo:IAO_0000119>WEB: http://medical-dictionary.thefreedictionary.com/Tricuspid+Valve+Insufficiency</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001506 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001506">
+        <rdfs:label>ventricular dysfunction AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000783"/>
+        <obo:IAO_0000119>WEB: http://medical-dictionary.thefreedictionary.com/ventricular+dysfunction</obo:IAO_0000119>
+        <obo:IAO_0000115>a cardiac ventricular disorder AE that has an outcome of an abnormality in the contraction of the ventricles or the motion of the cells</obo:IAO_0000115>
+        <rdfs:seeAlso>MedDRA: 10059056</rdfs:seeAlso>
+        <obo:IAO_0000117>SZ, SS, YH</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001516 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001516">
+        <rdfs:label>wolff-parkinson-white syndrome AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000316"/>
+        <obo:IAO_0000119>WEB: http://www.ncbi.nlm.nih.gov/pubmedhealth/PMH0001206/</obo:IAO_0000119>
+        <rdfs:seeAlso>MedDRA: 10048015</rdfs:seeAlso>
+        <obo:IAO_0000115>a conduction system disorder AE that results in an abnormal accessory electrical conduction pathway between the atria and ventricles</obo:IAO_0000115>
+        <obo:IAO_0000117>SZ, SS, YH</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001522 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001522">
+        <rdfs:label>ischemic cardiomyopathy AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000785"/>
+        <obo:IAO_0000115>A cardiomyopathy AE that has an outcome of a heart failure with left ventricular dilatation resulting from ischemic heart disease.</obo:IAO_0000115>
+        <rdfs:seeAlso>MedDRA: 10048858</rdfs:seeAlso>
+        <obo:IAO_0000119>WEB: http://medical-dictionary.thefreedictionary.com/ischemic+cardiomyopathy</obo:IAO_0000119>
+        <obo:IAO_0000117>YH, SS</obo:IAO_0000117>
+        <obo:IAO_0000118>ischaemic cardiomyopathy AE</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001531 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001531">
+        <rdfs:label>restrictive cardiomyopathy AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000785"/>
+        <obo:IAO_0000115>A cardiomyopathy AE that has an outcome of a condition that the heart cannot relax normally during the time between heartbeats when the blood returns from the body (diastole).</obo:IAO_0000115>
+        <obo:IAO_0000119>WEB: http://www.nlm.nih.gov/medlineplus/ency/article/000189.htm</obo:IAO_0000119>
+        <rdfs:seeAlso>MedDRA: 10038748</rdfs:seeAlso>
+        <obo:IAO_0000118>infiltrative cardiomyopathy</obo:IAO_0000118>
+        <obo:IAO_0000117>YH, SS</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001535 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001535">
+        <rdfs:label>stress cardiomyopathy AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000785"/>
+        <rdfs:seeAlso>MedDRA: 10066286</rdfs:seeAlso>
+        <obo:IAO_0000117>YH, SS</obo:IAO_0000117>
+        <obo:IAO_0000115>A cardiomyopathy AE that is a temporary heart condition brought on by stressful situations, such as the death of a loved one. People with broken heart syndrome may have sudden chest pain or think they&#39;re having a heart attack. These broken heart syndrome symptoms may be brought on by the heart&#39;s reaction to a surge of stress hormones. In broken heart syndrome, a part of your heart temporarily enlarges and doesn&#39;t pump well, while the remainder of the heart functions normally or with even more forceful contractions.</obo:IAO_0000115>
+        <obo:IAO_0000119>WEB: http://www.mayoclinic.com/health/broken-heart-syndrome/DS01135/METHOD=print</obo:IAO_0000119>
+        <obo:IAO_0000118>takotsubo cardiomyopathy, broken heart syndrome, stress-induced cardiomyopathy, apical ballooning syndrome</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001538 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001538">
+        <rdfs:label>ventricular fibrillation AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000660"/>
+        <rdfs:seeAlso>HPO: HP_0001663</rdfs:seeAlso>
+        <obo:IAO_0000115>An arrythmia AE that has an outcome of a severely abnormal heart rhythm (arrhythmia) that can be life-threatening.</obo:IAO_0000115>
+        <obo:IAO_0000117>YH, SS</obo:IAO_0000117>
+        <obo:IAO_0000118>VF</obo:IAO_0000118>
+        <obo:IAO_0000119>WEB: http://www.ncbi.nlm.nih.gov/pubmedhealth/PMH0004467/</obo:IAO_0000119>
+        <rdfs:seeAlso>MedDRA: 10047290</rdfs:seeAlso>
+        <rdfs:seeAlso>SIDER: C0042510</rdfs:seeAlso>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001539 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001539">
+        <rdfs:label>first degree atrioventricular block AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0001297"/>
+        <obo:IAO_0000118>first degree heart block</obo:IAO_0000118>
+        <obo:IAO_0000115>an atrioventricular block AE that there is some  prolongation of AV conduction time (PR interval). The heart&#39;s electrical signals are slowed as they move from the atria to the ventricles (the heart&#39;s upper and lower chambers, respectively). This results in a longer, flatter line between the P and the R waves on the EKG (electrocardiogram). </obo:IAO_0000115>
+        <obo:IAO_0000117>SS</obo:IAO_0000117>
+        <obo:IAO_0000118>atrioventricular block first degree</obo:IAO_0000118>
+        <rdfs:seeAlso>MedDRA: 10003674</rdfs:seeAlso>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001571 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001571">
+        <rdfs:label>second degree atrioventricular block AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0001297"/>
+        <rdfs:seeAlso>MedDRA: 10003677</rdfs:seeAlso>
+        <obo:IAO_0000115>an atrioventricular block AE that some but not all atrial impulses fail to reach the ventricles, thus some ventricular beats are dropped. Electrical signals between the atria and ventricles are slowed to a large degree. Some signals don&#39;t reach the ventricles. On an EKG, the pattern of QRS waves doesn&#39;t follow each P wave as it normally would. </obo:IAO_0000115>
+        <obo:IAO_0000117>SS</obo:IAO_0000117>
+        <obo:IAO_0000118>second degree heart block</obo:IAO_0000118>
+        <obo:IAO_0000118>atrioventricular block second degree</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001576 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001576">
+        <rdfs:label>complete atrioventricular block AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0001297"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OAE_0001735"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OAE_0000785"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>SS</obo:IAO_0000117>
+        <rdfs:seeAlso>MedDRA: 10003673</rdfs:seeAlso>
+        <obo:IAO_0000118>complete heart block</obo:IAO_0000118>
+        <obo:IAO_0000118>atrioventricular block complete</obo:IAO_0000118>
+        <obo:IAO_0000118>third degree heart block</obo:IAO_0000118>
+        <obo:IAO_0000118>third degree atrioventricular block</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001603 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001603">
+        <rdfs:label>Mobitz type I block AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0001571"/>
+        <obo:IAO_0000118>type 1 second degree atrioventricular block</obo:IAO_0000118>
+        <obo:IAO_0000118>Wenckebach&#39;s block</obo:IAO_0000118>
+        <obo:IAO_0000115>a second degree atrioventricular block AE that the electrical signals are delayed more and more with each heartbeat, until the heart skips a beat. On the EKG, the delay is shown as a line (called the PR interval) between the P and QRS waves. The line gets longer and longer until the QRS waves don&#39;t follow the next P wave. </obo:IAO_0000115>
+        <rdfs:seeAlso>MedDRA: 10050797</rdfs:seeAlso>
+        <obo:IAO_0000118>type I second degree atrioventricular block</obo:IAO_0000118>
+        <obo:IAO_0000118>Mobitz type 1 block</obo:IAO_0000118>
+        <obo:IAO_0000119>WEB: http://www.nhlbi.nih.gov/health//dci/Diseases/hb/hb_types.html</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001641 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001641">
+        <rdfs:label>Mobitz type II block AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0001571"/>
+        <obo:IAO_0000118>Mobitz type 2 block</obo:IAO_0000118>
+        <obo:IAO_0000119>WEB: http://www.nhlbi.nih.gov/health//dci/Diseases/hb/hb_types.html</obo:IAO_0000119>
+        <rdfs:seeAlso>MedDRA: 10050798</rdfs:seeAlso>
+        <obo:IAO_0000118>type 2 second degree atrioventricular block</obo:IAO_0000118>
+        <obo:IAO_0000118>type II second degree atrioventricular block</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001725 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001725">
+        <rdfs:label>sinoatrial node dysfunction AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000316"/>
+        <obo:IAO_0000115>a conduction system disorder that refers to abnormalities in SN impulse formation and propagation and includes sinus bradycardia, sinus pause/arrest, chronotropic incompetence, and sinoatrial exit block.</obo:IAO_0000115>
+        <obo:IAO_0000117>SS</obo:IAO_0000117>
+        <obo:IAO_0000118>sinus node dysfunction</obo:IAO_0000118>
+        <obo:IAO_0000118>SND</obo:IAO_0000118>
+        <obo:IAO_0000119>WEB: http://emedicine.medscape.com/article/158064-overview</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001727 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001727">
+        <rdfs:label>inferior wall myocardial infarction AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000038"/>
+        <obo:IAO_0000117>SS</obo:IAO_0000117>
+        <obo:IAO_0000118>myocardial infarction, inferior wall AE</obo:IAO_0000118>
+        <obo:IAO_0000119>WEB: http://www.ncbi.nlm.nih.gov/mesh/?term=inferior+wall+myocardial+infarction</obo:IAO_0000119>
+        <obo:IAO_0000115>a myocardial infarction AE in which the inferior wall of the heart is involved. It is often caused by occlusion of the right coronary artery.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001728 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001728">
+        <rdfs:label>anterior wall myocardial infarction AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000038"/>
+        <obo:IAO_0000119>WEB: http://www.ncbi.nlm.nih.gov/mesh/?term=anterior+wall+myocardial+infarction</obo:IAO_0000119>
+        <obo:IAO_0000118>myocardial infarction, anterior wall AE</obo:IAO_0000118>
+        <obo:IAO_0000117>SS</obo:IAO_0000117>
+        <obo:IAO_0000115>a myocardial infarction AE in which the anterior wall of the heart is involved. Anterior wall myocardial infarction is often caused by occlusion of the left anterior descending coronary artery. It can be categorized as anteroseptal or anterolateral wall myocardial infarction.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001738 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001738">
+        <rdfs:label>papillary muscle disorder AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000782"/>
+        <obo:IAO_0000115>a cardiac valve disease AE that is characterized by an impaired function of a papillary muscle, usually due to ischemia or infarction, with resulting incompetence of the mitral (rarely tricuspid) valve.</obo:IAO_0000115>
+        <rdfs:seeAlso>MedDRA: 10061330</rdfs:seeAlso>
+        <obo:IAO_0000119>WEB: http://medical-dictionary.thefreedictionary.com/papillary+muscle+dysfunction</obo:IAO_0000119>
+        <obo:IAO_0000117>SS</obo:IAO_0000117>
+        <obo:IAO_0000118>papillary muscle dysfunction</obo:IAO_0000118>
+        <obo:IAO_0000118>papillary muscle syndrome</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001741 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001741">
+        <rdfs:label>right ventricular dysfunction AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000783"/>
+        <rdfs:seeAlso>MedDRA: 10058597</rdfs:seeAlso>
+        <obo:IAO_0000119>WEB: http://www.ncbi.nlm.nih.gov/mesh/?term=right%20ventricular%20dysfunction</obo:IAO_0000119>
+        <obo:IAO_0000117>SS</obo:IAO_0000117>
+        <obo:IAO_0000115>a cardiac ventricular disorder AE that is a condition in nwhich the right ventricle of the heart was functionally impaired. This condition usually leads to heart failure or myocardial infarction, and other cardiovascular complicationns.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001742 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001742">
+        <rdfs:label>ventricular extrasystoles AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0001877"/>
+        <rdfs:seeAlso>HPO: HP_0006696</rdfs:seeAlso>
+        <obo:IAO_0000117>SS</obo:IAO_0000117>
+        <obo:IAO_0000118>infranodal extrasystoles AE</obo:IAO_0000118>
+        <rdfs:seeAlso>SIDER: C0151636</rdfs:seeAlso>
+        <rdfs:seeAlso>MedDRA: 10047289</rdfs:seeAlso>
+        <obo:IAO_0000119>WEB: http://dictionary.reference.com/browse/ventricular+extrasystole</obo:IAO_0000119>
+        <obo:IAO_0000115>an arrhythmia AE that is characterized by a premature contraction of the ventricle</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001743 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001743">
+        <rdfs:label>cardiac embolism AE</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001746 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001746">
+        <rdfs:label>premature ventricular contractions AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0001742"/>
+        <rdfs:seeAlso>MedDRA: 10036614</rdfs:seeAlso>
+        <obo:IAO_0000118>PVCs</obo:IAO_0000118>
+        <obo:IAO_0000115>an arrhythmia AE that results in extra, abnormal heartbeats that begin in one of the heart&#39;s two lower pumping chambers (ventricles). These extra beats disrupt the regular heart rhythm, sometimes causing the patient to feel a flip-flop or skipped beat in the chest.</obo:IAO_0000115>
+        <obo:IAO_0000119>WEB: http://www.mayoclinic.com/health/premature-ventricular-contractions/DS00949</obo:IAO_0000119>
+        <obo:IAO_0000117>SS</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001747 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001747">
+        <rdfs:label>pulmonary valve incompetence AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000782"/>
+        <obo:IAO_0000119>WEB: http://www.rightdiagnosis.com/medical/pulmonary_valve_incompetence.htm</obo:IAO_0000119>
+        <obo:IAO_0000118>pulmonic incompetence AE</obo:IAO_0000118>
+        <rdfs:seeAlso>SIDER: C0034088</rdfs:seeAlso>
+        <rdfs:seeAlso>MedDRA: 10037448</rdfs:seeAlso>
+        <rdfs:seeAlso>HPO: HP_0010444</rdfs:seeAlso>
+        <obo:IAO_0000115>a cardiac valve disease AE that is charaterized by the backflow of blood from the pulmonary artery into the right ventricle, owing to imperfect functioning of the pulmonary valve</obo:IAO_0000115>
+        <obo:IAO_0000117>SS</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001748 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001748">
+        <rdfs:label>pulmonary valve stenosis AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000782"/>
+        <obo:IAO_0000119>WEB: http://medical-dictionary.thefreedictionary.com/Pulmonary+Valve+Stenosis</obo:IAO_0000119>
+        <obo:IAO_0000117>SS</obo:IAO_0000117>
+        <obo:IAO_0000115>a cardiac vavle disease AE that is characterized by a congenital heart defect in which blood flow from the heart to the pulmonary artery is blocked</obo:IAO_0000115>
+        <obo:IAO_0000118>pulmonic stenosis AE</obo:IAO_0000118>
+        <rdfs:seeAlso>MedDRA: 10037450</rdfs:seeAlso>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001877 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001877">
+        <rdfs:label>extrasystoles AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000660"/>
+        <obo:IAO_0000117>JX, LW, YH</obo:IAO_0000117>
+        <rdfs:seeAlso>MedDRA: 10015856</rdfs:seeAlso>
+        <obo:OAE_0001849>早搏（额外收缩）</obo:OAE_0001849>
+        <obo:IAO_0000115>Extrasystoles AE is an arrhythmia AE that shows a premature contraction of the heart that is independent of the normal rhythm of the heart and arises in response to an impulse in some part of the heart other than the normal impulse from the sinoatrial node. The extrasystole is followed by a pause, as the heart electrical system &quot;resets&quot; itself and the contraction following the pause is usually more forceful than normal.</obo:IAO_0000115>
+        <obo:IAO_0000119>WEB: http://www.medicinenet.com/script/main/art.asp?articlekey=32159</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001898 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001898">
+        <rdfs:label>ejection murmur AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000084"/>
+        <obo:IAO_0000119>WEB: http://www.cardiologysite.com/auscultation/html/ejection_murmurs.html</obo:IAO_0000119>
+        <obo:IAO_0000115>Ejection murmur AE is a cardiac disorder AE which is due to turbulent forward flow across the right and left ventricular outflow tract, aortic or pulmonary valve, or through the aorta or pulmonary artery.</obo:IAO_0000115>
+        <obo:IAO_0000117>JX, LW, YH</obo:IAO_0000117>
+        <obo:OAE_0001849>收缩期喷射性杂音</obo:OAE_0001849>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001907 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001907">
+        <rdfs:label>ventricular ectopic beats AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000783"/>
+        <obo:IAO_0000117>JX, LW, YH</obo:IAO_0000117>
+        <obo:IAO_0000119>WEB: http://en.wikipedia.org/wiki/Ectopic_beat</obo:IAO_0000119>
+        <obo:OAE_0001849>心室异位搏动</obo:OAE_0001849>
+        <obo:IAO_0000115>Ventricular ectopic beats AE is a cardiac ventricular disorder AE that is a disturbance of the cardiac rhythm frequently related to the electrical conduction system of the heart, in which beats arise from fiber or group of fibers outside the region in the heart muscle ordinarily responsible for impulse formation.</obo:IAO_0000115>
+        <rdfs:seeAlso>MedDRA: 10058291</rdfs:seeAlso>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001913 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001913">
+        <rdfs:label>bundle-branch block AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000316"/>
+        <rdfs:seeAlso>MedDRA: 10006578</rdfs:seeAlso>
+        <obo:IAO_0000115>Bundle-branch block AE is a conduction system disorder AE that refers to a defect of the heart&#39;s electrical conduction system.</obo:IAO_0000115>
+        <obo:IAO_0000117>JX, LW, YH</obo:IAO_0000117>
+        <obo:OAE_0001849>束支传导阻滞</obo:OAE_0001849>
+        <obo:IAO_0000119>WEB: http://en.wikipedia.org/wiki/Bundle_branch_block</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001923 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001923">
+        <rdfs:label>conduction block AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000316"/>
+        <obo:IAO_0000117>JX, LW, YH</obo:IAO_0000117>
+        <obo:IAO_0000115>Conduction block AE is a conduction system disorder AE that shows failure of impulse transmission at some point along a nerve fiber, although conduction along the segments proximal and distal to it are unaffected.</obo:IAO_0000115>
+        <obo:IAO_0000119>WEB: http://www.medilexicon.com/medicaldictionary.php?t=10757</obo:IAO_0000119>
+        <obo:OAE_0001849>传导阻滞</obo:OAE_0001849>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001939 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001939">
+        <rdfs:label>reflex tachycardia AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000355"/>
+        <obo:IAO_0000115>Reflex tachycardia AE is a tachycardia AE that shows increased heart rate in response to some stimulus conveyed through the cardiac nerves.</obo:IAO_0000115>
+        <obo:OAE_0001849>反射性心动过速</obo:OAE_0001849>
+        <obo:IAO_0000117>JX, LW, YH</obo:IAO_0000117>
+        <obo:IAO_0000119>WEB: http://www.medilexicon.com/medicaldictionary.php?t=89526</obo:IAO_0000119>
+        <rdfs:seeAlso>MedDRA: 10063096</rdfs:seeAlso>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001943 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001943">
+        <rdfs:label>ventricular tachycardia AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000355"/>
+        <rdfs:seeAlso>MedDRA: 10047302</rdfs:seeAlso>
+        <obo:OAE_0001849>心室性心搏过速</obo:OAE_0001849>
+        <obo:IAO_0000119>WEB: http://en.wikipedia.org/wiki/Ventricular_tachycardia</obo:IAO_0000119>
+        <obo:IAO_0000117>JX, LW, YH</obo:IAO_0000117>
+        <obo:IAO_0000115>Ventricular tachycardia AE is a tachycardia AE that is a type of tachycardia, or a rapid heart beat that arises from improper electrical activity of the heart presenting as a rapid heart rhythm, that starts in the bottom chambers of the heart, called the ventricles.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001963 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001963">
+        <rdfs:label>premature atrial contraction AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000660"/>
+        <obo:IAO_0000119>WEB: http://en.wikipedia.org/wiki/Premature_atrial_contraction</obo:IAO_0000119>
+        <obo:IAO_0000118>atrial premature complexes AE</obo:IAO_0000118>
+        <obo:IAO_0000115>Premature atrial contraction AE is an arrhythmia AE that is a common cardiac dysrhythmia characterized by premature heartbeats originating in the atria.</obo:IAO_0000115>
+        <obo:OAE_0001849>早搏</obo:OAE_0001849>
+        <rdfs:seeAlso>MedDRA: 10056964</rdfs:seeAlso>
+        <obo:IAO_0000118>atrial premature beats AE</obo:IAO_0000118>
+        <obo:IAO_0000117>JX, LW, YH</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001969 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001969">
+        <rdfs:label>sinus bradycardia AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000218"/>
+        <obo:IAO_0000115>Sinus bradycardia AE is a bradycardia AE that is a heart rhythm that originates from the sinus node and has a rate that is lower than normal. In humans, bradycardia is generally defined to be a rate of under 60 beats per minute.</obo:IAO_0000115>
+        <obo:OAE_0001849>窦性心动过缓</obo:OAE_0001849>
+        <obo:IAO_0000119>WEB: http://en.wikipedia.org/wiki/Sinus_bradycardia</obo:IAO_0000119>
+        <rdfs:seeAlso>MedDRA: 10040741</rdfs:seeAlso>
+        <obo:IAO_0000117>JX, LW, YH</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001970 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001970">
+        <rdfs:label>cardiac output decreased AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000084"/>
+        <rdfs:seeAlso>MedDRA: 10007595</rdfs:seeAlso>
+        <obo:IAO_0000115>Cardiac output decreased AE is a cardiac disorder AE that shows a state in which the blood pumped by an individual&#39;s heart is sufficiently reduced that it is inadequate to meet the needs of the body&#39;s tissues. Cardiac output is the volume of blood being pumped by the heart, in particular by a left or right ventricle in the time interval of one minute.</obo:IAO_0000115>
+        <obo:OAE_0001849>心输出量减少</obo:OAE_0001849>
+        <obo:IAO_0000117>JX, LW, YH</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001976 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001976">
+        <rdfs:label>sinoatrial block AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000316"/>
+        <obo:IAO_0000117>JX, LW, YH</obo:IAO_0000117>
+        <obo:IAO_0000119>WEB: http://en.wikipedia.org/wiki/Sinoatrial_block</obo:IAO_0000119>
+        <rdfs:seeAlso>MedDRA: 10040736</rdfs:seeAlso>
+        <obo:OAE_0001849>窦房阻滞</obo:OAE_0001849>
+        <obo:IAO_0000115>Sinoatrial block AE is a conduction system disorder AE that shows the electrical impulse is delayed or blocked on the way to the atria, thus delaying atrial depolarization.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001980 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001980">
+        <rdfs:label>sinus arrest AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000660"/>
+        <obo:IAO_0000118>sinus pause AE</obo:IAO_0000118>
+        <obo:IAO_0000118>sinoatrial arrest AE</obo:IAO_0000118>
+        <rdfs:seeAlso>MedDRA: 10040738</rdfs:seeAlso>
+        <obo:IAO_0000117>JX, LW, YH</obo:IAO_0000117>
+        <obo:IAO_0000115>Sinus arrest AE is an arrhythmia AE that is a medical condition wherein the sinoatrial node of the heart transiently ceases to generate the electrical impulses that normally stimulate the myocardial tissues to contract and thus the heart to beat. It is defined as lasting from 2.0 seconds to several minutes.</obo:IAO_0000115>
+        <obo:IAO_0000119>WEB: http://en.wikipedia.org/wiki/Sinoatrial_arrest</obo:IAO_0000119>
+        <obo:OAE_0001849>窦性停搏</obo:OAE_0001849>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001994 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001994">
+        <rdfs:label>atrioventricular junctional rhythm AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000660"/>
+        <obo:IAO_0000115>Atrioventricular junctional rhythm AE is an arrhythmia AE that is an electrocardiographic finding in which the pacer of the heart is located in the AV junction, presenting with a narrow QRS complex and a rate of 40-60 beats per minute.</obo:IAO_0000115>
+        <obo:IAO_0000117>JX, LW, YH</obo:IAO_0000117>
+        <obo:OAE_0001849>房室交界性心律</obo:OAE_0001849>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002027 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0002027">
+        <rdfs:label>sino-auricular heart-block AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000316"/>
+        <obo:IAO_0000115>Sino-auricular heart-block AE is a conduction system disorder AE that refers to a rare heart condition caused by abnormalities in the heart&#39;s electrical system rather than arterial disease.</obo:IAO_0000115>
+        <obo:IAO_0000119>WEB: http://www.rightdiagnosis.com/s/sino_auricular_heart_block/intro.htm</obo:IAO_0000119>
+        <obo:OAE_0001849>窦房传导阻滞</obo:OAE_0001849>
+        <obo:IAO_0000117>JX, LW, YH</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002122 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0002122">
+        <rdfs:label xml:lang="en">angina AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000084"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OAE_0001735"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OAE_0001321"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000118>tight chest AE</obo:IAO_0000118>
+        <obo:IAO_0000117>DJ, SS, YH</obo:IAO_0000117>
+        <obo:IAO_0000119>WEB: http://www.ncbi.nlm.nih.gov/pubmed/23016723</obo:IAO_0000119>
+        <rdfs:seeAlso>SIDER: C0002962</rdfs:seeAlso>
+        <rdfs:seeAlso>HPO: HP_0001681</rdfs:seeAlso>
+        <obo:IAO_0000118>chest pain AE</obo:IAO_0000118>
+        <rdfs:seeAlso>MedDRA: 10002383</rdfs:seeAlso>
+        <obo:IAO_0000115>a cardiac disorder AE that shows the symptom of a chest pain.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002123 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0002123">
+        <rdfs:label xml:lang="en">aggravating angina AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0002122"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OAE_0001735"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OAE_0001321"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>JX, YH</obo:IAO_0000117>
+        <obo:IAO_0000115>an angina AE  that is aggravating. </obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002124 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0002124">
+        <rdfs:label xml:lang="en">severe hypotension caused angina symptom aggravating AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0002123"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OAE_0001735"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OAE_0001321"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>an aggravating angina AE  that is caused by severe hypotension </obo:IAO_0000115>
+        <obo:OAE_0001849>严重低血压导致心绞痛症状加重现象</obo:OAE_0001849>
+        <obo:IAO_0000117>JX, YH</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002127 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0002127">
+        <rdfs:label>ventricular rhythm AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000660"/>
+        <obo:OAE_0001849>室性心律</obo:OAE_0001849>
+        <rdfs:seeAlso>MedDRA: 10047297</rdfs:seeAlso>
+        <obo:IAO_0000115>Ventricular rhythm AE is an arrhythmia AE that shows the electrocardiographic finding of an ectopic ventricular rhythm with three or more consecutive ventricular premature beats with a rate less than 100 beats per minute.</obo:IAO_0000115>
+        <obo:IAO_0000117>JX, LW, YH</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002139 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0002139">
+        <rdfs:label>fast and weak heart beat AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000084"/>
+        <obo:IAO_0000115>Fast and weak heart beat AE is a cardiac disorder AE that shows fast and weak heart beat.</obo:IAO_0000115>
+        <obo:IAO_0000117>JX, LW, YH</obo:IAO_0000117>
+        <obo:OAE_0001849>心跳快而弱</obo:OAE_0001849>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002162 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0002162">
+        <rdfs:label>inhibition of myocardial contraction force AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000084"/>
+        <obo:IAO_0000115>Inhibition of myocardial contraction force AE is a cardiac disorder AE that shows inhibition of myocardial contraction force.</obo:IAO_0000115>
+        <obo:IAO_0000117>JX, LW, YH</obo:IAO_0000117>
+        <obo:OAE_0001849>抑制心肌收缩力</obo:OAE_0001849>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002163 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0002163">
+        <rdfs:label>decreased of atrial conduction velocity AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000316"/>
+        <obo:IAO_0000115>Decreased of atrial conduction velocity AE is a conduction system disorder AE that shows decreased of atrial conduction velocity.</obo:IAO_0000115>
+        <obo:IAO_0000117>JX, LW, YH</obo:IAO_0000117>
+        <obo:OAE_0001849>心房传导速度减慢</obo:OAE_0001849>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002182 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0002182">
+        <rdfs:label>cardiac depression AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000084"/>
+        <obo:IAO_0000117>JX, LW, YH</obo:IAO_0000117>
+        <obo:IAO_0000115>Cardiac depression AE  is a cardiac disorder AE that shows cardiac depression.</obo:IAO_0000115>
+        <obo:OAE_0001849>抑制心脏</obo:OAE_0001849>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002191 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0002191">
+        <rdfs:label>heart beat skip AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000552"/>
+        <obo:IAO_0000117>JX, LW, YH</obo:IAO_0000117>
+        <obo:IAO_0000115>Heart beat skip AE is a irregular heartbeat AE which is sometimes called as either heart palpitation, or premature atrial or ventricular contraction are very common occurrences. They may or may not be accompanied by heart conditions or heart problems.</obo:IAO_0000115>
+        <obo:IAO_0000119>WEB: http://ehealthwall.com/heart-skips-a-beat-causes-symptoms-treatment/</obo:IAO_0000119>
+        <obo:OAE_0001849>漏跳</obo:OAE_0001849>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002210 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0002210">
+        <rdfs:label>distant heart sounds AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000084"/>
+        <obo:IAO_0000117>JX, LW, YH</obo:IAO_0000117>
+        <obo:IAO_0000115>Distant heart sounds AE is a cardiac disorder AE that shows distant heart sounds.</obo:IAO_0000115>
+        <obo:OAE_0001849>心音遥远</obo:OAE_0001849>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002215 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0002215">
+        <rdfs:label>polymorphic ventricular tachycardia AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0001943"/>
+        <obo:IAO_0000117>JX, LW, YH</obo:IAO_0000117>
+        <rdfs:seeAlso>MedDRA: 10036095</rdfs:seeAlso>
+        <obo:IAO_0000119>WEB: http://www.healthguideinfo.com/arrhythmias-heart-palpitations/p110132/</obo:IAO_0000119>
+        <obo:IAO_0000115>Polymorphic ventricular tachycardia AE is a ventricular tachycardia AE that is an abnormally fast heart rhythm starting in the ventricles, the lower chambers of the heart.</obo:IAO_0000115>
+        <obo:OAE_0001849>多行性室性心动过速</obo:OAE_0001849>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002216 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0002216">
+        <rdfs:label>monomorphic ventricular tachycardia AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0001943"/>
+        <rdfs:seeAlso>MedDRA: 10058185</rdfs:seeAlso>
+        <obo:IAO_0000117>JX, LW, YH</obo:IAO_0000117>
+        <obo:OAE_0001849>单行性室性心动过速</obo:OAE_0001849>
+        <obo:IAO_0000115>Monomorphic ventricular tachycardia AE is a ventricular tachycardia AE that is a type of tachycardia which has  a uniform beat-to-beat QRS morphology.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002234 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0002234">
+        <rdfs:label>torsades de pointes AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0001943"/>
+        <obo:IAO_0000117>JX, LW, YH</obo:IAO_0000117>
+        <rdfs:seeAlso>MedDRA: 10044067</rdfs:seeAlso>
+        <obo:IAO_0000119>WEB: http://en.wikipedia.org/wiki/Torsades_de_pointes</obo:IAO_0000119>
+        <obo:IAO_0000115>Torsades de pointes AE is a ventricular tachycardia AE that is a polymorphic ventricular tachycardia that exhibits distinct characteristics on the electrocardiogram.</obo:IAO_0000115>
+        <obo:OAE_0001849>扭转性室速</obo:OAE_0001849>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002243 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0002243">
+        <rdfs:label>continuous polymorphic ventricular tachycardia AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0002215"/>
+        <obo:OAE_0001849>连续性多形性室性心动过速</obo:OAE_0001849>
+        <obo:IAO_0000115>Continuous polymorphic ventricular tachycardia AE is a polymorphic ventricular tachycardia AE that shows polymorphic ventricular tachycardia is constantly.</obo:IAO_0000115>
+        <obo:IAO_0000117>JX, LW, YH</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002244 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0002244">
+        <rdfs:label>intermittent polymorphic ventricular tachycardia AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0002215"/>
+        <obo:OAE_0001849>间歇性多形性室性心动过速</obo:OAE_0001849>
+        <obo:IAO_0000117>JX, LW, YH</obo:IAO_0000117>
+        <obo:IAO_0000115>Continuous polymorphic ventricular tachycardia AE is a polymorphic ventricular tachycardia AE that shows polymorphic ventricular tachycardia is intermittent.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002246 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0002246">
+        <rdfs:label>heart failure increased AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000779"/>
+        <obo:IAO_0000117>JX, LW, YH</obo:IAO_0000117>
+        <obo:IAO_0000115>Heart failure increased AE is a cardiovascular disorder AE that shows aggravated heart failure.</obo:IAO_0000115>
+        <obo:OAE_0001849>心脏衰竭加重</obo:OAE_0001849>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002247 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0002247">
+        <rdfs:label>aggravated angina symptoms AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000280"/>
+        <obo:IAO_0000115>Aggravated angina symptoms AE is a angina pectoris AE that shows  aggravated angina symptoms.</obo:IAO_0000115>
+        <obo:IAO_0000117>JX, LW, YH</obo:IAO_0000117>
+        <obo:OAE_0001849>心绞痛症状加剧</obo:OAE_0001849>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002271 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0002271">
+        <rdfs:label>persistent tachycardia AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000355"/>
+        <obo:OAE_0001849>持续心动过速</obo:OAE_0001849>
+        <obo:IAO_0000117>JX, LW, YH</obo:IAO_0000117>
+        <obo:IAO_0000115>Persistent tachycardia AE is a tachycardia AE that is an increased heart rate that exceeds the normal range for a resting heartrate (heartrate in an inactive or sleeping individual). It&#39;s a constant process.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002305 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0002305">
+        <rdfs:label>severe arrhythmia AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000660"/>
+        <obo:OAE_0001849>严重心律失常</obo:OAE_0001849>
+        <obo:IAO_0000117>JX, LW, YH</obo:IAO_0000117>
+        <obo:IAO_0000115>Severe arrhythmia AE is an arrhythmia AE that shows severe abnormal heart rhythm.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002323 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0002323">
+        <rdfs:label>severe bradycardia AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000218"/>
+        <obo:IAO_0000115>Severe bradycardia AE is a bradycardia AE that shows in a resting heart rate of under 60 beats per minutes (BPM).</obo:IAO_0000115>
+        <obo:IAO_0000117>JX, LW, YH</obo:IAO_0000117>
+        <obo:OAE_0001849>严重心动过缓</obo:OAE_0001849>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002326 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0002326">
+        <rdfs:label>transient sinus cardiac arrest AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0001980"/>
+        <obo:IAO_0000117>JX, LW, YH</obo:IAO_0000117>
+        <obo:IAO_0000115>Transient sinus cardiac arrest AE is a sinus arrest AE that shows an electrocardiographic finding of transient impulse formation failure in the sinus node.</obo:IAO_0000115>
+        <obo:OAE_0001849>瞬时窦性停搏</obo:OAE_0001849>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002330 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0002330">
+        <rdfs:label>proarrhythmic effect AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000660"/>
+        <obo:IAO_0000115>Proarrhythmic effect AE is an arrhythmia AE that is a new or more frequent occurrence of pre-existing arrhythmias, paradoxically precipitated by antiarrhythmic therapy, which means it is a side effect associated with the administration of some existing antiarrhythmic drugs, as well as drugs for other indications. In other words, it is a tendency of antiarrhythmic drugs to facilitate emergence of new arrhythmias.</obo:IAO_0000115>
+        <obo:IAO_0000118>arhythmia auxo-action AE</obo:IAO_0000118>
+        <rdfs:seeAlso>MedDRA: 10036766</rdfs:seeAlso>
+        <obo:IAO_0000117>JX, LW, YH</obo:IAO_0000117>
+        <obo:OAE_0001849>致心律失常</obo:OAE_0001849>
+        <obo:IAO_0000119>WEB: http://en.wikipedia.org/wiki/Proarrhythmia</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002335 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0002335">
+        <rdfs:label>anticholinergic effect AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000316"/>
+        <obo:IAO_0000119>WEB: http://ibs.about.com/od/glossary/g/Anticholeffect.htm</obo:IAO_0000119>
+        <obo:IAO_0000117>JX, LW, YH</obo:IAO_0000117>
+        <obo:OAE_0001849>经讯号传导阻断效应</obo:OAE_0001849>
+        <obo:IAO_0000115>Anticholinergic effect AE is a conduction system disorder AE that is physical symptoms resulting from agents that counter the action of acetylcholine, a neurotransmitter (chemical within the nervous system) that is involved in many major bodily functions. These anticholinergic effects typically include constipation, dry mouth, blurred vision, dizziness, and slowing of urination.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002343 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0002343">
+        <rdfs:label xml:lang="en">acute myocardial infarction AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000084"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OAE_0001735"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OAE_0000320"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OAE_0001735"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OAE_0001047"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OAE_0001735"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OAE_0001743"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>SJ, YH</obo:IAO_0000117>
+        <rdfs:seeAlso>MedDRA: 10000891</rdfs:seeAlso>
+        <obo:IAO_0000115>a cardiac disorder AE that is characterized by a necrosis of the myocardium caused by diminished blood supply to the heart</obo:IAO_0000115>
+        <obo:IAO_0000119>URL: http://www.clevelandclinicmeded.com/medicalpubs/diseasemanagement/cardiology/acute-myocardial-infarction/</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002366 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0002366">
+        <rdfs:label xml:lang="en">supraventricular arrhythmia AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000660"/>
+        <obo:IAO_0000118>atrial arrhythmia</obo:IAO_0000118>
+        <obo:IAO_0000117>SJ, YH</obo:IAO_0000117>
+        <obo:IAO_0000119>WEB: http://www.texasheart.org/HIC/Topics/cond/arrhycat.cfm</obo:IAO_0000119>
+        <obo:IAO_0000115>an arrhythmia AE that is characterized by shortness of breath, heart palpitations, chest tightness, and a very fast pulse. Supraventricular arrhythmias begin in the areas above the heart’s lower chambers, such as the upper chambers (the atria) or the atrial conduction pathways.</obo:IAO_0000115>
+        <rdfs:seeAlso>MedDRA: 10003130</rdfs:seeAlso>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002367 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0002367">
+        <rdfs:label xml:lang="en">coronary arteriospasm AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000084"/>
+        <obo:IAO_0000118>coronary vasospasm</obo:IAO_0000118>
+        <obo:IAO_0000118>coronary artery vasospasm</obo:IAO_0000118>
+        <rdfs:seeAlso>MedDRA: 10003225</rdfs:seeAlso>
+        <obo:IAO_0000118>coronary artery spasm</obo:IAO_0000118>
+        <obo:IAO_0000119>WEB: http://sideeffects.embl.de/se/C0010073/pt</obo:IAO_0000119>
+        <obo:IAO_0000115>a cardiac disorder AE which causes a spasm of the large- or medium-sized coronary arteries</obo:IAO_0000115>
+        <obo:IAO_0000117>SJ, YH</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002371 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0002371">
+        <rdfs:label xml:lang="en">atrial tachycardia AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000355"/>
+        <obo:IAO_0000117>SJ, YH</obo:IAO_0000117>
+        <obo:IAO_0000119>WEB: http://www.heart.org/HEARTORG/Conditions/Arrhythmia/AboutArrhythmia/Tachycardia-Fast-Heart-Rate_UCM_302018_Article.jsp#</obo:IAO_0000119>
+        <obo:IAO_0000118>paroxysmal supraventricular tachycardia</obo:IAO_0000118>
+        <obo:IAO_0000118>supraventricular tachycardia</obo:IAO_0000118>
+        <obo:IAO_0000118>paroxysmal atrial tachycardia</obo:IAO_0000118>
+        <obo:IAO_0000115>atrial tachycardia AE is a tachycardia AE that results in a fast heart rate beginning in the upper chambers of the heart</obo:IAO_0000115>
+        <obo:IAO_0000118>MedDRA: 10003668</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002388 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0002388">
+        <rdfs:label xml:lang="en">bradyarrhythmia AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000621"/>
+        <obo:IAO_0000115>a bradycardia AE that results in a disturbance in the heart rhythm in which the heart rate is abnormally slowed.</obo:IAO_0000115>
+        <obo:IAO_0000117>SJ, YH</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002389 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0002389">
+        <rdfs:label xml:lang="en">bradycardia fetal AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000621"/>
+        <obo:IAO_0000119>WEB:http://medical-dictionary.thefreedictionary.com/fetal+bradycardia</obo:IAO_0000119>
+        <obo:IAO_0000117>SJ, YH</obo:IAO_0000117>
+        <obo:IAO_0000115>a bradycardia AE that results in a fetal heart rate of less than 120 beats per minute, generally associatedwith hypoxia</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002457 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0002457">
+        <rdfs:label xml:lang="en">acute decompensated heart failure AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000779"/>
+        <obo:IAO_0000115>Acute decompensated heart failure AE is a cardiovascular disorder AE that shows  a worsening of the symptoms, typically shortness of breath (dyspnea), edema, and fatigue, in a patient with existing heart disease.</obo:IAO_0000115>
+        <obo:IAO_0000119>WEB: http://en.wikipedia.org/wiki/Acute_decompensated_heart_failure</obo:IAO_0000119>
+        <rdfs:seeAlso>MedDRA: 10064653</rdfs:seeAlso>
+        <obo:IAO_0000117>SJ, YH</obo:IAO_0000117>
+        <obo:IAO_0000118>Cardiac Failure Acute</obo:IAO_0000118>
+        <rdfs:seeAlso>MedDRA: 10007556</rdfs:seeAlso>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002459 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0002459">
+        <rdfs:label xml:lang="en">cardiac murmur AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000084"/>
+        <obo:IAO_0000115>Cardiac murmur AE  is a cardiac disorder AE that is characterised by abnormal sounds during the heartbeat cycle — such as whooshing or swishing — made by turbulent blood in or near the heart.</obo:IAO_0000115>
+        <obo:IAO_0000119>WEB: http://www.mayoclinic.org/diseases-conditions/heart-murmurs/basics/definition/con-20028706</obo:IAO_0000119>
+        <rdfs:seeAlso>MedDRA: 10007586</rdfs:seeAlso>
+        <obo:IAO_0000117>SJ, YH</obo:IAO_0000117>
+        <obo:IAO_0000118>Heart Murmur</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002481 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0002481">
+        <rdfs:label xml:lang="en">coronary arteriosclerosis AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000084"/>
+        <obo:IAO_0000118>coronary artery atherosclerosis</obo:IAO_0000118>
+        <obo:IAO_0000117>SJ, YH</obo:IAO_0000117>
+        <obo:IAO_0000118>arteriosclerotic coronary artery disease</obo:IAO_0000118>
+        <obo:IAO_0000119>WEB: http://ghr.nlm.nih.gov/glossary=coronaryarteriosclerosis</obo:IAO_0000119>
+        <rdfs:seeAlso>MedDRA: 10011076</rdfs:seeAlso>
+        <obo:IAO_0000115>a cardiac disorder AE which causes a thickening and loss of elasticity of the coronary arteries, leading to progressive insufficiency of the arteries.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002482 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0002482">
+        <rdfs:label xml:lang="en">coronary occlusion AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000084"/>
+        <obo:IAO_0000115>a cardiac disorder AE which causes a partial or complete blockage of the coronary artery which can lead to heart attack.</obo:IAO_0000115>
+        <obo:IAO_0000119>WEB: http://en.wikipedia.org/wiki/Coronary_occlusion</obo:IAO_0000119>
+        <rdfs:seeAlso>MedDRA: 10011086</rdfs:seeAlso>
+        <obo:IAO_0000117>SJ, YH</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002483 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0002483">
+        <rdfs:label xml:lang="en">coronary artery disease AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000084"/>
+        <obo:IAO_0000117>SJ, YH</obo:IAO_0000117>
+        <obo:IAO_0000115>a cardiac disorder AE which results in inflammation and the buildup of plaque which narrow the coronary arteries. </obo:IAO_0000115>
+        <obo:IAO_0000119>WEB: http://www.mayoclinic.org/diseases-conditions/coronary-artery-disease/basics/definition/con-20032038</obo:IAO_0000119>
+        <rdfs:seeAlso>MedDRA: 10011089</rdfs:seeAlso>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002527 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0002527">
+        <rdfs:label xml:lang="en">palpitations AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000660"/>
+        <obo:IAO_0000117>KM, YH</obo:IAO_0000117>
+        <obo:IAO_0000115>An arrhythmia AE that has an outcome of palpitations, an abnormality of heartbeat characterized by simultaneous awareness of one’s pulse and discomfort.</obo:IAO_0000115>
+        <obo:IAO_0000119>WEB: http://en.wikipedia.org/wiki/Palpitations</obo:IAO_0000119>
+        <rdfs:seeAlso>MedDRA: 10033557</rdfs:seeAlso>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002580 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0002580">
+        <rdfs:label xml:lang="en">ventricular arrhythmia AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000660"/>
+        <obo:IAO_0000117>LW, YH</obo:IAO_0000117>
+        <obo:IAO_0000119>WEB: http://my.clevelandclinic.org/services/heart/departments-centers/ventricular-arrhythmia-center</obo:IAO_0000119>
+        <obo:OAE_0001849>室性心律失常</obo:OAE_0001849>
+        <obo:IAO_0000115>an arrhythmia AE that shows abnormal heart rhythms that originate in the bottom chambers of the heart called the ventricles.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002585 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0002585">
+        <rdfs:label xml:lang="en">pericardial disease AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000084"/>
+        <obo:IAO_0000117>KM, YH</obo:IAO_0000117>
+        <obo:IAO_0000119>WEB: http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2878263/</obo:IAO_0000119>
+        <obo:IAO_0000115>a cardiac disorder AE that can present clinically as acute pericarditis, pericardial effusion, cardiac tamponade, and constrictive pericarditis.</obo:IAO_0000115>
+        <rdfs:seeAlso>MedDRA: 10061338</rdfs:seeAlso>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGMS_0000060 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000060">
+        <rdfs:label>bodily process</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/bfo/1.1/span#ProcessualEntity"/>
+        <obo:IAO_0000232>creation date: 2009-06-23T11:53:49Z</obo:IAO_0000232>
+        <obo:IAO_0000117>Albert Goldfain</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogms.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGMS_0000061 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000061">
+        <rdfs:label>pathological bodily process</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000060"/>
+        <obo:IAO_0000232>creation date: 2009-06-23T11:54:29Z</obo:IAO_0000232>
+        <obo:IAO_0000115 xml:lang="en">A bodily process that is clinically abnormal.</obo:IAO_0000115>
+        <obo:IAO_0000117>Albert Goldfain</obo:IAO_0000117>
+        <obo:IAO_0000119>http://ontology.buffalo.edu/medo/Disease_and_Diagnosis.pdf</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogms.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0000948 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000948">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">heart</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0002079 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002079">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">left cardiac atrium</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0002084 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002084">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">heart left ventricle</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0002135 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002135">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mitral valve</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0002351 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002351">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sinoatrial node</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/bfo/1.1/span#ProcessualEntity -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/bfo/1.1/span#ProcessualEntity"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000122 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/IAO_0000122">
+        <rdfs:label xml:lang="en">ready for release</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000125 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/IAO_0000125">
+        <rdfs:label xml:lang="en">pending final vetting</rdfs:label>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.2.4.1806) http://owlapi.sourceforge.net -->
+
