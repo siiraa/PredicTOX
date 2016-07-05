@@ -2,7 +2,7 @@
 ## Overview
 FDA has identified "Modernizing Toxicology to Enhance Product Safety"  as one of its 8 priority areas in its Regulatory Science Strategic Plan. The plan seeks to develop new approaches to better understand how drugs lead to adverse effects. One of the approaches of interest is the use of “systems pharmacology”, an emerging scientific discipline that blends biology with computational modeling to untangle the intricate networks of interactions between genes, proteins, metabolites, and other small molecules within cells. This approach also forms the basis for the Agency’s mechanism-based drug safety assessment and prediction program, "Pharmacological Mechanism-Based Drug Safety Assessment and Prediction", launched in 2011. 
 
-The PredicTox pilot program, led by the Reagan-Udall Foundation (RUF), brings together multiple stakeholder groups (FDA, NIH, patient groups, drug manufacturers, and academia) to leverage collective knowledge, technical expertise, data, funding, and other resources to systematically explore systems pharmacology approaches to better understand adverse events (AEs). 
+The PredicTox pilot program, brings together multiple stakeholder groups (FDA, NIH, patient groups, drug manufacturers, and academia) to leverage collective knowledge, technical expertise, data, funding, and other resources to systematically explore systems pharmacology approaches to better understand adverse events (AEs). 
 
 While systems pharmacology approaches can be applied to the development of predictive models for any class of drugs or AE, the PredicTox pilot seeks to first provide a “proof of concept”, focusing on drugs and biologics (tyrosine kinase inhibitors [TKIs] and monoclonal antibodies [mAbs]) that target tyrosine kinases and one class of toxicity, cardiac AEs .  Targeted therapies are a rapidly growing strategy for oncology treatment, but they are not without AEs, including cardiac AEs, an area of intense importance for patients, the FDA, and pharmaceutical manufacturers. Learnings from the PredicTox pilot can then be applied to other drug classes and/or other toxicities to improve drug safety assessment. The systems approach also has the potential, in future years, to bolster pharmacovigilance efforts by providing mechanistic/biological insight to help evaluate potential safety signals. In addition to providing evidence to support or refute signals, the mechanistic knowledge provided by this approach can be used to generate hypotheses for prospective investigation in the search for safety signals. 
 ## Project Scope
@@ -45,7 +45,7 @@ Legal/Partnership structure:
 *	What data will be shared for each TKI/mAb
 *	Who may access the database?
 *	Are there limitations on the type of research that can be conducted?
-*	Will those conducting research be required to report findings to RUF, share findings with other data contributors, or share findings externally? 
+*	Will those conducting research be required to report findings to the PredicTox Scientific Steering Committee, share findings with other data contributors, or share findings externally? 
 
 Technical Parameters:
 *	A common language and framework (ontology) for the agreed upon data elements
