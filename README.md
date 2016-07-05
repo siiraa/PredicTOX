@@ -58,6 +58,8 @@ Technical Parameters:
   *	compatibility with each partner’s existing data format
 *	Design, development, and management of data platform
 *	Security of the platform
+
+
 ## Deliverables
 *	A data sharing platform for nonclinical and clinical data that will expand knowledge of:
   *	biological pathways/networks underlying TKI/mAb-related cardiac AEs 
