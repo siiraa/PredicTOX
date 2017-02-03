@@ -1,0 +1,2699 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://ontofox.hegroup.org/w8egbut2.owl#"
+     xml:base="http://ontofox.hegroup.org/w8egbut2.owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+    <owl:Ontology rdf:about="http://ontofox.hegroup.org/w8egbut2.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#shorthand">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">shorthand</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">textual definition</rdfs:label>
+        <rdfs:label>definition</rdfs:label>
+        <rdfs:label xml:lang="en">definition</rdfs:label>
+        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">The official OBI definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">The official definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.</obo:IAO_0000115>
+        <obo:IAO_0000111 xml:lang="en">definition</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000116">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">editor note</rdfs:label>
+        <rdfs:label>editor note</rdfs:label>
+        <rdfs:label xml:lang="en">editor note</rdfs:label>
+        <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</oboInOwl:is_metadata_tag>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IAO:0000116</oboInOwl:hasDbXref>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">editor_note</oboInOwl:id>
+        <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">editor_note</oboInOwl:shorthand>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uberon</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000115 xml:lang="en">An administrative note intended for its editor. It may not be included in the publication version of the ontology, so it should contain nothing necessary for end users to understand the ontology.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obfoundry.org/obo/obi&gt;</obo:IAO_0000119>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
+        <obo:IAO_0000111 xml:lang="en">editor note</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
+        <rdfs:label xml:lang="en">imported from</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">database_cross_reference</rdfs:label>
+        <rdfs:label>database_cross_reference</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000114">
+        <rdfs:label>has curation status</rdfs:label>
+        <rdfs:label xml:lang="en">has curation status</rdfs:label>
+        <obo:IAO_0000119 xml:lang="en">OBI_0000281</obo:IAO_0000119>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Alan Ruttenberg</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Bill Bug</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Melanie Courtot</obo:IAO_0000117>
+        <obo:IAO_0000111 xml:lang="en">has curation status</obo:IAO_0000111>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000232">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">curator notes</rdfs:label>
+        <rdfs:label>curator note</rdfs:label>
+        <rdfs:label xml:lang="en">curator note</rdfs:label>
+        <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</oboInOwl:is_metadata_tag>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IAO:0000232</oboInOwl:hasDbXref>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">curator_notes</oboInOwl:id>
+        <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">curator_notes</oboInOwl:shorthand>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uberon</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000115 xml:lang="en">An administrative note of use for a curator but of no use for a user</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Alan Ruttenberg</obo:IAO_0000117>
+        <obo:IAO_0000111 xml:lang="en">curator note</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119">
+        <rdfs:label>definition source</rdfs:label>
+        <rdfs:label xml:lang="en">definition source</rdfs:label>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Discussion on obo-discuss mailing-list, see http://bit.ly/hgm99w</obo:IAO_0000119>
+        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
+        <obo:IAO_0000111 xml:lang="en">definition source</obo:IAO_0000111>
+        <obo:IAO_0000115 xml:lang="en">formal citation, e.g. identifier in external database to indicate / attribute source(s) for the definition. Free text indicate / attribute source(s) for the definition. EXAMPLE: Author Name, URI, MeSH Term C04, PUBMED ID, Wiki uri on 31.01.2007</obo:IAO_0000115>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000117">
+        <rdfs:label>definition editor</rdfs:label>
+        <rdfs:label>term editor</rdfs:label>
+        <rdfs:label xml:lang="en">definition editor</rdfs:label>
+        <rdfs:label xml:lang="en">term editor</rdfs:label>
+        <obo:IAO_0000116 xml:lang="en">20110707, MC: label update to term editor and definition modified accordingly. See http://code.google.com/p/information-artifact-ontology/issues/detail?id=115.</obo:IAO_0000116>
+        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
+        <obo:IAO_0000115 xml:lang="en">Name of editor entering the definition in the file. The definition editor is a point of contact for information regarding the term. The definition editor may be, but is not always, the author of the definition, which may have been worked upon by several people</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Name of editor entering the term in the file. The term editor is a point of contact for information regarding the term. The term editor may be, but is not always, the author of the definition, which may have been worked upon by several people</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
+        <obo:IAO_0000111 xml:lang="en">definition editor</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">term editor</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118">
+        <rdfs:label>alternative term</rdfs:label>
+        <rdfs:label xml:lang="en">alternative term</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">An alternative name for a class or property which means the same thing as the preferred name (semantically equivalent)</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
+        <obo:IAO_0000111 xml:lang="en">alternative term</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#is_metadata_tag"/>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_obo_namespace</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OAE_0001849">
+        <rdfs:label xml:lang="en">Chinese translation</rdfs:label>
+        <obo:IAO_0000117>YH, JX</obo:IAO_0000117>
+        <rdfs:comment>a chinese translation represents a chinese translation of the existing term.</rdfs:comment>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000111">
+        <rdfs:label>editor preferred term</rdfs:label>
+        <rdfs:label xml:lang="en">editor preferred term</rdfs:label>
+        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">The concise, meaningful, and human-friendly name for a class or property preferred by the ontology developers. (US-English)</obo:IAO_0000115>
+        <obo:IAO_0000111 xml:lang="en">editor preferred term</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000062 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000062">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">preceded_by</rdfs:label>
+        <rdfs:label xml:lang="en">is preceded by</rdfs:label>
+        <rdfs:label xml:lang="en">preceded by</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000066 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000066">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">occurs in</rdfs:label>
+        <rdfs:label xml:lang="en">occurs in</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001735 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OAE_0001735">
+        <rdfs:label xml:lang="en">is evidence of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000001">
+        <rdfs:label>adverse event</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000001"/>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000116>YH: The main scope of OAE includes: (1) represent terms and relations in the area of adverse events, (2) assess possible associations between an adverse event and a medical intervention, particularly, identify any causal effect of a medical intervention to an adverse event; and (2) understand the mechanism (including molecular mechanisms) of causal adverse events.</obo:IAO_0000116>
+        <rdfs:comment>The OAE official website is: http://www.oae-ontology.org/.</rdfs:comment>
+        <obo:IAO_0000116>Melanie Courtot and YH: More work is needed on how to restrict the scope of a term to be an &#39;adverse event&#39;, notably regarding temporal association. When is an appropirate time interval between a medical intervention and an adverse event observed? One week, one month, one year, or a lifetime? For some well-studied medical interventions (e.g., administration of many vaccines or drugs), we probably have a general idea. For many new interventions, we don&#39;t know much. In OAE, this issue is associated with defining the &#39;adverse event incubation time&#39;.</obo:IAO_0000116>
+        <obo:IAO_0000118>AE</obo:IAO_0000118>
+        <obo:IAO_0000116>YH: An adverse event is a process that has specified output of some adverse medical outcome (e.g., symptom, sign or accident) after a medical intervention (or process) (e.g., administration of drug or vaccine). The medical intervention can be an administration of a drug, a vaccine (i.e., vaccination), or a special nutritional product (for example, dietary supplement, infant formula, medical food), surgery, or usage of a medical device.</obo:IAO_0000116>
+        <obo:IAO_0000119>WEB: http://www.fda.gov/Safety/MedWatch/HowToReport/ucm053087.htm</obo:IAO_0000119>
+        <obo:IAO_0000119>WEB: http://www.ncbi.nlm.nih.gov/pubmed/25093068</obo:IAO_0000119>
+        <obo:IAO_0000116>YH: An adverse event is possibly induced by the medical intervention. It can be caused by the medical intervention, or may not be caused by the medical intervention. One ultimate goal (or the goal in clinics) of study adverse events is to assess if the adverse event outcome is due to the medical intervention.</obo:IAO_0000116>
+        <obo:IAO_0000116>YH: There has been discussion regarding whether the term &#39;side effect&#39; is an alternative term for &#39;adverse event&#39;. In AERO, the term &#39;AERO:adverse event&#39; represents a subset of those adverse events for which causality has been established. In OAE, an adverse event for which causality has been established is called &#39;causal adverse event&#39;.</obo:IAO_0000116>
+        <obo:IAO_0000119>WEB: http://en.wikipedia.org/wiki/Adverse_event</obo:IAO_0000119>
+        <obo:IAO_0000118>adverse reaction</obo:IAO_0000118>
+        <obo:IAO_0000115>a pathological bodily process that occurs after a medical intervention. An adverse event is likely caused by the medical intervention; however, such a causal association is not required to be an adverse event.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000019 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000019">
+        <rdfs:label>contusion AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000650"/>
+        <obo:IAO_0000119>WEB: http://en.wikipedia.org/wiki/Bruise</obo:IAO_0000119>
+        <obo:IAO_0000115>a haematoma AE that has an outcome of contusion. </obo:IAO_0000115>
+        <obo:IAO_0000117>SS, YH</obo:IAO_0000117>
+        <rdfs:seeAlso>MedDRA ID: 10050584</rdfs:seeAlso>
+        <rdfs:comment>Contusion is a type of relatively minor hematoma of tissue in which capillaries and sometimes venules are damaged by trauma, allowing blood to seep into the surrounding interstitial tissues.</rdfs:comment>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000085 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000085">
+        <rdfs:label>vascular disorder AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000493"/>
+        <rdfs:seeAlso>MedDRA: 10047065</rdfs:seeAlso>
+        <obo:IAO_0000115>a cardiovascular disorder AE that has a vascular disorder outcome</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000183 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000183">
+        <rdfs:label>circulatory shock AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000493"/>
+        <obo:OAE_0001849>休克</obo:OAE_0001849>
+        <obo:IAO_0000118>shock</obo:IAO_0000118>
+        <rdfs:comment>Circulatory shock is not related to the emotional state of shock.</rdfs:comment>
+        <obo:IAO_0000119>WEB: http://en.wikipedia.org/wiki/Shock_%28circulatory%29</obo:IAO_0000119>
+        <obo:IAO_0000118>physiological shock AE</obo:IAO_0000118>
+        <rdfs:seeAlso>MedDRA: 10040560</rdfs:seeAlso>
+        <obo:IAO_0000115>a cardiovascular disorder AE that is a result of insufficient blood flow throughout the body. Shock often accompanies severe injury or illness.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000185 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000185">
+        <rdfs:label>thrombosis AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000085"/>
+        <obo:IAO_0000117>SS, YH</obo:IAO_0000117>
+        <rdfs:seeAlso>MedDRA: 10043607</rdfs:seeAlso>
+        <rdfs:seeAlso>HPO: HP_0004419</rdfs:seeAlso>
+        <rdfs:seeAlso>SIDER: C0040053</rdfs:seeAlso>
+        <obo:IAO_0000115>A vascular disorder AE that results in the presence of blood clot along the wall of a blood vessel, frequently causing vascular obstruction. Some authorities differentiate thrombus formation from simple coagulation or clot formation.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000198 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000198">
+        <rdfs:label>ischemia AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000493"/>
+        <rdfs:comment> Note: also spelt ischemia.</rdfs:comment>
+        <obo:IAO_0000118>ischaemia AE</obo:IAO_0000118>
+        <obo:IAO_0000117>SS, YH</obo:IAO_0000117>
+        <rdfs:seeAlso>MedDRA: 10061255</rdfs:seeAlso>
+        <rdfs:seeAlso>HPO: HP_0002597</rdfs:seeAlso>
+        <obo:IAO_0000115>A cardiovascular disorder AE that results in Insufficient blood supply for the need of a part of the body, usually as a result of a disease of the blood vessels supplying that part.</obo:IAO_0000115>
+        <rdfs:seeAlso>SIDER: C0022116</rdfs:seeAlso>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000236 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000236">
+        <rdfs:label>arterial disorder AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000085"/>
+        <obo:IAO_0000117>SS</obo:IAO_0000117>
+        <rdfs:seeAlso>HPO: HP_0002620</rdfs:seeAlso>
+        <obo:IAO_0000115>a vascular disorder AE that affects the artery</obo:IAO_0000115>
+        <rdfs:seeAlso>SIDER: C0852949</rdfs:seeAlso>
+        <obo:IAO_0000118>arterial disease AE</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000237 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000237">
+        <rdfs:label>peripheral arterial disease AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000236"/>
+        <rdfs:seeAlso>SIDER: C1704436</rdfs:seeAlso>
+        <obo:IAO_0000118>peripheral artery disease AE</obo:IAO_0000118>
+        <rdfs:seeAlso>HPO: HP_0004950</rdfs:seeAlso>
+        <obo:IAO_0000117>SS</obo:IAO_0000117>
+        <rdfs:seeAlso>MedDRA: 10067825</rdfs:seeAlso>
+        <obo:IAO_0000119>WEB: http://vsearch.nlm.nih.gov/vivisimo/cgi-bin/query-meta?v%3Aproject=medlineplus&amp;query=peripheral+arterial+disease</obo:IAO_0000119>
+        <obo:IAO_0000118>peripheral artery disorder AE</obo:IAO_0000118>
+        <obo:IAO_0000115>an artery disorder AE that is characterized by a narrowing of the blood vessels outside of the heart.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000269 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000269">
+        <rdfs:label>air embolism AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0001744"/>
+        <rdfs:seeAlso>MedDRA: 10001526</rdfs:seeAlso>
+        <obo:IAO_0000119>WEB: http://www.ncbi.nlm.nih.gov/pubmed/23295634</obo:IAO_0000119>
+        <obo:IAO_0000117>DJ, SS, YH</obo:IAO_0000117>
+        <obo:IAO_0000115>an embolism AE that is caused by an air bubble in the vessel</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000279 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000279">
+        <rdfs:label>anastomotic leak AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000085"/>
+        <rdfs:seeAlso>MedDRA: 10050456</rdfs:seeAlso>
+        <obo:IAO_0000119>WEB: http://www.ncbi.nlm.nih.gov/pubmed/23122582</obo:IAO_0000119>
+        <obo:IAO_0000115>a vascular disorder AE that has an outcome of a leakage at the site of the intersection of two blood vessels</obo:IAO_0000115>
+        <obo:IAO_0000117>DJ, SS, YH</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000284 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000284">
+        <rdfs:label>aortic disorder AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000085"/>
+        <rdfs:seeAlso>HPO: HP_0001679</rdfs:seeAlso>
+        <obo:IAO_0000115>a vascular disorder AE that results in a condition affecting the aorta and aortic valves</obo:IAO_0000115>
+        <obo:IAO_0000117>DJ, SS, YH</obo:IAO_0000117>
+        <rdfs:seeAlso>SIDER: C0003493</rdfs:seeAlso>
+        <rdfs:seeAlso>MedDRA: 10058648</rdfs:seeAlso>
+        <obo:IAO_0000119>WEB: http://www.rightdiagnosis.com/medical/aorta_disorder.htm</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000291 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000291">
+        <rdfs:label>arterial hemorrhage AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000427"/>
+        <obo:IAO_0000115>a hemorrhage AE that has an outcome of bleeding in the arteries</obo:IAO_0000115>
+        <obo:IAO_0000118>arterial haemorrhage AE</obo:IAO_0000118>
+        <obo:IAO_0000118>arterial bleeding AE</obo:IAO_0000118>
+        <obo:IAO_0000117>DJ, SS, YH</obo:IAO_0000117>
+        <rdfs:seeAlso>MedDRA: 10060964</rdfs:seeAlso>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000318 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000318">
+        <rdfs:label>arterial thrombosis AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000185"/>
+        <obo:IAO_0000117>DJ, SS, YH</obo:IAO_0000117>
+        <obo:IAO_0000119>WEB: http://www.ncbi.nlm.nih.gov/pubmed/23236330</obo:IAO_0000119>
+        <rdfs:seeAlso>HPO: HP_0004420</rdfs:seeAlso>
+        <rdfs:seeAlso>SIDER: C0151942</rdfs:seeAlso>
+        <obo:IAO_0000115>a thrombosis AE that has an outcome of a blood clot within an artery</obo:IAO_0000115>
+        <rdfs:seeAlso>MedDRA: 10003178</rdfs:seeAlso>
+        <obo:IAO_0000116>[SS] Per DRA and KKB&#39;s comment, arterial thrombosis may also be characterized as an embolism.</obo:IAO_0000116>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000320 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000320">
+        <rdfs:label>arteriosclerosis coronary artery AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0001161"/>
+        <rdfs:seeAlso>HPO: HP_0004929</rdfs:seeAlso>
+        <obo:IAO_0000117>DJ, SS, YH</obo:IAO_0000117>
+        <rdfs:seeAlso>SIDER: C0010054</rdfs:seeAlso>
+        <rdfs:seeAlso>MedDRA: 10003211</rdfs:seeAlso>
+        <obo:IAO_0000119>WEB: http://medical-dictionary.thefreedictionary.com/Coronary+Arteriosclerosis</obo:IAO_0000119>
+        <obo:IAO_0000115>a coronary artery disease AE with the outcome hardening of the coronary artery due to a build up of waxy plaque on the inside of blood vessels</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000322 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000322">
+        <rdfs:label>injection-site hematoma AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000650"/>
+        <obo:IAO_0000115>a haematoma AE that has an outcome of injection-site haematoma, which results in a collection of blood outside the blood vessels at the physical area of injection</obo:IAO_0000115>
+        <obo:IAO_0000119>WEB: http://medical-dictionary.thefreedictionary.com/hematoma</obo:IAO_0000119>
+        <rdfs:seeAlso>MedDRA: 10022066</rdfs:seeAlso>
+        <obo:IAO_0000118>injection-site haematoma AE</obo:IAO_0000118>
+        <obo:IAO_0000117>SS, YH</obo:IAO_0000117>
+        <obo:IAO_0000119>http://en.wikipedia.org/wiki/Hematoma</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000371 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000371">
+        <rdfs:label>injection-site hemorrhage AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000427"/>
+        <rdfs:seeAlso>MedDRA: 10022067</rdfs:seeAlso>
+        <obo:IAO_0000115>a hemorrhage AE that has an outcome of injection-site hemorrhage</obo:IAO_0000115>
+        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000381 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000381">
+        <rdfs:label>abnormal blood pressure AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000493"/>
+        <obo:IAO_0000115>a cardiovascular disorder AE that has an outcome of abnormal blood pressure, representing altered tension of the blood within the systemic arteries</obo:IAO_0000115>
+        <rdfs:seeAlso>MP: MP_0000230</rdfs:seeAlso>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000403 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000403">
+        <rdfs:label>hypertension AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000381"/>
+        <rdfs:seeAlso>MedDRA: 10005750</rdfs:seeAlso>
+        <obo:IAO_0000118>blood pressure increased</obo:IAO_0000118>
+        <rdfs:seeAlso>MedDRA: 10020772</rdfs:seeAlso>
+        <rdfs:seeAlso>HPO: HP_0000822</rdfs:seeAlso>
+        <obo:IAO_0000117>YH, SS</obo:IAO_0000117>
+        <obo:IAO_0000119>WEB: http://www.ncbi.nlm.nih.gov/pubmed/21722707</obo:IAO_0000119>
+        <rdfs:seeAlso>SIDER: C0020538</rdfs:seeAlso>
+        <obo:IAO_0000115>an abnormal blood pressure AE that has an outcome of sustained high blood pressure at a level that is likely to result in cardiovascular disease and/or other pathological states</obo:IAO_0000115>
+        <rdfs:seeAlso>MP: MP_0000231</rdfs:seeAlso>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000416 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000416">
+        <rdfs:label>gastrointestinal hemorrhage AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000427"/>
+        <obo:IAO_0000115>a hemorrhage AE that has an outcome of gastrointestinal hemorrhage</obo:IAO_0000115>
+        <rdfs:seeAlso>MP: MP_0000465</rdfs:seeAlso>
+        <obo:IAO_0000119>WEB: http://medical-dictionary.thefreedictionary.com/gastrointestinal+hemorrhage</obo:IAO_0000119>
+        <rdfs:seeAlso>MedDRA: 10017955</rdfs:seeAlso>
+        <rdfs:comment>bleeding in the stomach and/or the intestines</rdfs:comment>
+        <obo:IAO_0000118>gastrointestinal haemorrhage AE</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000427 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000427">
+        <rdfs:label>hemorrhage AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000493"/>
+        <rdfs:comment>loss of blood from the vascular compartment to the exterior or into nonvascular body space as a result of rupture or severance of the blood vessels</rdfs:comment>
+        <obo:IAO_0000118>haemorrhage AE</obo:IAO_0000118>
+        <obo:IAO_0000119>WEB: http://medical-dictionary.thefreedictionary.com/hemorrhage</obo:IAO_0000119>
+        <rdfs:seeAlso>MP: MP_0001914</rdfs:seeAlso>
+        <rdfs:seeAlso>MedDRA: 10055798</rdfs:seeAlso>
+        <obo:IAO_0000118>bleeding AE</obo:IAO_0000118>
+        <obo:IAO_0000115>a cardiovascular disorder AE that has an outcome of hemorrhage</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000493 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000493">
+        <rdfs:label>cardiovascular AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000001"/>
+        <rdfs:seeAlso>MedDRA ID: 10007649</rdfs:seeAlso>
+        <rdfs:seeAlso>HPO: HP_0001626</rdfs:seeAlso>
+        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000118>cardiovascular disorder AE</obo:IAO_0000118>
+        <rdfs:seeAlso>SIDER: C0007222</rdfs:seeAlso>
+        <obo:IAO_0000115>an AE that occurs in cardiovascular system.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000497 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000497">
+        <rdfs:label>peripheral vascular disorder AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000493"/>
+        <obo:IAO_0000115>a cardiovascular disorder AE that has an outcome of peripheral vascular disorder</obo:IAO_0000115>
+        <rdfs:seeAlso>SIDER: C0085096</rdfs:seeAlso>
+        <rdfs:seeAlso>HPO: HP_0005299</rdfs:seeAlso>
+        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000507 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000507">
+        <rdfs:label>thrombocythemia AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000493"/>
+        <obo:IAO_0000115>a cardiovascular disorder AE that has an outcome of thrombocythemia</obo:IAO_0000115>
+        <rdfs:comment>Thrombocythemia (primary thrombocythemia) is a disorder in which excess platelets are produced, leading to abnormal blood clotting or bleeding.</rdfs:comment>
+        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000508 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000508">
+        <rdfs:label>epistaxis AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000427"/>
+        <rdfs:seeAlso>SIDER: C0014591</rdfs:seeAlso>
+        <rdfs:seeAlso>MedDRA ID: 10015090</rdfs:seeAlso>
+        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <rdfs:seeAlso>HPO: HP_0000421</rdfs:seeAlso>
+        <rdfs:comment>Epistaxis is the relatively common occurrence of hemorrhage from the nose, usually noticed when the blood drains out through the nostrils.</rdfs:comment>
+        <obo:IAO_0000118>nosebleed</obo:IAO_0000118>
+        <obo:IAO_0000115>a hemorrhage AE that has an outcome of epistaxis</obo:IAO_0000115>
+        <rdfs:seeAlso>MedDRA: 10015090</rdfs:seeAlso>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000530 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000530">
+        <rdfs:label>intracranial hypertension AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000403"/>
+        <obo:IAO_0000117>YH, SS</obo:IAO_0000117>
+        <rdfs:seeAlso>MedDRA: 10049977</rdfs:seeAlso>
+        <obo:IAO_0000115>a hypertension AE that has an outcome of elevated pressure in the skull.</obo:IAO_0000115>
+        <obo:IAO_0000119>WEB: http://www.ihrfoundation.org/intracranial/hypertension/info/C16</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000534 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000534">
+        <rdfs:label>cerebrovascular accident AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000493"/>
+        <rdfs:seeAlso>HPO: HP_0001297</rdfs:seeAlso>
+        <rdfs:seeAlso>MedDRA ID: 10008190</rdfs:seeAlso>
+        <rdfs:seeAlso>SIDER: C0038454</rdfs:seeAlso>
+        <obo:IAO_0000115>a cardiovascular disorder AE that comes with cerebrovascular accident</obo:IAO_0000115>
+        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000118>stroke</obo:IAO_0000118>
+        <rdfs:comment>Cerebrovascular accident: The sudden death of some brain cells due to lack of oxygen when the blood flow to the brain is impaired by blockage or rupture of an artery to the brain. A CVA is also referred to as a stroke.</rdfs:comment>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000551 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000551">
+        <rdfs:label>hypotension AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000381"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OAE_0001735"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OAE_0000698"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:seeAlso>HPO: HP_0002615</rdfs:seeAlso>
+        <rdfs:seeAlso>SIDER: C0020649</rdfs:seeAlso>
+        <obo:IAO_0000115>an abnormal blood pressure AE that has an outcome of sustained low blood pressure at a level that is likely to result in cardiovascular disease and/or other pathological states</obo:IAO_0000115>
+        <rdfs:seeAlso>MedDRA ID: 10021097</rdfs:seeAlso>
+        <rdfs:seeAlso>MedDRA: 10005734</rdfs:seeAlso>
+        <obo:IAO_0000118>blood pressure decreased, low blood pressure</obo:IAO_0000118>
+        <rdfs:seeAlso>MedDRA: 10021097</rdfs:seeAlso>
+        <rdfs:seeAlso>MP: MP_0001596</rdfs:seeAlso>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000630 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000630">
+        <rdfs:label>ecchymosis AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000427"/>
+        <obo:IAO_0000115>a hemorrhage AE that has an outcome of ecchymosis</obo:IAO_0000115>
+        <rdfs:seeAlso>SIDER: C0013491</rdfs:seeAlso>
+        <rdfs:seeAlso>MedDRA ID: 10014080</rdfs:seeAlso>
+        <rdfs:seeAlso>MP: MP_0009276</rdfs:seeAlso>
+        <rdfs:seeAlso>HPO: HP_0000978</rdfs:seeAlso>
+        <rdfs:comment xml:lang="en">an ecchymosis is a spot caused by loss of blood from a vessel; it implies a larger size than a petechiae, and has a more diffuse border than purpura; an ecchymosis can be caused by a bruise (which implies trauma), but can also be caused by bleeding diathesis</rdfs:comment>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000650 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000650">
+        <rdfs:label>hematoma AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000493"/>
+        <obo:IAO_0000115>an cardiovascular adverse event that is a collection of blood outside the blood vessels, generally the result of hemorrhage, or more specifically, internal bleeding. It is commonly called a bruise.</obo:IAO_0000115>
+        <rdfs:seeAlso>SIDER: C0018944</rdfs:seeAlso>
+        <obo:IAO_0000117>SS, YH</obo:IAO_0000117>
+        <rdfs:seeAlso>MedDRA ID: 10018852</rdfs:seeAlso>
+        <obo:IAO_0000118>ecchymoses AE</obo:IAO_0000118>
+        <obo:IAO_0000118>haematoma AE</obo:IAO_0000118>
+        <obo:IAO_0000118>bruise AE</obo:IAO_0000118>
+        <rdfs:seeAlso>HPO: HP_0001892</rdfs:seeAlso>
+        <obo:IAO_0000119>WEB: http://en.wikipedia.org/wiki/Hematoma</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000698 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000698">
+        <rdfs:label>vasodilatation AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000493"/>
+        <rdfs:comment>a cardiovascular disorder AE which has an outcome of vasodilatation, which refers to the widening of blood vessels resulting from relaxation of smooth muscle cells within the vessel walls, particularly in the large arteries, smaller arterioles and large veins.</rdfs:comment>
+        <rdfs:seeAlso>HPO: HP_0004927</rdfs:seeAlso>
+        <rdfs:seeAlso>SIDER: C0595862</rdfs:seeAlso>
+        <obo:IAO_0000117>SS, YH</obo:IAO_0000117>
+        <obo:IAO_0000119>WEB: http://en.wikipedia.org/wiki/Vasodilation</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000742 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000742">
+        <rdfs:label>blood pressure diastolic decreased AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000551"/>
+        <obo:IAO_0000115>a hypotension AE that has an outcome of a decrease in the amount of pressure in the arteries when the heart is at rest between beats</obo:IAO_0000115>
+        <obo:IAO_0000117>DJ, SS, YH</obo:IAO_0000117>
+        <rdfs:seeAlso>MedDRA: 10005737</rdfs:seeAlso>
+        <obo:IAO_0000119>WEB: http://www.mayoclinic.com/health/low-blood-pressure/DS00590/DSECTION=causes</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000743 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000743">
+        <rdfs:label>blood pressure immeasurable AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000551"/>
+        <rdfs:seeAlso>MedDRA: 10005748</rdfs:seeAlso>
+        <obo:IAO_0000117>DJ, SS, YH</obo:IAO_0000117>
+        <obo:IAO_0000115>a hypotension AE that has an outcome of immeasurable blood pressure</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000775 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000775">
+        <rdfs:label>capillary leak syndrome AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000493"/>
+        <obo:IAO_0000115>a cardiovascular disorder AE that has an outcome of self-reversing episodes during which the endothelial cells which line the capillaries are thought to separate for a few days, allowing for a leakage of fluid from the circulatory system to the interstitial space, resulting in hypotension, hemoconcentration, and hypoalbuminemia</obo:IAO_0000115>
+        <obo:IAO_0000117>DJ, SS, YH</obo:IAO_0000117>
+        <obo:IAO_0000118>Clarkson&#39;s Disease AE</obo:IAO_0000118>
+        <obo:IAO_0000119>WEB: http://www.ncbi.nlm.nih.gov/pubmed/22873043</obo:IAO_0000119>
+        <rdfs:seeAlso>MedDRA: 10007196</rdfs:seeAlso>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000784 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000784">
+        <rdfs:label>cardiogenic shock AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000551"/>
+        <obo:IAO_0000115>a hypotension AE that has an outcome of the inability of the heart to supply enough blood to the organs of the body because of heart damage</obo:IAO_0000115>
+        <rdfs:seeAlso>MedDRA: 10007625</rdfs:seeAlso>
+        <obo:IAO_0000119>WEB: http://www.ncbi.nlm.nih.gov/pubmedhealth/PMH0001237/</obo:IAO_0000119>
+        <obo:IAO_0000117>DJ, SS, YH</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000787 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000787">
+        <rdfs:label>carotid arteriosclerosis AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0001161"/>
+        <obo:IAO_0000117>DJ, SS, YH</obo:IAO_0000117>
+        <rdfs:seeAlso>MedDRA: 10067116</rdfs:seeAlso>
+        <obo:IAO_0000115>a coronary artery disorder AE that results in lesion in carotid artery</obo:IAO_0000115>
+        <obo:IAO_0000119>WEB: http://www.ncbi.nlm.nih.gov/pubmed/8198401</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000821 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000821">
+        <rdfs:label>circulatory collapse AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000493"/>
+        <rdfs:seeAlso>MedDRA: 10009192</rdfs:seeAlso>
+        <obo:IAO_0000119>WEB: http://medical-dictionary.thefreedictionary.com/circulatory+collapse</obo:IAO_0000119>
+        <obo:IAO_0000115>a cardiovascular disorder AE that has an outcome of insufficient circulation without congestive heart failure</obo:IAO_0000115>
+        <obo:IAO_0000117>DJ, SS, YH</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000838 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000838">
+        <rdfs:label>conjunctival hemorrhage AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000427"/>
+        <obo:IAO_0000118>conjunctival haemorrhage AE</obo:IAO_0000118>
+        <obo:IAO_0000115>a hemorrhage AE that has an outcome of a bright hemorrhagic patch on the bulbar conjunctiva caused by rupture and bleeding of a superficial small capillary due to increased pressure</obo:IAO_0000115>
+        <rdfs:seeAlso>HPO: HP_0007902</rdfs:seeAlso>
+        <obo:IAO_0000117>DJ, SS, YH</obo:IAO_0000117>
+        <rdfs:seeAlso>MedDRA: 10010719</rdfs:seeAlso>
+        <rdfs:seeAlso>SIDER: C0009760</rdfs:seeAlso>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000844 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000844">
+        <rdfs:label>coronary artery embolism AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0001161"/>
+        <obo:IAO_0000117>DJ, SS, YH</obo:IAO_0000117>
+        <obo:IAO_0000119>WEB: http://www.ncbi.nlm.nih.gov/pubmed/22953315</obo:IAO_0000119>
+        <rdfs:seeAlso>MedDRA: 10011084</rdfs:seeAlso>
+        <obo:IAO_0000115>a coronary artery disorder AE that has an outcome of an blockage in the coronary artery</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000845 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000845">
+        <rdfs:label>coronary artery insufficiency AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0001161"/>
+        <rdfs:seeAlso>SIDER: C0542052</rdfs:seeAlso>
+        <obo:IAO_0000115>a coronary artery disorder AE that has an outcome of an insufficient amount of blood circulates through the coronary arteries</obo:IAO_0000115>
+        <obo:IAO_0000119>WEB: http://medical-dictionary.thefreedictionary.com/coronary+insufficiency</obo:IAO_0000119>
+        <obo:IAO_0000117>DJ, SS, YH</obo:IAO_0000117>
+        <rdfs:seeAlso>MedDRA: 10052895</rdfs:seeAlso>
+        <rdfs:seeAlso>HPO: HP_0001677</rdfs:seeAlso>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000861 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000861">
+        <rdfs:label>deep vein thrombosis AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0001505"/>
+        <rdfs:seeAlso>HPO: HP_0004850</rdfs:seeAlso>
+        <rdfs:seeAlso>SIDER: C0149871</rdfs:seeAlso>
+        <obo:IAO_0000232>Moved from Cardiac AE to thombosis AE by LB</obo:IAO_0000232>
+        <rdfs:seeAlso>MedDRA: 10051055</rdfs:seeAlso>
+        <obo:IAO_0000118>DVT</obo:IAO_0000118>
+        <obo:IAO_0000119>WEB: http://www.nhlbi.nih.gov/health/health-topics/topics/dvt/</obo:IAO_0000119>
+        <obo:IAO_0000117>DJ, SS, YH</obo:IAO_0000117>
+        <obo:IAO_0000115>a venous thrombosis that is characterized by a blood clot that forms in a vein deep in the body. Blood clots occur when blood thickens and clumps together. Most deep vein blood clots occur in the lower leg or thigh. They also can occur in other parts of the body.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001051 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001051">
+        <rdfs:label>hypertensive crisis AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0001736"/>
+        <rdfs:seeAlso>HPO: HP_0000875</rdfs:seeAlso>
+        <obo:IAO_0000119>WEB: http://www.ncbi.nlm.nih.gov/pubmed/20160537</obo:IAO_0000119>
+        <rdfs:seeAlso>SIDER: C0020546</rdfs:seeAlso>
+        <obo:IAO_0000117>DJ, SS, YH</obo:IAO_0000117>
+        <obo:IAO_0000115>a systemic hypertension AE that has an outcome of hypertension with systolic blood pressure &gt;180 mm Hg or a diastolic pressure &gt;120 mm, can be further classified as hypertensive urgency or hypertensive emergency depending on end-organ involvement</obo:IAO_0000115>
+        <rdfs:seeAlso>MedDRA: 10020802</rdfs:seeAlso>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001064 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001064">
+        <rdfs:label>hypovolemia AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000493"/>
+        <rdfs:seeAlso>MedDRA: 10021137</rdfs:seeAlso>
+        <rdfs:seeAlso>HPO: HP_0011106</rdfs:seeAlso>
+        <obo:IAO_0000118>hypovolaemia AE</obo:IAO_0000118>
+        <obo:IAO_0000115>a cardiovascular disorder AE that is characterized by decreased blood plasma volume</obo:IAO_0000115>
+        <obo:IAO_0000117>DJ, SS, YH</obo:IAO_0000117>
+        <obo:IAO_0000119>WEB: http://medical-dictionary.thefreedictionary.com/hypovolemia</obo:IAO_0000119>
+        <rdfs:seeAlso>SIDER: C0546884</rdfs:seeAlso>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001066 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001066">
+        <rdfs:label>hypovolemic shock AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000493"/>
+        <obo:IAO_0000117>DJ, SS, YH</obo:IAO_0000117>
+        <obo:IAO_0000115>a cardiovascular disorder AE that has the outcome of severe blood and fluid loss that makes the heart unable to pump enough blood to the body, often leads to organ failure</obo:IAO_0000115>
+        <rdfs:seeAlso>SIDER: C0020683</rdfs:seeAlso>
+        <rdfs:seeAlso>MedDRA: 10021138</rdfs:seeAlso>
+        <obo:IAO_0000118>hypovolaemic shock AE</obo:IAO_0000118>
+        <obo:IAO_0000119>WEB: http://www.nlm.nih.gov/medlineplus/ency/article/000167.htm</obo:IAO_0000119>
+        <rdfs:seeAlso>HPO: HP_0011106</rdfs:seeAlso>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001097 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001097">
+        <rdfs:label>intestinal ischemia AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000198"/>
+        <obo:IAO_0000117>SZ, DJ, SS, YH</obo:IAO_0000117>
+        <obo:IAO_0000118>intestinal ischaemia AE</obo:IAO_0000118>
+        <obo:IAO_0000115>an ischaemia AE that has an outcome of blocked or narrowed blood vessels to the small or large intestines, can cause pain and permanent damage to the intestines</obo:IAO_0000115>
+        <rdfs:seeAlso>MedDRA: 10022680</rdfs:seeAlso>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001100 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001100">
+        <rdfs:label>intracardiac thrombus AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000185"/>
+        <rdfs:seeAlso>MedDRA: 10048620</rdfs:seeAlso>
+        <obo:IAO_0000115>a thrombosis AE that has an outcome of thrombi in the ventricles</obo:IAO_0000115>
+        <obo:IAO_0000117>SZ, DJ, SS, YH</obo:IAO_0000117>
+        <obo:IAO_0000119>WEB: http://www.cvimaging.northwestern.edu/for-physicians/cardiovascular-mri/indications/intracardiac-thrombus/</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001109 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001109">
+        <rdfs:label>jugular vein thrombosis AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000185"/>
+        <rdfs:seeAlso>MedDRA: 10023237</rdfs:seeAlso>
+        <obo:IAO_0000117>SZ, DJ, SS, YH</obo:IAO_0000117>
+        <obo:IAO_0000115>a thrombosis AE with an outcome of formation of a blood clot located in the internal jugular vein</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001141 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001141">
+        <rdfs:label>lower gastrointestinal hemorrhage AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000416"/>
+        <rdfs:seeAlso>MedDRA: 10050953</rdfs:seeAlso>
+        <obo:IAO_0000119>WEB: http://www.nlm.nih.gov/medlineplus/ency/article/003133.htm</obo:IAO_0000119>
+        <obo:IAO_0000118>lower gastrointestinal haemorrhage AE</obo:IAO_0000118>
+        <rdfs:seeAlso>HPO: HP_0002239</rdfs:seeAlso>
+        <rdfs:seeAlso>SIDER: C0024050</rdfs:seeAlso>
+        <obo:IAO_0000117>SZ, DJ, SS, YH</obo:IAO_0000117>
+        <obo:IAO_0000115>a gastrointestinal hemorrhage AE that has an outcome of bleeding in the lower gastrointestinal tract</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001161 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001161">
+        <rdfs:label>coronary artery disorder AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000236"/>
+        <rdfs:seeAlso>MedDRA: 10011078</rdfs:seeAlso>
+        <obo:IAO_0000117>YH, SS</obo:IAO_0000117>
+        <obo:IAO_0000119>WEB: http://www.nlm.nih.gov/medlineplus/coronaryarterydisease.html</obo:IAO_0000119>
+        <obo:IAO_0000115>an arterial disorder AE that resuts in arteries that supply blood to heart muscle become hardened and narrowed.</obo:IAO_0000115>
+        <rdfs:seeAlso>MedDRA: 10011082</rdfs:seeAlso>
+        <obo:IAO_0000118>coronary artery disese AE</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001187 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001187">
+        <rdfs:label>microangiopathic hemolytic anemia AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000493"/>
+        <rdfs:seeAlso>MedDRA: 10027527</rdfs:seeAlso>
+        <obo:IAO_0000118>microangiopathic haemolytic anaemia AE</obo:IAO_0000118>
+        <obo:IAO_0000115>Cardiovascular disorder AE that results in a fragmentation of red blood cells resulting from the narrowing of small blood vessels</obo:IAO_0000115>
+        <rdfs:seeAlso>HPO: HP_0001937</rdfs:seeAlso>
+        <rdfs:seeAlso>SIDER: C0221021</rdfs:seeAlso>
+        <obo:IAO_0000119>WEB: http://medical-dictionary.thefreedictionary.com/microangiopathic+hemolytic+anemia</obo:IAO_0000119>
+        <obo:IAO_0000117>SZ, SS, YH</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001200 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001200">
+        <rdfs:label>myocardial ischemia AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000198"/>
+        <obo:IAO_0000119>WEB: http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1768241/</obo:IAO_0000119>
+        <rdfs:seeAlso>MedDRA: 10028600</rdfs:seeAlso>
+        <rdfs:seeAlso>HPO: HP_0001637</rdfs:seeAlso>
+        <obo:IAO_0000117>SZ, SS, YH</obo:IAO_0000117>
+        <obo:IAO_0000115>a cardiac disorder AE that has an outcome of an imbalance between myocardial oxygen supply and demand</obo:IAO_0000115>
+        <rdfs:seeAlso>SIDER: C0151744</rdfs:seeAlso>
+        <obo:IAO_0000118>myocardial ischaemia AE</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001285 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001285">
+        <rdfs:label>peripheral ischemia AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000198"/>
+        <obo:OAE_0001849>外周缺血</obo:OAE_0001849>
+        <obo:IAO_0000117>SZ, SS, YH</obo:IAO_0000117>
+        <rdfs:seeAlso>HPO: HP_0002597</rdfs:seeAlso>
+        <obo:IAO_0000115>an ischaemia AE that has an outcome of restriction in blood supply to tissues, causing a shortage of oxygen and glucose needed for cellular metabolism</obo:IAO_0000115>
+        <obo:IAO_0000118>peripheral ischaemia AE</obo:IAO_0000118>
+        <rdfs:seeAlso>MedDRA: 10034576</rdfs:seeAlso>
+        <obo:IAO_0000119>WEB: Primary Source: http://www.medterms.com/script/main/art.asp?articlekey=4052 Secondary Source: http://www.ncbi.nlm.nih.gov/pubmed/6430442</obo:IAO_0000119>
+        <rdfs:seeAlso>SIDER: C0235490</rdfs:seeAlso>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001291 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001291">
+        <rdfs:label>petechiae AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000427"/>
+        <rdfs:seeAlso>SIDER: C0031256</rdfs:seeAlso>
+        <obo:IAO_0000119>WEB: http://www.nlm.nih.gov/medlineplus/ency/article/003235.htm</obo:IAO_0000119>
+        <obo:IAO_0000115>a hemorrhage AE that has an outcome of tiny pinpoint red dots that form due to broken blood vessels under the skin</obo:IAO_0000115>
+        <rdfs:seeAlso>MP: MP_0008816</rdfs:seeAlso>
+        <obo:IAO_0000117>SZ, SS, YH</obo:IAO_0000117>
+        <rdfs:seeAlso>MedDRA: 10034754</rdfs:seeAlso>
+        <rdfs:seeAlso>HPO: HP_0000967</rdfs:seeAlso>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001299 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001299">
+        <rdfs:label>pleural hemorrhage AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000427"/>
+        <obo:IAO_0000117>SZ, SS, YH</obo:IAO_0000117>
+        <obo:IAO_0000118>pleural haemorrhage AE</obo:IAO_0000118>
+        <obo:IAO_0000119>WEB: http://medical-dictionary.thefreedictionary.com/hemothorax</obo:IAO_0000119>
+        <rdfs:seeAlso>MedDRA: 10035601</rdfs:seeAlso>
+        <obo:IAO_0000115>a hemorrhage AE that has an outcome of bleeding in the pleural cavity, the potential space between the two pleura of the lungs</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001311 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001311">
+        <rdfs:label>portal hypertension AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000403"/>
+        <rdfs:seeAlso>HPO: HP_0001409</rdfs:seeAlso>
+        <rdfs:seeAlso>MedDRA: 10036200</rdfs:seeAlso>
+        <obo:IAO_0000119>http://www.merriam-webster.com/medlineplus/portal%20hypertension</obo:IAO_0000119>
+        <rdfs:seeAlso>SIDER: C0020541</rdfs:seeAlso>
+        <obo:IAO_0000117>SZ, SS, YH</obo:IAO_0000117>
+        <obo:IAO_0000119>WEB: http://www.ncbi.nlm.nih.gov/pubmed/21129318</obo:IAO_0000119>
+        <obo:IAO_0000115>a hypertension AE located in the heptatic portal system caused by obstruction or occlusion that produces splenomegaly and ascites in its later stages</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001312 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001312">
+        <rdfs:label>portal vein thrombosis AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000185"/>
+        <obo:IAO_0000119>WEB: http://medical-dictionary.thefreedictionary.com/portal+vein+thrombosis</obo:IAO_0000119>
+        <obo:IAO_0000115>a thrombosis AE that has an outcome of formation of a blood clot affecting the hepatic portal vein, can lead to hypertension or reduction of blood supply to the liver</obo:IAO_0000115>
+        <obo:IAO_0000118>PVT</obo:IAO_0000118>
+        <rdfs:seeAlso>MedDRA: 10036206</rdfs:seeAlso>
+        <obo:IAO_0000117>SZ, SS, YH</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001315 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001315">
+        <rdfs:label>postoperative thrombosis AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000185"/>
+        <rdfs:seeAlso>MedDRA: 10050902</rdfs:seeAlso>
+        <obo:IAO_0000117>SZ, SS, YH</obo:IAO_0000117>
+        <obo:IAO_0000115>A thrombosis AE that occurs after an operation that results in a blood clot in a blood vessel disrupting blood flow throughout the body</obo:IAO_0000115>
+        <obo:IAO_0000119>WEB: http://www.ncbi.nlm.nih.gov/pubmed/19756494</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001321 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001321">
+        <rdfs:label>prinzmetal angina AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0001161"/>
+        <obo:IAO_0000118>coronary vessel spasm AE</obo:IAO_0000118>
+        <rdfs:seeAlso>MedDRA: 10036759</rdfs:seeAlso>
+        <obo:IAO_0000118>Prinzmetal&#39;s angina AE</obo:IAO_0000118>
+        <obo:IAO_0000115>a coronary artery disorder AE that results in cardiac pain at rest that occurs in cycles</obo:IAO_0000115>
+        <obo:IAO_0000119>WEB: http://medical-dictionary.thefreedictionary.com/prinzmetal+angina</obo:IAO_0000119>
+        <rdfs:seeAlso>HPO: HP_0001681</rdfs:seeAlso>
+        <rdfs:seeAlso>SIDER: C0002963</rdfs:seeAlso>
+        <obo:IAO_0000117>SZ, SS, YH</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001340 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001340">
+        <rdfs:label>pulmonary embolism AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0001771"/>
+        <obo:IAO_0000118>pulmonary thrombosis AE</obo:IAO_0000118>
+        <rdfs:seeAlso>SIDER: C0034065</rdfs:seeAlso>
+        <obo:IAO_0000118>pulmonary artery thrombosis AE</obo:IAO_0000118>
+        <rdfs:seeAlso>MedDRA: 10037340</rdfs:seeAlso>
+        <obo:IAO_0000115>an arterial embolism AE that results in the blockage of the main artery of a lung or one of its branches by a substance that has travelled from elsewhere in the body through the bloodstream</obo:IAO_0000115>
+        <rdfs:seeAlso>MedDRA: 10037437</rdfs:seeAlso>
+        <obo:IAO_0000116>[SS] moved by relation &#39;SubclassOf&#39; from lung disorder AE to arterial embolism on 01/07/14 </obo:IAO_0000116>
+        <obo:IAO_0000117>SZ, SS, YH</obo:IAO_0000117>
+        <rdfs:seeAlso>MedDRA: 10037377</rdfs:seeAlso>
+        <rdfs:seeAlso>HPO: HP_0002204</rdfs:seeAlso>
+        <obo:IAO_0000119>WEB: http://www.ncbi.nlm.nih.gov/pubmed/23299609</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001346 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001346">
+        <rdfs:label>pulse absent AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000493"/>
+        <obo:IAO_0000117>SZ, SS, YH</obo:IAO_0000117>
+        <obo:IAO_0000119>WEB: http://www.nlm.nih.gov/medlineplus/ency/article/003078.htm</obo:IAO_0000119>
+        <rdfs:seeAlso>MedDRA: 10037469</rdfs:seeAlso>
+        <obo:IAO_0000115>a cardiovascular disorder AE that has an outcome of an inability to detect pulse</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001347 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001347">
+        <rdfs:label>pulse pressure decreased AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0001346"/>
+        <obo:IAO_0000115>a cardiovascular disorder AE that has an outcome of abnormally low pulse pressure, less than 25% of systolic value. Can indicate blood loss or low stroke volume</obo:IAO_0000115>
+        <obo:IAO_0000119>WEB: http://medical-dictionary.thefreedictionary.com/pulse+pressure</obo:IAO_0000119>
+        <rdfs:seeAlso>MedDRA: 10037480</rdfs:seeAlso>
+        <obo:IAO_0000117>SZ, SS, YH</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001387 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001387">
+        <rdfs:label>septic shock AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000183"/>
+        <rdfs:seeAlso>HPO: HP_0002718</rdfs:seeAlso>
+        <obo:IAO_0000119>WEB: http://www.ncbi.nlm.nih.gov/pubmedhealth/PMH0001689/</obo:IAO_0000119>
+        <obo:IAO_0000117>SZ, SS, YH</obo:IAO_0000117>
+        <rdfs:seeAlso>SIDER: C0036983</rdfs:seeAlso>
+        <obo:IAO_0000115>a shock AE that has an outcome of life-threatening low blood pressure</obo:IAO_0000115>
+        <rdfs:seeAlso>MedDRA: 10040070</rdfs:seeAlso>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001390 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001390">
+        <rdfs:label>shock hemorrhagic AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000183"/>
+        <obo:IAO_0000118>shock haemorrhagic AE</obo:IAO_0000118>
+        <obo:IAO_0000119>WEB: http://medical-dictionary.thefreedictionary.com/hemorrhagic+shock</obo:IAO_0000119>
+        <obo:IAO_0000117>SZ, SS, YH</obo:IAO_0000117>
+        <obo:IAO_0000115>a physiological shock AE that has an outcome of hypovolemic shock resulting from acute hemorrhage and characterized by hypotension, tachycardia, oliguria, and by pale, cold and clammy skin</obo:IAO_0000115>
+        <rdfs:seeAlso>MedDRA: 10049771</rdfs:seeAlso>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001430 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001430">
+        <rdfs:label>gastric hemorrhage AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000416"/>
+        <obo:IAO_0000115>A gastrointestinal hemorrhage AE that has an outcome of the bleeding in the stomach</obo:IAO_0000115>
+        <rdfs:seeAlso>MedDRA: 10017788</rdfs:seeAlso>
+        <obo:IAO_0000118>gastric haemorrhage AE</obo:IAO_0000118>
+        <obo:IAO_0000117>YH, SS</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001435 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001435">
+        <rdfs:label>superior sagittal sinus thrombosis AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0001505"/>
+        <obo:IAO_0000115>a venous thrombosis AE in which a stroke occurs as a result of thrombosis. uncommon cerebrovascular accident that is frequently associated with diseases that may contribute to the development of thrombosis through hypercoagulability, stasis of the local blood stream, and abnormalities of the vessel wall.</obo:IAO_0000115>
+        <obo:IAO_0000119>WEB: http://www.ncbi.nlm.nih.gov/pubmed/1455986</obo:IAO_0000119>
+        <obo:IAO_0000118>SSST</obo:IAO_0000118>
+        <obo:IAO_0000119>WEB: http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1026412</obo:IAO_0000119>
+        <obo:IAO_0000117>SZ, SS, YH</obo:IAO_0000117>
+        <rdfs:seeAlso>MedDRA: 10042567</rdfs:seeAlso>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001450 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001450">
+        <rdfs:label>thrombotic microangiopathy AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000185"/>
+        <rdfs:seeAlso>MedDRA: 10043645</rdfs:seeAlso>
+        <obo:IAO_0000117>SZ, SS, YH</obo:IAO_0000117>
+        <obo:IAO_0000115>a thrombosis AE that is characterized by a pathological process involving thrombocytopenia, microangiopathic haemolytic anaemia and microvascular occlusion</obo:IAO_0000115>
+        <rdfs:seeAlso>HPO: HP_0002597</rdfs:seeAlso>
+        <rdfs:seeAlso>SIDER: C2717961</rdfs:seeAlso>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001469 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001469">
+        <rdfs:label>transposition of the great vessels AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000085"/>
+        <rdfs:seeAlso>MedDRA: 10044443</rdfs:seeAlso>
+        <obo:IAO_0000117>SZ, SS, YH</obo:IAO_0000117>
+        <obo:IAO_0000119>WEB: http://www.ncbi.nlm.nih.gov/pubmedhealth/PMH0002535/</obo:IAO_0000119>
+        <obo:IAO_0000115>a vascular disorder AE that results in an abnormal spatial arrangement of any of the primary blood vessels</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001477 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001477">
+        <rdfs:label>tumour hemorrhage AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000427"/>
+        <obo:IAO_0000118>tumour haemorrhage AE</obo:IAO_0000118>
+        <rdfs:seeAlso>MedDRA: 10049750</rdfs:seeAlso>
+        <obo:IAO_0000119>WEB: http://calder.med.miami.edu/pointis/tbifam/cause3.html</obo:IAO_0000119>
+        <obo:IAO_0000117>SZ, SS, YH</obo:IAO_0000117>
+        <obo:IAO_0000115>an hemorrhage AE that has an outcome of bleeding in the tumour</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001484 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001484">
+        <rdfs:label>upper gastrointestinal hemorrhage AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000416"/>
+        <rdfs:seeAlso>HPO: HP_0002239</rdfs:seeAlso>
+        <obo:IAO_0000115>a gastrointestinal hemorrhage AE that has an outcome of bleeding in the upper gastrointestinal tract</obo:IAO_0000115>
+        <rdfs:seeAlso>MedDRA: 10046274</rdfs:seeAlso>
+        <obo:IAO_0000119>WEB: Primary Source: http://medical-dictionary.thefreedictionary.com/gastrointestinal+bleeding Secondary Source: http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1237869/</obo:IAO_0000119>
+        <obo:IAO_0000117>SZ, SS, YH</obo:IAO_0000117>
+        <obo:IAO_0000118>upper gastrointestinal haemorrhage AE</obo:IAO_0000118>
+        <rdfs:seeAlso>SIDER: C0041909</rdfs:seeAlso>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001503 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001503">
+        <rdfs:label>vena cava thrombosis AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000185"/>
+        <obo:IAO_0000115>a thrombosis AE that has an outcome of a blood clot in the inferior vena cava</obo:IAO_0000115>
+        <obo:IAO_0000119>WEB: http://emedicine.medscape.com/article/1933035-overview, http://www.nlm.nih.gov/medlineplus/ency/article/000156.htm</obo:IAO_0000119>
+        <obo:IAO_0000117>SZ, SS, YH</obo:IAO_0000117>
+        <obo:IAO_0000118>vena cava embolism AE</obo:IAO_0000118>
+        <rdfs:seeAlso>MedDRA: 10047195</rdfs:seeAlso>
+        <rdfs:seeAlso>MedDRA: 10047193</rdfs:seeAlso>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001505 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001505">
+        <rdfs:label>venous thrombosis AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000185"/>
+        <obo:IAO_0000117>SZ, SS, YH</obo:IAO_0000117>
+        <obo:IAO_0000119>WEB: http://www.nlm.nih.gov/medlineplus/ency/article/000156.htm</obo:IAO_0000119>
+        <rdfs:seeAlso>MedDRA: 10047249</rdfs:seeAlso>
+        <rdfs:seeAlso>SIDER: C0042487</rdfs:seeAlso>
+        <obo:IAO_0000115>a thrombosis AE that has an outcome of a blood clot that forms within a vein</obo:IAO_0000115>
+        <rdfs:seeAlso>HPO: HP_0004850</rdfs:seeAlso>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001726 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001726">
+        <rdfs:label>coronary disorder AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0001161"/>
+        <obo:IAO_0000115>a coronary artery disorder AE that takes place in or is related to the coronary inside the heart</obo:IAO_0000115>
+        <obo:IAO_0000116>Even though &#39;coronary disorder AE&#39; seems to be a more general term of &#39;coronary artery disorder AE&#39; that should place &#39;coronary disorder AE&#39; as a parent of &#39;coronary artery disorder AE&#39;, KB&#39;s comment from clinical perspective is that these two terms are synonymous in practice, and coronary disorder almost always means coronary artery disorder. If &#39;coronary disorder AE&#39; gets picked up from reports, it is a generalized term of &#39;coronary artery disorder AE&#39;; and thereofore, we created a place holder for this term under &#39;coronary artery disorder AE&#39;</obo:IAO_0000116>
+        <obo:IAO_0000117>SS</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001736 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001736">
+        <rdfs:label>systemic hypertension AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000403"/>
+        <obo:IAO_0000115>a hypertension AE that is characterized by high blood pressure in the systemic arteries - the vessels that carry blood from the heart to the body&#39;s tissues (other than the lungs).</obo:IAO_0000115>
+        <obo:IAO_0000117>SS</obo:IAO_0000117>
+        <obo:IAO_0000119>WEB: http://www.pted.org/?id=syshypertension1</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001737 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001737">
+        <rdfs:label>blood pressure systolic decreased AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000551"/>
+        <rdfs:seeAlso>MedDRA: 10005758</rdfs:seeAlso>
+        <obo:IAO_0000119>WEB: http://www.mayoclinic.com/health/low-blood-pressure/DS00590/DSECTION=causes</obo:IAO_0000119>
+        <rdfs:seeAlso>SIDER: C0277885</rdfs:seeAlso>
+        <obo:IAO_0000115>a hypotension AE that has an outcome of a decrease in the amount of pressure the heart generates when pumping blood through arteries to the rest of the body</obo:IAO_0000115>
+        <obo:IAO_0000117>SS</obo:IAO_0000117>
+        <rdfs:seeAlso>HPO: HP_0006673</rdfs:seeAlso>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001739 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001739">
+        <rdfs:label>blood pressure diastolic increased AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000403"/>
+        <rdfs:seeAlso>HPO: HP_0005117</rdfs:seeAlso>
+        <rdfs:seeAlso>SIDER: C0277889</rdfs:seeAlso>
+        <obo:IAO_0000119>WEB: http://www.webmd.com/hypertension-high-blood-pressure/guide/diastolic-and-systolic-blood-pressure-know-your-numbers</obo:IAO_0000119>
+        <rdfs:seeAlso>MedDRA: 10005739</rdfs:seeAlso>
+        <obo:IAO_0000117>SS</obo:IAO_0000117>
+        <obo:IAO_0000115>a hypertension AE that has an outcome of an increase in the amount of pressure in the arteries when the heart is at rest between beats</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001740 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001740">
+        <rdfs:label>blood pressure systolic increased AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000403"/>
+        <obo:IAO_0000117>SS</obo:IAO_0000117>
+        <obo:IAO_0000115>a hypertension AE that has an outcome of an increase in the amount of pressure the heart generates when pumping blood through arteries to the rest of the body</obo:IAO_0000115>
+        <rdfs:seeAlso>MedDRA: 10005760</rdfs:seeAlso>
+        <obo:IAO_0000119>WEB: http://www.webmd.com/hypertension-high-blood-pressure/guide/diastolic-and-systolic-blood-pressure-know-your-numbers</obo:IAO_0000119>
+        <rdfs:seeAlso>SIDER: C0277884</rdfs:seeAlso>
+        <rdfs:seeAlso>HPO: HP_0004421</rdfs:seeAlso>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001743 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001743">
+        <rdfs:label>cardiac embolism AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0001744"/>
+        <obo:IAO_0000117>SS</obo:IAO_0000117>
+        <obo:IAO_0000118>heart embolism AE</obo:IAO_0000118>
+        <obo:IAO_0000115>an embolism disorder AE that is a result of an obstruction in a cardiac vessel due to a blood clot or other foreign matters</obo:IAO_0000115>
+        <obo:IAO_0000119>WEB: http://medical-dictionary.thefreedictionary.com/Heart+embolism</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001744 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001744">
+        <rdfs:label>embolism AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000085"/>
+        <obo:IAO_0000119>WEB: http://medical-dictionary.thefreedictionary.com/embolism</obo:IAO_0000119>
+        <obo:IAO_0000117>SS</obo:IAO_0000117>
+        <obo:IAO_0000115>a vascular disorder AE that is characterized by an obstruction in a blood vessel due to a blood clot or other foreign matter that gets stuck while traveling through the bloodstream.</obo:IAO_0000115>
+        <rdfs:seeAlso>SIDER: C0013922</rdfs:seeAlso>
+        <rdfs:seeAlso>MedDRA: 10014523</rdfs:seeAlso>
+        <rdfs:seeAlso>HPO: HP_0001907</rdfs:seeAlso>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001751 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001751">
+        <rdfs:label xml:lang="en">aneurysm AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000085"/>
+        <rdfs:seeAlso>MedDRA: 10002329</rdfs:seeAlso>
+        <obo:IAO_0000119>WEB: http://www.nlm.nih.gov/medlineplus/ency/article/001122.htm</obo:IAO_0000119>
+        <obo:IAO_0000115>a vascular disorder AE that results in an abnormal widening or ballooning of a portion of an artery due to weakness in the wall of the blood vessel</obo:IAO_0000115>
+        <obo:IAO_0000117>SS</obo:IAO_0000117>
+        <rdfs:seeAlso>HPO: HP_0002617</rdfs:seeAlso>
+        <rdfs:seeAlso>SIDER: C0002940</rdfs:seeAlso>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001752 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001752">
+        <rdfs:label xml:lang="en">venous disorder AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000085"/>
+        <obo:IAO_0000117>SS</obo:IAO_0000117>
+        <obo:IAO_0000115>a vascular disorder that affects the veins or blood circulation of the veins</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001753 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001753">
+        <rdfs:label xml:lang="en">aneurysm ruptured AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0001751"/>
+        <rdfs:seeAlso>HPO: HP_0002617</rdfs:seeAlso>
+        <obo:IAO_0000115>an aneurysm AE that results in the weakening of the balloon-like bulge that the blood pressure causes the artery wall to leak or burst</obo:IAO_0000115>
+        <obo:IAO_0000118>ruptured aneurysm AE</obo:IAO_0000118>
+        <rdfs:seeAlso>MedDRA: 10048380</rdfs:seeAlso>
+        <rdfs:seeAlso>SIDER: C0162869</rdfs:seeAlso>
+        <obo:IAO_0000119>WEB: http://www.mayfieldclinic.com/PE-AneurRupt.htm#.Uor4tI3QHh0</obo:IAO_0000119>
+        <obo:IAO_0000118>SAH</obo:IAO_0000118>
+        <obo:IAO_0000117>SS</obo:IAO_0000117>
+        <obo:IAO_0000118>subarachnoid hemorrhage AE</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001754 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001754">
+        <rdfs:label xml:lang="en">cardiac aneurysm AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0001751"/>
+        <obo:IAO_0000115>an aneurysm AE that refers to an aneurysm involving cardiac tissue. This most often occurs as a ventricular aneurysm following a myocardial infarction</obo:IAO_0000115>
+        <rdfs:seeAlso>MedDRA: 10007513</rdfs:seeAlso>
+        <obo:IAO_0000119>WEB: http://www.ncbi.nlm.nih.gov/pubmed/19239694</obo:IAO_0000119>
+        <obo:IAO_0000118>aneurysm of heart AE</obo:IAO_0000118>
+        <obo:IAO_0000118>heart aneurysm AE</obo:IAO_0000118>
+        <obo:IAO_0000117>SS</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001755 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001755">
+        <rdfs:label xml:lang="en">aortic aneurysm AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0001751"/>
+        <obo:IAO_0000119>WEB: http://www.webmd.com/heart-disease/tc/aortic-aneurysm-overview</obo:IAO_0000119>
+        <obo:IAO_0000117>SS</obo:IAO_0000117>
+        <rdfs:seeAlso>MedDRA: 10002882</rdfs:seeAlso>
+        <rdfs:seeAlso>HPO: HP_0004942</rdfs:seeAlso>
+        <obo:IAO_0000115>an aneurysm AE that occurs in the aorta</obo:IAO_0000115>
+        <rdfs:seeAlso>SIDER: C0003486</rdfs:seeAlso>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001756 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001756">
+        <rdfs:label xml:lang="en">aortic aneurysm rupture AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0001753"/>
+        <obo:IAO_0000118>ruptured aortic aneurysm AE</obo:IAO_0000118>
+        <obo:IAO_0000115>an aneurysm ruptured AE that occurs in the aorta</obo:IAO_0000115>
+        <rdfs:seeAlso>HPO: HP_0002622</rdfs:seeAlso>
+        <obo:IAO_0000117>SS</obo:IAO_0000117>
+        <rdfs:seeAlso>MedDRA: 10002886</rdfs:seeAlso>
+        <rdfs:seeAlso>SIDER: C0741160</rdfs:seeAlso>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001757 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001757">
+        <rdfs:label xml:lang="en">aortic dissection AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000284"/>
+        <obo:IAO_0000115>an aortic disorder AE in which there is a separation of the aorta walls. The small tear can become larger. It can lead to bleeding into and along the wall of the aorta, the major artery carrying blood out of the heart.</obo:IAO_0000115>
+        <rdfs:seeAlso>MedDRA: 10002895</rdfs:seeAlso>
+        <obo:IAO_0000117>SS</obo:IAO_0000117>
+        <obo:IAO_0000119>WEB: http://www.nlm.nih.gov/medlineplus/ency/article/000181.htm</obo:IAO_0000119>
+        <rdfs:seeAlso>SIDER: C0340643</rdfs:seeAlso>
+        <rdfs:seeAlso>HPO: HP_0004933</rdfs:seeAlso>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001758 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001758">
+        <rdfs:label xml:lang="en">ruptured cerebral aneurysm AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0001753"/>
+        <rdfs:seeAlso>MedDRA: 10039330</rdfs:seeAlso>
+        <obo:IAO_0000115>an aneurysm ruptured AE that occurs in the brain where blood spurts into the subarachnoid space under arterial pressure, continuing until increased local or generalized intracranial pressure stops the bleeding.</obo:IAO_0000115>
+        <obo:IAO_0000119>WEB: http://ether.stanford.edu/library/neuroanesthesia/Journal%20Articles/Ruptured%20cerebral%20aneurysms.pdf</obo:IAO_0000119>
+        <obo:IAO_0000119>WEB: http://www.ncbi.nlm.nih.gov/pubmed/15647574</obo:IAO_0000119>
+        <obo:IAO_0000117>SS</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001759 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001759">
+        <rdfs:label xml:lang="en">intracranial aneurysm AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0001751"/>
+        <obo:IAO_0000115>an aneurysm AE that occurs in the brain</obo:IAO_0000115>
+        <obo:IAO_0000118>cerebral aneurysm AE</obo:IAO_0000118>
+        <obo:IAO_0000117>SS</obo:IAO_0000117>
+        <rdfs:seeAlso>SIDER: C0007766</rdfs:seeAlso>
+        <rdfs:seeAlso>HPO: HP_0004944</rdfs:seeAlso>
+        <obo:IAO_0000119>WEB: http://www.ninds.nih.gov/disorders/cerebral_aneurysm/detail_cerebral_aneurysms.htm</obo:IAO_0000119>
+        <obo:IAO_0000118>intracerebral aneurysm AE</obo:IAO_0000118>
+        <rdfs:seeAlso>MedDRA: 10022758</rdfs:seeAlso>
+        <obo:IAO_0000118>brain aneurysm AE</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001760 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001760">
+        <rdfs:label xml:lang="en">aortic thrombosis AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000185"/>
+        <obo:IAO_0000115>a thrombosis AE that is a rare lesion and may be defined as a thrombosis of a vessel without any obvious underlying cause that occurs in the aorta</obo:IAO_0000115>
+        <obo:IAO_0000117>SS</obo:IAO_0000117>
+        <rdfs:seeAlso>MedDRA: 10002910</rdfs:seeAlso>
+        <obo:IAO_0000119>WEB: http://circ.ahajournals.org/content/17/5/941.full.pdf</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001761 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001761">
+        <rdfs:label xml:lang="en">carotid artery thrombosis AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000318"/>
+        <rdfs:seeAlso>MedDRA: 10007688</rdfs:seeAlso>
+        <obo:IAO_0000117>SS</obo:IAO_0000117>
+        <obo:IAO_0000119>WEB: http://www.webmd.com/heart-disease/carotid-artery-disease-causes-symptoms-tests-and-treatment</obo:IAO_0000119>
+        <obo:IAO_0000115>an arterial thrombosis AE that is characterized by the occurrence of a thrombus in the carotid arteries (two large blood vessels that supply oxygenated blood to the large, front part of the brain)</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001762 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001762">
+        <rdfs:label xml:lang="en">cerebral artery embolism AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0001771"/>
+        <obo:IAO_0000118>embolic stroke AE</obo:IAO_0000118>
+        <obo:IAO_0000118>thrombotic stroke AE</obo:IAO_0000118>
+        <rdfs:seeAlso>MedDRA: 10014498</rdfs:seeAlso>
+        <obo:IAO_0000115>an arterial embolism AE that occurs in the cerebral artery</obo:IAO_0000115>
+        <obo:IAO_0000119>WEB: http://medical-dictionary.thefreedictionary.com/cerebral+embolism</obo:IAO_0000119>
+        <obo:IAO_0000118>cerebral embolism AE</obo:IAO_0000118>
+        <rdfs:seeAlso>MedDRA: 10008088</rdfs:seeAlso>
+        <obo:IAO_0000117>SS</obo:IAO_0000117>
+        <rdfs:seeAlso>MedDRA: 10043647</rdfs:seeAlso>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001763 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001763">
+        <rdfs:label xml:lang="en">cerebral artery thrombosis AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000318"/>
+        <obo:IAO_0000116>[SS] Per DRA and KKB&#39;s comment, this term may also be characterized as a type of embolism even though labeled thrombosis.</obo:IAO_0000116>
+        <obo:IAO_0000115>an arterial thrombosis AE that occurs in the cerebral artery, also referred to as an embolism AE</obo:IAO_0000115>
+        <rdfs:seeAlso>MedDRA: 10008092</rdfs:seeAlso>
+        <obo:IAO_0000118>cerebral thrombosis AE</obo:IAO_0000118>
+        <rdfs:seeAlso>MedDRA: 10008132</rdfs:seeAlso>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001764 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001764">
+        <rdfs:label xml:lang="en">cerebral venous thrombosis AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0001505"/>
+        <obo:IAO_0000117>SS</obo:IAO_0000117>
+        <obo:IAO_0000116>[SS] From http://medical-dictionary.thefreedictionary.com/cerebral+venous+thrombosis, Merwarth syndrome - progressive hemiplegia due to venous occlusion. Synonym(s): cerebral venous thrombosis</obo:IAO_0000116>
+        <obo:IAO_0000115>a venous thrombosis AE that is characterized by thrombosis of the venous channels in the brain. It is an uncommon cause of cerebral infarction relative to arterial disease, but it is an important consideration because of its potential morbidity.</obo:IAO_0000115>
+        <obo:IAO_0000119>WEB: http://emedicine.medscape.com/article/1162804-overview</obo:IAO_0000119>
+        <rdfs:seeAlso>MedDRA: 10008138</rdfs:seeAlso>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001765 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001765">
+        <rdfs:label xml:lang="en">intracranial venous sinus thrombosis AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0001505"/>
+        <obo:IAO_0000115>a venous thrombosis AE that occurs when a blood clot forms in the brain’s venous sinuses that prevents blood from draining out of the brain. As a result, blood cells may break and leak blood into the brain tissues, forming a hemorrhage.</obo:IAO_0000115>
+        <obo:IAO_0000119>WEB: http://www.hopkinsmedicine.org/healthlibrary/conditions/nervous_system_disorders/cerebral_venous_sinus_thrombosis_134,69/</obo:IAO_0000119>
+        <rdfs:seeAlso>MedDRA: 10061251</rdfs:seeAlso>
+        <obo:IAO_0000117>SS</obo:IAO_0000117>
+        <obo:IAO_0000118>CVST</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001766 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001766">
+        <rdfs:label>gas embolilsm AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0001744"/>
+        <obo:IAO_0000115>an embolism AE that is caused by a gas bubble that enters the vein</obo:IAO_0000115>
+        <obo:IAO_0000117>SS</obo:IAO_0000117>
+        <obo:IAO_0000116>[SS] The term &#39;gas embolism&#39; is listed as a unique term, and not a superset or a synonym of &#39;air embolism&#39; due to the different pathology reconized by physicians that air embolism is mostly recognized when an air bubble caused by IV or other injection device enters the vein, while a gas embolism is mostly caused by a gas bubble released as a product of an infection, or other devices such as nitrogen tank.</obo:IAO_0000116>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001767 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001767">
+        <rdfs:label xml:lang="en">mesenteric vein thrombosis AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000185"/>
+        <obo:IAO_0000117>SS</obo:IAO_0000117>
+        <obo:IAO_0000119>WEB: http://www.nlm.nih.gov/medlineplus/ency/article/001157.htm</obo:IAO_0000119>
+        <obo:IAO_0000118>mesenteric venous thrombosis AE</obo:IAO_0000118>
+        <obo:IAO_0000115>a thrombosis that is characterized by a clot that blocks blood flow a mesenteric vein, one of two veins through which blood leaves the intestine. The condition interrupts the blood supply to the intestine and can result in damage to the intestines.</obo:IAO_0000115>
+        <rdfs:seeAlso>MedDRA: 10027402</rdfs:seeAlso>
+        <obo:IAO_0000118>visceral venous thrombosis AE</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001768 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001768">
+        <rdfs:label xml:lang="en">Budd-Chiari syndrome AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000185"/>
+        <obo:IAO_0000119>WEB: http://emedicine.medscape.com/article/184430-overview</obo:IAO_0000119>
+        <obo:IAO_0000115>a thrombosis AE that is an uncommon condition induced by thrombotic or nonthrombotic obstruction of hepatic venous outflow and characterized by hepatomegaly, ascites, and abdominal pain. </obo:IAO_0000115>
+        <rdfs:seeAlso>MedDRA: 10006537</rdfs:seeAlso>
+        <obo:IAO_0000117>SS</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001769 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001769">
+        <rdfs:label>retinal vein thrombosis AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000185"/>
+        <obo:IAO_0000115>a thrombosis AE that occurs in the vein carrying the blood away from the retina</obo:IAO_0000115>
+        <rdfs:seeAlso>MedDRA: 10038908</rdfs:seeAlso>
+        <obo:IAO_0000116>[SS] The term &#39;retinal vein thrombosis&#39; is listed as a different class from &#39;retinal vein occlusion&#39; for the difference in the pathological process of how the blockage occurs in the vein.</obo:IAO_0000116>
+        <obo:IAO_0000117>SS</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001771 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001771">
+        <rdfs:label xml:lang="en">arterial embolism AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0001744"/>
+        <rdfs:seeAlso>MedDRA: 10014513</rdfs:seeAlso>
+        <obo:IAO_0000119>WEB: http://www.nlm.nih.gov/medlineplus/ency/article/001102.htm</obo:IAO_0000119>
+        <obo:IAO_0000118>embolism arterial AE</obo:IAO_0000118>
+        <obo:IAO_0000115>an embolism AE that occurs in the artery. It is a sudden interruption of blood flow to an organ or body part due to a clot (embolus).</obo:IAO_0000115>
+        <obo:IAO_0000117>SS</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001772 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001772">
+        <rdfs:label xml:lang="en">venous embolism AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0001744"/>
+        <obo:IAO_0000118>embolism venous AE</obo:IAO_0000118>
+        <obo:IAO_0000117>SS</obo:IAO_0000117>
+        <rdfs:seeAlso>OAE: 0001505</rdfs:seeAlso>
+        <rdfs:seeAlso>MedDRA: 10014522</rdfs:seeAlso>
+        <obo:IAO_0000119>WEB: http://www.boehringer-ingelheim.com/products/prescription_medicines/thromboembolic_diseases.html</obo:IAO_0000119>
+        <obo:IAO_0000116>[SS] Per DRA and KKB&#39;s comment, this term is synonymous to venous thrombosis even though labeled embolism. Cross-reference is made via seeAlso.</obo:IAO_0000116>
+        <obo:IAO_0000118>VTE</obo:IAO_0000118>
+        <obo:IAO_0000118>venous thromboembolism AE</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001773 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001773">
+        <rdfs:label xml:lang="en">fat embolism AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0001744"/>
+        <rdfs:seeAlso>MedDRA: 10016246</rdfs:seeAlso>
+        <obo:IAO_0000115>an embolism AE that is characterized by the obstruction of blood vessel by fat droplets</obo:IAO_0000115>
+        <obo:IAO_0000119>WEB: http://emedicine.medscape.com/article/460524-overview#showall</obo:IAO_0000119>
+        <obo:IAO_0000117>SS</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001774 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001774">
+        <rdfs:label xml:lang="en">septic embolus AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0001744"/>
+        <obo:IAO_0000117>SS</obo:IAO_0000117>
+        <obo:IAO_0000115>a embolism AE that is infected with bacteria containing pus</obo:IAO_0000115>
+        <obo:IAO_0000119>WEB: http://www.medicalnewstoday.com/articles/153704.php</obo:IAO_0000119>
+        <rdfs:seeAlso>MedDRA: 10040067</rdfs:seeAlso>
+        <obo:IAO_0000118>septic embolism AE</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001775 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001775">
+        <rdfs:label xml:lang="en">thrombosis in device AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000185"/>
+        <rdfs:seeAlso>MedDRA: 10062546</rdfs:seeAlso>
+        <obo:IAO_0000117>SS</obo:IAO_0000117>
+        <obo:IAO_0000115>a thrombosis AE that occurs in or may be caused by an implanted device in the body</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001777 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001777">
+        <rdfs:label xml:lang="en">arterial thrombosis limb AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000318"/>
+        <obo:IAO_0000115>an arterial thrombosis AE that occurs in the limb(s) of the body</obo:IAO_0000115>
+        <obo:IAO_0000117>SS</obo:IAO_0000117>
+        <rdfs:seeAlso>MedDRA: 10003180</rdfs:seeAlso>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001779 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001779">
+        <rdfs:label xml:lang="en">injection site thrombosis AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000185"/>
+        <rdfs:seeAlso>MedDRA: 10022104</rdfs:seeAlso>
+        <obo:IAO_0000117>SS</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001780 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001780">
+        <rdfs:label xml:lang="en">pelvic venous thrombosis AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000861"/>
+        <obo:IAO_0000118>ovarian vein thrombosis AE</obo:IAO_0000118>
+        <obo:IAO_0000115>a deep vein thrombosis AE that occurs in the pelvis. Ovarian vein thrombosis arises out of the coincident conditions of venous stasis and hypercoagulability, which are commonly present in the recently postpartum patient. </obo:IAO_0000115>
+        <obo:IAO_0000119>WEB: http://emedicine.medscape.com/article/404364-overview</obo:IAO_0000119>
+        <rdfs:seeAlso>MedDRA: 10034272</rdfs:seeAlso>
+        <obo:IAO_0000117>SS</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001781 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001781">
+        <rdfs:label xml:lang="en">peripheral embolism AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0001744"/>
+        <obo:IAO_0000118>PE</obo:IAO_0000118>
+        <obo:IAO_0000115>an embolism AE that is charaterized by a sudden blockage in a lung artery. The blockage usually is caused by a blood clot that travels to the lung from a vein in the leg.</obo:IAO_0000115>
+        <obo:IAO_0000117>SS</obo:IAO_0000117>
+        <obo:IAO_0000119>WEB: http://www.nhlbi.nih.gov/health/health-topics/topics/pe/</obo:IAO_0000119>
+        <rdfs:seeAlso>MedDRA: 10061340</rdfs:seeAlso>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001782 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001782">
+        <rdfs:label xml:lang="en">subclavian vein thrombosis AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000185"/>
+        <rdfs:seeAlso>MedDRA: 10049446</rdfs:seeAlso>
+        <obo:IAO_0000119>WEB: http://emedicine.medscape.com/article/424777-overview#showall</obo:IAO_0000119>
+        <obo:IAO_0000115>a thrombosis AE that occurs in subclavian vein. Among patients with effort-induced thrombosis with subclavian vein stenosis, the thrombosis occurs in the dominant arm in 80% of cases. </obo:IAO_0000115>
+        <obo:IAO_0000117>SS</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001784 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001784">
+        <rdfs:label xml:lang="en">venous thrombosis limb AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0001505"/>
+        <rdfs:seeAlso>MedDRA: 10061408</rdfs:seeAlso>
+        <obo:IAO_0000117>SS</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001785 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001785">
+        <rdfs:label xml:lang="en">retinal vein occlusion AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000185"/>
+        <obo:IAO_0000119>WEB: http://www.nlm.nih.gov/medlineplus/ency/article/007330.htm</obo:IAO_0000119>
+        <obo:IAO_0000118>RVO</obo:IAO_0000118>
+        <obo:IAO_0000117>SS</obo:IAO_0000117>
+        <rdfs:seeAlso>MedDRA: 10038907</rdfs:seeAlso>
+        <obo:IAO_0000115>a thrombosis that is characterized by a blockage of the small veins that carry blood away from the retina. The retina is the layer of tissue at the back of the inner eye that converts light images to nerve signals and sends them to the brain. </obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001786 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001786">
+        <rdfs:label xml:lang="en">atrial thrombosis AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000185"/>
+        <obo:IAO_0000119>WEB: http://ehjcimaging.oxfordjournals.org/content/9/1/204.full</obo:IAO_0000119>
+        <obo:IAO_0000115>a thrombosis AE that occurs in the atrium (left or right)</obo:IAO_0000115>
+        <obo:IAO_0000117>SS</obo:IAO_0000117>
+        <rdfs:seeAlso>MedDRA: 10048632</rdfs:seeAlso>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001787 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001787">
+        <rdfs:label xml:lang="en">coronary artery embolism AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0001771"/>
+        <obo:IAO_0000118>coronary artery thrombosis AE</obo:IAO_0000118>
+        <rdfs:seeAlso>MedDRA: 10011091</rdfs:seeAlso>
+        <obo:IAO_0000118>coronary embolism AE</obo:IAO_0000118>
+        <obo:IAO_0000119>WEB: http://medical-dictionary.thefreedictionary.com/Coronary+embolism</obo:IAO_0000119>
+        <obo:IAO_0000117>SS</obo:IAO_0000117>
+        <rdfs:seeAlso>MedDRA: 10011084</rdfs:seeAlso>
+        <obo:IAO_0000115>an arterial embolism AE that occurs in the coronary artery</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001800 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001800">
+        <rdfs:label xml:lang="en">anastomotic bleeding AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000427"/>
+        <obo:IAO_0000115>a hemorrhage AE that has an outcome of bleeding from anastomosis site. Anastomosis: pathological formation of an opening between two normally distinct spaces or organs.</obo:IAO_0000115>
+        <obo:IAO_0000119>WEB: http://medical-dictionary.thefreedictionary.com/anastomosis</obo:IAO_0000119>
+        <obo:IAO_0000117>Yongqun He, Izabela Birsanescu</obo:IAO_0000117>
+        <rdfs:seeAlso>MedDRA: 10071781</rdfs:seeAlso>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001805 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001805">
+        <rdfs:label>Intraoperative hemorrhage AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000427"/>
+        <obo:IAO_0000115>a hemorrhage AE that has an outcome of massive amounts of blood loss. A typical Intraoperative hemorrhage has a blood loss exceeding 1000 mL or requires a blood transfusion</obo:IAO_0000115>
+        <obo:IAO_0000119>WEB: http://www.uptodate.com/contents/management-of-hemorrhage-in-gynecologic-surgery</obo:IAO_0000119>
+        <rdfs:seeAlso>MedDRA: 10055298</rdfs:seeAlso>
+        <obo:IAO_0000117>Yongqun He, Izabela Birsanescu</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001905 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001905">
+        <rdfs:label>subclavian steal syndrome AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000198"/>
+        <obo:OAE_0001849>锁骨下动脉盗血综合征</obo:OAE_0001849>
+        <rdfs:seeAlso>MedDRA: 10042335</rdfs:seeAlso>
+        <obo:IAO_0000118>subclavian steal phenomenon AE</obo:IAO_0000118>
+        <obo:IAO_0000118>subclavian steal steno-occlusive disease AE</obo:IAO_0000118>
+        <obo:IAO_0000117>JX, LW, YH</obo:IAO_0000117>
+        <obo:IAO_0000115>Subclavian steal syndrome AE is an ischaemia AE that is a constellation of signs and symptoms that arise from retrograde (reversed) flow of blood in the vertebral artery or the internal thoracic artery, due to a proximal stenosis (narrowing) and/or occlusion of the subclavian artery. The arm may be supplied by blood flowing in a retrograde direction down the vertebral artery at the expense of the vertebrobasilar circulation. This is called the subclavian steal.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001985 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001985">
+        <rdfs:label>gingival bleeding AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000427"/>
+        <obo:IAO_0000119>WEB: http://en.wikipedia.org/wiki/Bleeding_on_probing</obo:IAO_0000119>
+        <obo:IAO_0000115>Gingival bleeding AE is a hemorrhage AE that is a term used by dentists and dental hygienists when referring to bleeding that is induced by gentle manipulation of the tissue at the depth of the gingival sulcus, or interface between the gingiva and a tooth. Bleeding on probing, often abbreviated BOP, is a sign of inflammation and indicates some sort of destruction and erosion to the lining of the sulcus or the ulceration of sulcular epithelium. The blood comes from lamina propria after the ulceration of the lining.</obo:IAO_0000115>
+        <obo:IAO_0000118>bleeding gums AE</obo:IAO_0000118>
+        <obo:IAO_0000118>bleeding on probing AE</obo:IAO_0000118>
+        <obo:IAO_0000117>JX, LW, YH</obo:IAO_0000117>
+        <obo:OAE_0001849>牙龈出血</obo:OAE_0001849>
+        <rdfs:seeAlso>MedDRA: 10018276</rdfs:seeAlso>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002006 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0002006">
+        <rdfs:label>erythromelalgia AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000237"/>
+        <obo:IAO_0000115>Erythromelalgia AE is a peripheral arterial disease AE that is a rare neurovascular peripheral pain disorder in which blood vessels, usually in the lower extremities or hands, are episodically blocked (frequently on and off daily), then become hyperemic and inflamed.</obo:IAO_0000115>
+        <rdfs:seeAlso>MedDRA: 10015284</rdfs:seeAlso>
+        <obo:IAO_0000118>erythermalgia AE</obo:IAO_0000118>
+        <obo:OAE_0001849>红斑性肢痛症</obo:OAE_0001849>
+        <obo:IAO_0000118>Mitchell&#39;s disease AE</obo:IAO_0000118>
+        <obo:IAO_0000118>red neuralgia AE</obo:IAO_0000118>
+        <obo:IAO_0000117>JX, LW, YH</obo:IAO_0000117>
+        <obo:IAO_0000118>acromelalgia AE</obo:IAO_0000118>
+        <obo:IAO_0000119>WEB: http://en.wikipedia.org/wiki/Erythromelalgia</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002007 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0002007">
+        <rdfs:label>Raynaud&#39;s syndrome AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000497"/>
+        <obo:IAO_0000118>Raynaud&#39;s disease AE</obo:IAO_0000118>
+        <obo:IAO_0000115>Raynaud&#39;s syndrome AE is a peripheral vascular disorder AE which is a rare disorder that affects the arteries. Arteries are blood vessels that carry blood from your heart to different parts of your body.</obo:IAO_0000115>
+        <obo:IAO_0000119>WEB: http://www.nhlbi.nih.gov/health/health-topics/topics/raynaud/</obo:IAO_0000119>
+        <obo:IAO_0000117>JX, LW, YH</obo:IAO_0000117>
+        <obo:OAE_0001849>雷诺综合症</obo:OAE_0001849>
+        <rdfs:seeAlso>MedDRA: 10037914</rdfs:seeAlso>
+        <obo:IAO_0000118>Raynaud&#39;s phenomenon AE</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002028 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0002028">
+        <rdfs:label>anisosphygmia AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000493"/>
+        <obo:OAE_0001849>脉搏不规则</obo:OAE_0001849>
+        <obo:IAO_0000117>JX, LW, YH</obo:IAO_0000117>
+        <obo:IAO_0000119>WEB: http://www.medilexicon.com/medicaldictionary.php?t=4352</obo:IAO_0000119>
+        <obo:IAO_0000115>Anisosphygmia AE is a cardiovascular disorder AE that shows difference in volume, force, or time of the pulse in the corresponding arteries on two sides of the body, the two radials, or femorals.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002037 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0002037">
+        <rdfs:label>hyperemia AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000493"/>
+        <obo:OAE_0001849>充血</obo:OAE_0001849>
+        <obo:IAO_0000119>WEB: http://en.wikipedia.org/wiki/Hyperaemia</obo:IAO_0000119>
+        <obo:IAO_0000115>Hyperemia AE is a cardiovascular disorder AE that is the increase of blood flow to different tissues in the body. It can have medical implications, but is also a regulatory response, allowing change in blood supply to different tissues through vasodilation.</obo:IAO_0000115>
+        <obo:IAO_0000117>JX, LW, YH</obo:IAO_0000117>
+        <obo:IAO_0000118>hyperaemia AE</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002060 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0002060">
+        <rdfs:label xml:lang="en">livedo reticularis AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000085"/>
+        <rdfs:seeAlso>MedDRA: 10024648</rdfs:seeAlso>
+        <obo:IAO_0000115>a vascular disorder AE that has an outcome of levedo reticularis, a condition of the peripheral blood vessels characterized by reddish blue mottling of the skin especially of the extremeties usually upon exposure to cold</obo:IAO_0000115>
+        <obo:IAO_0000117>RR</obo:IAO_0000117>
+        <obo:IAO_0000119>WEB: http://www.merriam-webster.com/medical/livedo%20reticularis</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002078 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0002078">
+        <rdfs:label xml:lang="en">blood pressure fluctuation AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000381"/>
+        <rdfs:seeAlso>MedDRA: 10005746</rdfs:seeAlso>
+        <obo:IAO_0000117>RR</obo:IAO_0000117>
+        <obo:IAO_0000115>an abnormal blood pressure AE that has an outcome of blood pressure fluctuations</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002106 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0002106">
+        <rdfs:label>orthostatic hypotension AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000551"/>
+        <obo:IAO_0000119>WEB: http://en.wikipedia.org/wiki/Orthostatic_hypotension</obo:IAO_0000119>
+        <obo:IAO_0000117>JX, LW, YH</obo:IAO_0000117>
+        <obo:IAO_0000118>orthostasis AE</obo:IAO_0000118>
+        <rdfs:seeAlso>MedDRA: 10031127</rdfs:seeAlso>
+        <obo:IAO_0000115>Orthostatic hypotension AE is a hypotension AE that is a form of hypotension in which a person&#39;s blood pressure falls when suddenly standing up or stretching. In medical terms, it is defined as a fall in systolic blood pressure of at least 20 mm Hg or diastolic blood pressure of at least 10 mm Hg when a person assumes a standing position.</obo:IAO_0000115>
+        <obo:OAE_0001849>直立性低血压</obo:OAE_0001849>
+        <obo:IAO_0000118>postural hypotension AE</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002111 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0002111">
+        <rdfs:label>fatty infiltration AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0001744"/>
+        <obo:IAO_0000115>Fatty infiltration AE is an embolism AE that shows the abnormal accumulation of fat droplets in the cytoplasm of cells.</obo:IAO_0000115>
+        <obo:IAO_0000117>JX, LW, YH</obo:IAO_0000117>
+        <obo:IAO_0000119>WEB: http://dictionary.reference.com/browse/fatty+infiltration</obo:IAO_0000119>
+        <obo:OAE_0001849>脂肪侵润</obo:OAE_0001849>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002113 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0002113">
+        <rdfs:label>acute intravascular hemolysis AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000493"/>
+        <obo:IAO_0000115>Acute intravascular hemolysis AE is a cardiovascular AE that has an outcome of disruption of red blood cells occurs while they are within blood vessels.</obo:IAO_0000115>
+        <obo:IAO_0000117>JX, LW, YH</obo:IAO_0000117>
+        <obo:OAE_0001849>急性血管内溶血</obo:OAE_0001849>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002134 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0002134">
+        <rdfs:label>coronary heart disease AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000493"/>
+        <obo:OAE_0001849>冠心病</obo:OAE_0001849>
+        <rdfs:seeAlso>MedDRA: 10068617</rdfs:seeAlso>
+        <obo:IAO_0000115>Coronary heart disease AE is a cardiovascular disorder AE that is a disease in which a waxy substance called plaque (plak) builds up inside the coronary arteries. These arteries supply oxygen-rich blood to your heart muscle.</obo:IAO_0000115>
+        <obo:IAO_0000119>WEB: http://www.nhlbi.nih.gov/health/health-topics/topics/cad/</obo:IAO_0000119>
+        <obo:IAO_0000117>JX, LW, YH</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002136 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0002136">
+        <rdfs:label>symptomatic hypotension AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000551"/>
+        <obo:IAO_0000117>JX, LW, YH</obo:IAO_0000117>
+        <obo:OAE_0001849>症状性低血压</obo:OAE_0001849>
+        <obo:IAO_0000115>Symptomatic hypotension AE is a hypotension AE that shows blood pressure that less than 90/60 mm Hg with dizziness, vertigo etc.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002146 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0002146">
+        <rdfs:label>distention of head AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000493"/>
+        <obo:OAE_0001849>头胀</obo:OAE_0001849>
+        <obo:IAO_0000115>Distention of head AE is a cardiovascular AE that shows distention of head.</obo:IAO_0000115>
+        <obo:IAO_0000117>JX, LW, YH</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002156 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0002156">
+        <rdfs:label>angiectopia of skin AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000085"/>
+        <obo:IAO_0000117>JX, LW, YH</obo:IAO_0000117>
+        <obo:IAO_0000115>Angiectopia of skin AE a vascular disorder AE that shows abnormal position or course of a vessel in the skin.</obo:IAO_0000115>
+        <obo:OAE_0001849>皮肤血管异位</obo:OAE_0001849>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002161 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0002161">
+        <rdfs:label>pulse frequency change AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000493"/>
+        <obo:OAE_0001849>脉搏频率变化</obo:OAE_0001849>
+        <obo:IAO_0000118>pulse abnormal AE</obo:IAO_0000118>
+        <obo:IAO_0000115>Pulse frequency change AE  is a cardiovascular AE that shows dpulse frequency change.</obo:IAO_0000115>
+        <obo:IAO_0000117>JX, LW, YH</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002168 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0002168">
+        <rdfs:label>accelerated pulse AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000493"/>
+        <obo:OAE_0001849>脉搏加快</obo:OAE_0001849>
+        <obo:IAO_0000115>Accelerated pulse AE  is a cardiovascular AE that shows increased of the number of pulsations per minute palpable in an artery.</obo:IAO_0000115>
+        <obo:IAO_0000117>JX, LW, YH</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002174 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0002174">
+        <rdfs:label>coronary contraction AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0001161"/>
+        <obo:IAO_0000115>Coronary contraction AE is a coronary artery disorder AE that shows coronary contraction.</obo:IAO_0000115>
+        <obo:OAE_0001849>冠状动脉收缩</obo:OAE_0001849>
+        <obo:IAO_0000117>JX, LW, YH</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002178 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0002178">
+        <rdfs:label>prolonged orthostatic hypotension AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0002106"/>
+        <obo:IAO_0000117>JX, LW, YH</obo:IAO_0000117>
+        <obo:IAO_0000115>Prolonged orthostatic hypotension AE is a orthostatic hypotension AE that shows prolonged orthostatic hypotension.</obo:IAO_0000115>
+        <obo:OAE_0001849>延长体位性低血压时间</obo:OAE_0001849>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002187 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0002187">
+        <rdfs:label>reflex Increased pulse rate AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000493"/>
+        <obo:IAO_0000115>Reflex Increased pulse rate AE  is a cardiovascular AE that shows increased pulse rate.</obo:IAO_0000115>
+        <obo:IAO_0000117>JX, LW, YH</obo:IAO_0000117>
+        <obo:OAE_0001849>反射性脉率增加</obo:OAE_0001849>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002190 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0002190">
+        <rdfs:label>phlebectasia of limbs AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000698"/>
+        <obo:OAE_0001849>肢端静脉扩张</obo:OAE_0001849>
+        <obo:IAO_0000117>JX, LW, YH</obo:IAO_0000117>
+        <obo:IAO_0000115>Phlebectasia of limbs AE is a vasodilatation AE that shows dilation of the veins in the extremity.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002195 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0002195">
+        <rdfs:label>increased peripheral vascular resistance AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000085"/>
+        <obo:OAE_0001849>外周血管阻力升高</obo:OAE_0001849>
+        <obo:IAO_0000117>JX, LW, YH</obo:IAO_0000117>
+        <obo:IAO_0000115>Increased peripheral vascular resistance AE is a vascular disorder AE that shows increased peripheral vascular resistance, the degree to which the blood vessels impede the flow of blood. High resistance causes an increase in blood pressure, which increases the workload of the heart.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002196 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0002196">
+        <rdfs:label>venous ischemia AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000198"/>
+        <obo:OAE_0001849>静脉供血不足</obo:OAE_0001849>
+        <obo:IAO_0000117>JX, LW, YH</obo:IAO_0000117>
+        <obo:IAO_0000115>Venous ischemia AE is an ischaemia AE that shows  in insufficient blood supply in the vein.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002236 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0002236">
+        <rdfs:label>dilated skin vessels AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000698"/>
+        <obo:IAO_0000117>JX, LW, YH</obo:IAO_0000117>
+        <obo:IAO_0000115>Dilated skin vessels AE is a vasodilatation AE that shows vasodilatation in the skin, which refers to the widening of blood vessels resulting from relaxation of smooth muscle cells within the vessel walls, particularly in the large arteries, smaller arterioles and large veins.</obo:IAO_0000115>
+        <obo:OAE_0001849>皮肤血管扩张</obo:OAE_0001849>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002240 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0002240">
+        <rdfs:label>jugular phlebectasia AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000698"/>
+        <obo:IAO_0000117>JX, LW, YH</obo:IAO_0000117>
+        <obo:IAO_0000119>WEB: http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3708235/</obo:IAO_0000119>
+        <obo:IAO_0000115>Jugular phlebectasia AE is a vasodilatation AE that is an isolated saccular or fusiform dilation of a vein without tortuosity.</obo:IAO_0000115>
+        <obo:OAE_0001849>颈静脉扩张</obo:OAE_0001849>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002251 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0002251">
+        <rdfs:label>aggravated Raynaud&#39;s syndrome AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0002007"/>
+        <obo:OAE_0001849>Raynaud综合征加重</obo:OAE_0001849>
+        <obo:IAO_0000117>JX, LW, YH</obo:IAO_0000117>
+        <obo:IAO_0000115>Aggravated Raynaud&#39;s syndrome AE is a Raynaud&#39;s syndrome AE that shows aggravated Raynaud&#39;s syndrome.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002266 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0002266">
+        <rdfs:label>severe lower blood pressure AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000551"/>
+        <obo:IAO_0000115>Severe lower blood pressure AE is a hypotension AE that shows severe sustained low blood pressure at a level that is likely to result in cardiovascular disease and/or other pathological states.</obo:IAO_0000115>
+        <obo:OAE_0001849>严重的血压降低</obo:OAE_0001849>
+        <obo:IAO_0000117>JX, LW, YH</obo:IAO_0000117>
+        <obo:IAO_0000118>significantly decreased blood pressure AE</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002277 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0002277">
+        <rdfs:label>secondary hypotension AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000551"/>
+        <obo:IAO_0000119>WEB: http://en.wikipedia.org/wiki/Secondary_hypertension</obo:IAO_0000119>
+        <obo:IAO_0000117>JX, LW, YH</obo:IAO_0000117>
+        <obo:OAE_0001849>继发性高血压</obo:OAE_0001849>
+        <obo:IAO_0000115>Secondary hypotension AE is a hypotension AE that is a type of hypertension which by definition is caused by an identifiable underlying secondary cause.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002282 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0002282">
+        <rdfs:label>mild gastrointestinal bleeding AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000416"/>
+        <obo:IAO_0000117>JX, LW, YH</obo:IAO_0000117>
+        <obo:IAO_0000115>Mild gastrointestinal bleeding AE is a gastrointestinal hemorrhage AE that shows mild gastrointestinal hemorrhage.</obo:IAO_0000115>
+        <obo:OAE_0001849>胃肠道轻微出血</obo:OAE_0001849>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002283 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0002283">
+        <rdfs:label>occult gastrointestinal tract bleeding AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000416"/>
+        <obo:OAE_0001849>胃肠道隐匿性出血</obo:OAE_0001849>
+        <obo:IAO_0000115>Occult gastrointestinal tract bleeding AE is a gastrointestinal hemorrhage AE that shows occult gastrointestinal hemorrhage.</obo:IAO_0000115>
+        <obo:IAO_0000117>JX, LW, YH</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002296 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0002296">
+        <rdfs:label>mild decline in blood pressure AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000551"/>
+        <obo:IAO_0000117>JX, LW, YH</obo:IAO_0000117>
+        <obo:OAE_0001849>血压轻度下降</obo:OAE_0001849>
+        <obo:IAO_0000115>Mild decline in blood pressure AE is a hypotension AE that shows mild sustained low blood pressure at a level that is likely to result in cardiovascular disease and/or other pathological states.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002298 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0002298">
+        <rdfs:label>transient hypotension AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000551"/>
+        <obo:IAO_0000115>Transient hypotension AE is a hypotension AE that shows transient sustained low blood pressure at a level that is likely to result in cardiovascular disease and/or other pathological states.</obo:IAO_0000115>
+        <obo:OAE_0001849>瞬时低血压</obo:OAE_0001849>
+        <obo:IAO_0000117>JX, LW, YH</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002299 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0002299">
+        <rdfs:label>obviously decreased blood pressure AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000551"/>
+        <obo:IAO_0000115>Obviously decreased blood pressure AE is a hypotension AE that shows obviously sustained low blood pressure at a level that is likely to result in cardiovascular disease and/or other pathological states.</obo:IAO_0000115>
+        <obo:OAE_0001849>血压明显下降</obo:OAE_0001849>
+        <obo:IAO_0000118>significantly decreased blood pressure AE</obo:IAO_0000118>
+        <obo:IAO_0000117>JX, LW, YH</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002303 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0002303">
+        <rdfs:label>sudden fall of blood pressure AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000551"/>
+        <obo:IAO_0000115>Sudden fall of blood pressure AE is a hypotension AE that shows sudden sustained low blood pressure at a level that is likely to result in cardiovascular disease and/or other pathological states.</obo:IAO_0000115>
+        <obo:OAE_0001849>血压突然降低</obo:OAE_0001849>
+        <obo:IAO_0000117>JX, LW, YH</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002304 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0002304">
+        <rdfs:label>severe hypertension AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000551"/>
+        <obo:IAO_0000115>Severe hypertension AE is a hypotension AE that shows severe sustained high blood pressure at a level that is likely to result in cardiovascular disease and/or other pathological states.</obo:IAO_0000115>
+        <obo:IAO_0000117>JX, LW, YH</obo:IAO_0000117>
+        <obo:OAE_0001849>严重高血压</obo:OAE_0001849>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002315 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0002315">
+        <rdfs:label>rebound Increased blood pressure AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000403"/>
+        <obo:OAE_0001849>反跳性血压升高</obo:OAE_0001849>
+        <obo:IAO_0000117>JX, LW, YH</obo:IAO_0000117>
+        <obo:IAO_0000115>Rebound Increased blood pressure AE is a hypertension AE that shows rebound sustained high blood pressure at a level that is likely to result in cardiovascular disease and/or other pathological states.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002316 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0002316">
+        <rdfs:label>excessive lowering of blood pressure AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000551"/>
+        <obo:OAE_0001849>血压过度降低</obo:OAE_0001849>
+        <obo:IAO_0000117>JX, LW, YH</obo:IAO_0000117>
+        <obo:IAO_0000115>Excessive lowering of blood pressure AE is a hypotension AE that shows excessive sustained low blood pressure at a level that is likely to result in cardiovascular disease and/or other pathological states.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002324 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0002324">
+        <rdfs:label>apparent hypotensive reaction AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000551"/>
+        <obo:OAE_0001849>显著的低血压反应</obo:OAE_0001849>
+        <obo:IAO_0000115>Apparent hypotensive reaction AE is a hypotension AE that shows apparent sustained low blood pressure at a level that is likely to result in cardiovascular disease and/or other pathological states.</obo:IAO_0000115>
+        <obo:IAO_0000117>JX, LW, YH</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002346 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0002346">
+        <rdfs:label xml:lang="en">amniotic fluid embolism AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0001744"/>
+        <obo:IAO_0000115>an embolism AE in which amniotic fluid, fetal cells, hair or other debris enter the maternal circulation resulting in cardiorespiratory collapse</obo:IAO_0000115>
+        <obo:IAO_0000117>SJ, YH</obo:IAO_0000117>
+        <obo:IAO_0000119>WEB: http://emedicine.medscape.com/article/253068-overview</obo:IAO_0000119>
+        <rdfs:seeAlso>MedDRA: 10001977</rdfs:seeAlso>
+        <obo:IAO_0000118>Anaphylactoid Syndrome of Pregnancy</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002354 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0002354">
+        <rdfs:label xml:lang="en">angiopathy AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000085"/>
+        <obo:IAO_0000118>macroangiopathy</obo:IAO_0000118>
+        <rdfs:seeAlso>MedDRA: 10059245</rdfs:seeAlso>
+        <obo:IAO_0000117>SJ, YH</obo:IAO_0000117>
+        <obo:IAO_0000119>WEB: http://www.medicinenet.com/script/main/art.asp?articlekey=6853</obo:IAO_0000119>
+        <obo:IAO_0000118>microangiopathy</obo:IAO_0000118>
+        <obo:IAO_0000115> cardiovascular AE that results in disease of the arteries, veins, and capillaries</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002355 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0002355">
+        <rdfs:label xml:lang="en">microangiopathy AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0002354"/>
+        <obo:IAO_0000117>SJ, YH</obo:IAO_0000117>
+        <obo:IAO_0000119>WEB: http://www.medicinenet.com/script/main/art.asp?articlekey=6853</obo:IAO_0000119>
+        <obo:IAO_0000115>a cardiovascular AE that results in the walls of small blood vessels becoming so thick and weak that they bleed, leak protein, and slow the flow of blood</obo:IAO_0000115>
+        <rdfs:seeAlso>MedDRA: 10062198</rdfs:seeAlso>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002356 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0002356">
+        <rdfs:label xml:lang="en">macroangiopathy AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0002354"/>
+        <obo:IAO_0000115>a cardiovascualr AE that results in the build up of fat and blood clots in the large blood vessels, stick to the vessel walls, and block the flow of blood</obo:IAO_0000115>
+        <obo:IAO_0000118>peripheral vascular disease</obo:IAO_0000118>
+        <obo:IAO_0000117>SJ, YH</obo:IAO_0000117>
+        <rdfs:seeAlso>MedDRA: 10054805</rdfs:seeAlso>
+        <obo:IAO_0000118>cerebrovascular disease</obo:IAO_0000118>
+        <obo:IAO_0000119>WEB: http://www.medicinenet.com/script/main/art.asp?articlekey=6853</obo:IAO_0000119>
+        <obo:IAO_0000118>coronary artery disease</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002359 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0002359">
+        <rdfs:label xml:lang="en">antepartum hemorrhage AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000427"/>
+        <obo:IAO_0000117>YH, SJ</obo:IAO_0000117>
+        <obo:IAO_0000119>WEB: https://www.rcog.org.uk/globalassets/documents/guidelines/gtg63_05122011aph.pdf</obo:IAO_0000119>
+        <obo:IAO_0000115>a hemorrhage AE that has an outcome of  bleeding from or in to the genital tract, occurring from 24 weeks of pregnancy and prior to the birth of the baby. </obo:IAO_0000115>
+        <rdfs:seeAlso>MedDRA: 10055228</rdfs:seeAlso>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002369 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0002369">
+        <rdfs:label xml:lang="en">arteriosclerosis AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000493"/>
+        <obo:IAO_0000119>WEB: http://www.mayoclinic.org/diseases-conditions/arteriosclerosis-atherosclerosis/basics/definition/con-20026972</obo:IAO_0000119>
+        <obo:IAO_0000115>arteriosclerosis AE is a cardiovascular AE that results in  blood vessels and arteries becoming thick and stiff which can restrict blood flow to organs and tissues. </obo:IAO_0000115>
+        <obo:IAO_0000117>SJ, YH</obo:IAO_0000117>
+        <rdfs:seeAlso>MedDRA: 10003210</rdfs:seeAlso>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002370 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0002370">
+        <rdfs:label xml:lang="en">atherosclerosis AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0002369"/>
+        <obo:IAO_0000115>atheroslcerosis AE is a specific arteriosclerosis AE that refers to the buildup of fats, cholesterol and other substances in and on artery walls which can restrict blood flow.</obo:IAO_0000115>
+        <obo:IAO_0000119>WEB: http://www.mayoclinic.org/diseases-conditions/arteriosclerosis-atherosclerosis/basics/definition/con-20026972</obo:IAO_0000119>
+        <obo:IAO_0000117>SJ, YH</obo:IAO_0000117>
+        <rdfs:seeAlso>MedDRA: 10003601</rdfs:seeAlso>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002373 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0002373">
+        <rdfs:label xml:lang="en">idiopathic thrombocytopenic purpura AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000493"/>
+        <rdfs:seeAlso>MedDRA: 10050245</rdfs:seeAlso>
+        <obo:IAO_0000115>a cardiovascular disorder AE that results in easy or excessive bruising and bleeding. The bleeding results from unusually low levels of platelets.</obo:IAO_0000115>
+        <obo:IAO_0000118>immune thrombocytopenic purpura</obo:IAO_0000118>
+        <obo:IAO_0000119>WEB: http://www.mayoclinic.org/diseases-conditions/idiopathic-thrombocytopenic-purpura/basics/definition/con-20034239</obo:IAO_0000119>
+        <obo:IAO_0000117>SJ, YH</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002406 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0002406">
+        <rdfs:label xml:lang="en">coronary artery aneurysm AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0001161"/>
+        <obo:IAO_0000117>KM, YH</obo:IAO_0000117>
+        <obo:IAO_0000115>A coronary artery aneurysm AE is a coronary artery disorder AE that has an outcome of coronary artery aneurysm, which is a coronary dilatation which exceeds the diameter of normal adjacent segments or the diameter of the patient&#39;s largest coronary vessel by 1.5 times.</obo:IAO_0000115>
+        <obo:IAO_0000119>WEB: http://www.ncbi.nlm.nih.gov/pubmed/9247557</obo:IAO_0000119>
+        <obo:IAO_0000119>WEB: http://en.wikipedia.org/wiki/Coronary_artery_aneurysm</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002438 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0002438">
+        <rdfs:label xml:lang="en">brainstem hemorrhage AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000427"/>
+        <obo:IAO_0000115>a hemorrhage AE that has an outcome of bleeding into the pons or mesencephalon.</obo:IAO_0000115>
+        <obo:IAO_0000119>WEB: http://medical-dictionary.thefreedictionary.com/brainstem+hemorrhage</obo:IAO_0000119>
+        <rdfs:seeAlso>MedDRA: 10006146</rdfs:seeAlso>
+        <obo:IAO_0000117>SJ, YH</obo:IAO_0000117>
+        <rdfs:comment>brain stem hemorrhage AE is often secondary to brainstem distortion due to rapidly expanding intracranail lessions.</rdfs:comment>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002461 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0002461">
+        <rdfs:label xml:lang="en">carotid artery stenosis AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0001161"/>
+        <rdfs:seeAlso>MedDRA: 10007687</rdfs:seeAlso>
+        <obo:IAO_0000115>a coronary artery disorder AE that results in narrowing of the inner surface of the carotid atery. </obo:IAO_0000115>
+        <obo:IAO_0000119>WEB: http://en.wikipedia.org/wiki/Carotid_artery_stenosis</obo:IAO_0000119>
+        <obo:IAO_0000117>SJ, YH</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002463 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0002463">
+        <rdfs:label xml:lang="en">chronic cholecystitis AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0002406"/>
+        <rdfs:seeAlso>MedDRA: 10008617</rdfs:seeAlso>
+        <obo:IAO_0000115>Chronic cholecystitis AE the inflammation of the gallbladder persisting for a prolonged period of time or having repeated attacks.</obo:IAO_0000115>
+        <obo:IAO_0000117>SJ, YH</obo:IAO_0000117>
+        <obo:IAO_0000119>WEB: http://www.healthline.com/health/chronic-cholecystitis#Overview1</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002494 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0002494">
+        <rdfs:label xml:lang="en">diabetic ketoacidosis AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000493"/>
+        <obo:IAO_0000119>WEB: http://www.mayoclinic.org/diseases-conditions/diabetic-ketoacidosis/basics/definition/con-20026470</obo:IAO_0000119>
+        <obo:IAO_0000117>SJ, YH</obo:IAO_0000117>
+        <obo:IAO_0000115>diabetic ketoacidosis AE  is a cardiovascular AE that develops when your body is unable to produce enough insulin and begins to break down fat as an alternate fuel, this process produces a buildup of toxic acids in the bloodstream called ketones. </obo:IAO_0000115>
+        <rdfs:seeAlso>MedDRA: 10012671</rdfs:seeAlso>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002578 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0002578">
+        <rdfs:label xml:lang="en">vascular occlusion AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000085"/>
+        <obo:IAO_0000119>WEB: http://en.wikipedia.org/wiki/Vascular_occlusion</obo:IAO_0000119>
+        <obo:IAO_0000117>KM, YH</obo:IAO_0000117>
+        <rdfs:seeAlso>MedDRA: 10053648</rdfs:seeAlso>
+        <obo:IAO_0000115>a vascular disorder AE that has an outcome of the blockage of a blood vessel, usually with a clot.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000122 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/IAO_0000122">
+        <rdfs:label xml:lang="en">ready for release</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000125 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/IAO_0000125">
+        <rdfs:label xml:lang="en">pending final vetting</rdfs:label>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.2.4.1806) http://owlapi.sourceforge.net -->
+

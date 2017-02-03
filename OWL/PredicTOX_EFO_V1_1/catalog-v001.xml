@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="Imports Wizard Entry" name="http://ontofox.hegroup.org/89t4a7au.owl" uri="OAE_drug_administration.owl"/>
+    <uri id="Imports Wizard Entry" name="http://ontofox.hegroup.org/w8egbut2.owl" uri="OAE_cardiovascular_AE.owl"/>
+    <uri id="Imports Wizard Entry" name="http://ontofox.hegroup.org/c04p7gch.owl" uri="OAE_cardiac_disorder_AE.owl"/>
+    <uri id="Imports Wizard Entry" name="http://ontofox.hegroup.org/dzqrktim.owl" uri="OAE_cardiac_disorder_AE_additional4.owl"/>
+    <uri id="Imports Wizard Entry" name="http://ontofox.hegroup.org/nzswmsno.owl" uri="ChEBI_sorafenib.owl"/>
+    <uri id="Imports Wizard Entry" name="http://ontofox.hegroup.org/ph60c4xr.owl" uri="ChEBI_ide_lap_van.owl"/>
+    <uri id="Imports Wizard Entry" name="http://ontofox.hegroup.org/r2rd45gd.owl" uri="ChEBI_erl_gef.owl"/>
+    <uri id="Imports Wizard Entry" name="http://ontofox.hegroup.org/83qt9oik.owl" uri="ChEBI_afatinib.owl"/>
+    <uri id="Imports Wizard Entry" name="http://ontofox.hegroup.org/ph60c4xr.owl" uri="OWL%20Output%20File/ChEBI_ide_lap_van.owl"/>
+    <uri id="Imports Wizard Entry" name="http://ontofox.hegroup.org/r2rd45gd.owl" uri="OWL%20Output%20File/ChEBI_erl_gef.owl"/>
+    <uri id="Imports Wizard Entry" name="http://ontofox.hegroup.org/83qt9oik.owl" uri="OWL%20Output%20File/ChEBI_afatinib.owl"/>
+    <uri id="Imports Wizard Entry" name="http://ontofox.hegroup.org/rhrxpaie.owl" uri="OWL%20Output%20File/ChEBI_druglist1_2.owl"/>
+    <uri id="Imports Wizard Entry" name="http://ontofox.hegroup.org/uia066dd.owl" uri="OWL%20Output%20File/ChEBI_druglist1.owl"/>
+    <uri id="Imports Wizard Entry" name="http://ontofox.hegroup.org/nzswmsno.owl" uri="OWL%20Output%20File/ChEBI_sorafenib.owl"/>
+    <uri id="Imports Wizard Entry" name="http://ontofox.hegroup.org/dzqrktim.owl" uri="OWL%20Output%20File/OAE_cardiac_disorder_AE_additional4.owl"/>
+    <uri id="Imports Wizard Entry" name="http://ontofox.hegroup.org/i0bcxo5p.owl" uri="OWL%20Output%20File/OAE_mitral_valve.owl"/>
+    <uri id="Imports Wizard Entry" name="http://ontofox.hegroup.org/ozag5sbm.owl" uri="OWL%20Output%20File/OAE_cardiac_disorder_AE_additional3.owl"/>
+    <uri id="Imports Wizard Entry" name="http://ontofox.hegroup.org/v29k8mf6.owl" uri="OWL%20Output%20File/OAE_cardiac_disorder_AE_additional2.owl"/>
+    <uri id="Imports Wizard Entry" name="http://ontofox.hegroup.org/jwux3rgc.owl" uri="OWL%20Output%20File/OAE_cardiac_disorder_AE_additional.owl"/>
+    <uri id="Imports Wizard Entry" name="http://ontofox.hegroup.org/vynm7zq9.owl" uri="OWL%20Output%20File/OAE_cardiac_chamber3.owl"/>
+    <uri id="Imports Wizard Entry" name="http://ontofox.hegroup.org/vwvqb530.owl" uri="OWL%20Output%20File/OAE_cardiac_chamber2.owl"/>
+    <uri id="Imports Wizard Entry" name="http://ontofox.hegroup.org/dxf4htee.owl" uri="OWL%20Output%20File/OAE_cardiac_chamber.owl"/>
+    <uri id="Imports Wizard Entry" name="http://ontofox.hegroup.org/b7ggibw3.owl" uri="OWL%20Output%20File/OAE_sinoatrial_node.owl"/>
+    <uri id="Imports Wizard Entry" name="http://ontofox.hegroup.org/9mkok0p3.owl" uri="OWL%20Output%20File/OAE_sinoatrial_node.owl"/>
+    <uri id="Imports Wizard Entry" name="http://ontofox.hegroup.org/pg2r3va2.owl" uri="OWL%20Output%20File/OAE_striated_muscle_tissue.owl"/>
+    <uri id="Imports Wizard Entry" name="http://ontofox.hegroup.org/hoevwt5j.owl" uri="OWL%20Output%20File/UBERON_striated_muscle_tissue.owl"/>
+    <uri id="Imports Wizard Entry" name="http://ontofox.hegroup.org/h5i280ec.owl" uri="OWL%20Output%20File/UBERON_striated_muscle_tissue.owl"/>
+    <uri id="Imports Wizard Entry" name="http://ontofox.hegroup.org/o595yuqu.owl" uri="OWL%20Output%20File/UBERON_striated_muscle_tissue.owl"/>
+    <uri id="Imports Wizard Entry" name="http://ontofox.hegroup.org/c04p7gch.owl" uri="OWL%20Output%20File/OAE_cardiac_disorder_AE.owl"/>
+    <uri id="Imports Wizard Entry" name="http://ontofox.hegroup.org/89t4a7au.owl" uri="OWL%20Output%20File/OAE_drug_administration.owl"/>
+    <uri id="Imports Wizard Entry" name="http://ontofox.hegroup.org/w8egbut2.owl" uri="OWL%20Output%20File/OAE_cardiovascular_AE.owl"/>
+    <uri id="Imports Wizard Entry" name="http://ontofox.hegroup.org/5rhxj36b.owl" uri="OWL%20Output%20File/5rhxj36b.owl"/>
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1486130587785" name="http://ontofox.hegroup.org/83qt9oik.owl" uri="ChEBI_afatinib.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1486130587785" name="http://ontofox.hegroup.org/89t4a7au.owl" uri="OAE_drug_administration.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1486130587785" name="http://ontofox.hegroup.org/c04p7gch.owl" uri="OAE_cardiac_disorder_AE.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1486130587785" name="http://ontofox.hegroup.org/dzqrktim.owl" uri="OAE_cardiac_disorder_AE_additional4.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1486130587785" name="http://ontofox.hegroup.org/nzswmsno.owl" uri="ChEBI_sorafenib.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1486130587785" name="http://ontofox.hegroup.org/ph60c4xr.owl" uri="ChEBI_ide_lap_van.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1486130587785" name="http://ontofox.hegroup.org/r2rd45gd.owl" uri="ChEBI_erl_gef.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1486130587785" name="http://ontofox.hegroup.org/w8egbut2.owl" uri="OAE_cardiovascular_AE.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1486130587785" name="http://www.ebi.ac.uk/efo/" uri="PredicTOX_EFO_V1_0.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1486130587785" name="http://www.ebi.ac.uk/efo/predictox.owl" uri="EFO_predictox1.1_merged.owl"/>
+    </group>
+</catalog>

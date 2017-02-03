@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns="http://www.ebi.ac.uk/efo/predictox_parent3.owl#" xml:base="http://www.ebi.ac.uk/efo/predictox_parent3.owl" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:obo="http://purl.obolibrary.org/obo/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:efo="http://www.ebi.ac.uk/efo/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+    <owl:Ontology rdf:about="http://www.ebi.ac.uk/efo/predictox_parent3.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#shorthand">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">shorthand</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">in_subset</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.ebi.ac.uk/efo/source_definition"/>
+    <owl:AnnotationProperty rdf:about="http://www.ebi.ac.uk/efo/definition_editor"/>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#created_by">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/elements/1.1/creator"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">database_cross_reference</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.ebi.ac.uk/efo/branch_class"/>
+    <owl:AnnotationProperty rdf:about="http://www.ebi.ac.uk/efo/bioportal_provenance"/>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasAlternativeId">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_alternative_id</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_obo_namespace</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.ebi.ac.uk/efo/example_of_usage"/>
+    <owl:AnnotationProperty rdf:about="http://www.ebi.ac.uk/efo/alternative_term">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alternative_term</rdfs:label>
+        <efo:definition>An alternative label for a given entity such as a commonly used abbreviation or synonym. </efo:definition>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id"/>
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">creator</rdfs:label>
+        <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</oboInOwl:is_metadata_tag>
+        <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dc-creator</oboInOwl:shorthand>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dc-creator</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.org/dc/elements/1.1/creator</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uberon</oboInOwl:hasOBONamespace>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.ebi.ac.uk/efo/definition">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.ebi.ac.uk/efo/organizational_class"/>
+    <owl:AnnotationProperty rdf:about="http://www.ebi.ac.uk/efo/ArrayExpress_label"/>
+    <owl:AnnotationProperty rdf:about="http://www.ebi.ac.uk/efo/definition_citation">
+        <efo:definition>A definition citation is a document, ontology class, person or organization from which the definition of the class is derived. It is used in the same sense as a citation in literature, in that the definition may have been derived from these sources or that this definition is related to these source.</efo:definition>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.ebi.ac.uk/efo/NIFSTD_definition_citation">
+        <efo:NIFSTD_definition_citation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ebi.ac.uk/efo/NIFSTD_definition_citation is an annotation property that is drawn from NIFSTD</efo:NIFSTD_definition_citation>
+        <rdfs:subPropertyOf rdf:resource="http://www.ebi.ac.uk/efo/definition_citation"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_exact_synonym</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://www.ebi.ac.uk/efo/alternative_term"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
+        <rdfs:label xml:lang="en">imported from</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.ebi.ac.uk/efo/EFO_URI"/>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#is_metadata_tag"/>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_narrow_synonym</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://www.ebi.ac.uk/efo/alternative_term"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/has_flag -->
+
+    <owl:ObjectProperty rdf:about="http://www.ebi.ac.uk/efo/has_flag">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_flag</rdfs:label>
+        <efo:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Relation to flag that an EFO class qualifies as an Atlas validation type</efo:definition>
+        <efo:EFO_URI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ebi.ac.uk/efo/has_flag</efo:EFO_URI>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0005575 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0005575">
+        <rdfs:label>cellular component</rdfs:label>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0005575</oboInOwl:id>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0008372</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NIF_Subcellular:sao1337158144</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cellular component</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cellular component unknown</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cellular_component</oboInOwl:hasOBONamespace>
+        <efo:alternative_term rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cellular_component</efo:alternative_term>
+        <efo:definition>The part of a cell or its extracellular environment in which a gene product is located. A gene product may be located in one or more parts of a cell and its location may be as specific as a particular macromolecular complex, that is, a stable, persistent association of macromolecules that function together.</efo:definition>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_aspergillus"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_candida"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_generic"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_metagenomics"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_pir"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_plant"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_yeast"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#gosubset_prok"/>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000030 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000030">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">information entity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000001"/>
+        <efo:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An information entity is an entity that represents information about some other entity.  For example, a measurement, a clustered data set.</efo:definition>
+        <efo:definition_editor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">James Malone</efo:definition_editor>
+        <efo:source_definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">an information content entity is an entity that is generically dependent on some artifact and stands in relation of aboutness to some entity</efo:source_definition>
+        <efo:EFO_URI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ebi.ac.uk/efo/EFO_0001435</efo:EFO_URI>
+        <efo:ArrayExpress_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">information</efo:ArrayExpress_label>
+        <efo:alternative_term rdf:datatype="http://www.w3.org/2001/XMLSchema#string">information content entity</efo:alternative_term>
+        <efo:organizational_class rdf:datatype="http://www.w3.org/2001/XMLSchema#string">true</efo:organizational_class>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000181 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000181">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">population</rdfs:label>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ebi.ac.uk/efo/has_flag"/>
+                <owl:someValuesFrom rdf:resource="http://www.ebi.ac.uk/efo/EFO_0004118"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <efo:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A population is a group of material entities consisting of individuals which share a particular characteristic such as inhabiting a particular region or area or ability to interbreed.</efo:definition>
+        <efo:definition_editor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">James Malone modified from original OBI definition</efo:definition_editor>
+        <efo:NIFSTD_definition_citation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NIFSTD:sao2254405550</efo:NIFSTD_definition_citation>
+        <efo:definition_editor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tomasz Adamusiak modified from original OBI definition</efo:definition_editor>
+        <efo:EFO_URI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ebi.ac.uk/efo/EFO_0000664</efo:EFO_URI>
+        <efo:branch_class rdf:datatype="http://www.w3.org/2001/XMLSchema#string">true</efo:branch_class>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000272 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000272">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protocol</rdfs:label>
+        <efo:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protocol is an information entity which is a set of instructions that describe an how an experiment is done.</efo:definition>
+        <efo:definition_editor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">James Malone</efo:definition_editor>
+        <efo:definition_editor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jie Zheng</efo:definition_editor>
+        <efo:definition_citation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MO_214</efo:definition_citation>
+        <efo:definition_editor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tomasz Adamusiak</efo:definition_editor>
+        <efo:EFO_URI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ebi.ac.uk/efo/EFO_0001442</efo:EFO_URI>
+        <efo:alternative_term rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plan specification</efo:alternative_term>
+        <efo:branch_class rdf:datatype="http://www.w3.org/2001/XMLSchema#string">true</efo:branch_class>
+        <efo:alternative_term>method</efo:alternative_term>
+        <efo:definition xml:lang="en">a protocol is a plan specification which has sufficient level of detail and quantitative information to communicate it between domain experts, so that different domain experts will reliably be able to independently reproduce the process.</efo:definition>
+        <efo:alternative_term>method used in an experiment</efo:alternative_term>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0000001 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0000001">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">experimental factor</rdfs:label>
+        <efo:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An experimental factor in Array Express which are essentially the variable aspects of an experiment design which can be used to describe an experiment, or set of experiments, in an increasingly detailed manner. This upper level class is really used to give a root class from which applications can rely on and not be tied to upper ontology classses which do change.</efo:definition>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Concept naming convention is lower case natural naming with spaces, when necessary captials should be used, for example disease factor, HIV, breast carcinoma, Ewing's sarcoma</rdfs:comment>
+        <efo:alternative_term rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ExperimentalFactor</efo:alternative_term>
+        <efo:bioportal_provenance rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ExperimentalFactor[accessedResource: MO_10][accessDate: 05-04-2011]</efo:bioportal_provenance>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Helen Parkinson</oboInOwl:created_by>
+        <efo:definition_editor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Helen Parkinson</efo:definition_editor>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">James Malone</oboInOwl:created_by>
+        <efo:definition_editor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">James Malone</efo:definition_editor>
+        <efo:definition_editor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jie Zheng</efo:definition_editor>
+        <efo:definition_citation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MO_10</efo:definition_citation>
+        <efo:definition_editor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tomasz Adamusiak</efo:definition_editor>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tomasz Adamusiak</oboInOwl:created_by>
+        <efo:organizational_class rdf:datatype="http://www.w3.org/2001/XMLSchema#string">true</efo:organizational_class>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0000355 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0000355">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">clinical treatment protocol</rdfs:label>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ebi.ac.uk/efo/has_flag"/>
+                <owl:someValuesFrom rdf:resource="http://www.ebi.ac.uk/efo/EFO_0004118"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <efo:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A clinical treatment is a treatment of some organism designed to have some clinical effect, for example the treatment of a disease E.g. radiotherapy</efo:definition>
+        <efo:definition_editor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">James Malone</efo:definition_editor>
+        <efo:definition_editor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jie Zheng</efo:definition_editor>
+        <efo:definition_citation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MO_384</efo:definition_citation>
+        <efo:definition_editor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tomasz Adamusiak</efo:definition_editor>
+        <efo:alternative_term rdf:datatype="http://www.w3.org/2001/XMLSchema#string">clinical_treatment</efo:alternative_term>
+        <efo:bioportal_provenance rdf:datatype="http://www.w3.org/2001/XMLSchema#string">clinical_treatment[accessedResource: MO_384][accessDate: 05-04-2011]</efo:bioportal_provenance>
+        <efo:alternative_term rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://mged.sourceforge.net/ontologies/MGEDOntology.owl#clinical_treatment</efo:alternative_term>
+        <efo:example_of_usage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radiotherapy</efo:example_of_usage>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0000410 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0000410">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease staging</rdfs:label>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ebi.ac.uk/efo/has_flag"/>
+                <owl:someValuesFrom rdf:resource="http://www.ebi.ac.uk/efo/EFO_0004118"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <efo:example_of_usage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dukes C stage describing colon cancer</efo:example_of_usage>
+        <efo:definition_editor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">James Malone</efo:definition_editor>
+        <efo:definition_editor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jie Zheng</efo:definition_editor>
+        <efo:definition_citation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MO_792</efo:definition_citation>
+        <efo:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The stage or progression of a disease in an organism. Includes pathological staging of cancers and other disease progression. E.g. Dukes C stage describing colon cancer</efo:definition>
+        <efo:definition_editor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tomasz Adamusiak</efo:definition_editor>
+        <efo:alternative_term rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease_staging</efo:alternative_term>
+        <efo:bioportal_provenance rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease_staging[accessedResource: MO_792][accessDate: 05-04-2011]</efo:bioportal_provenance>
+        <efo:alternative_term rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://mged.sourceforge.net/ontologies/MGEDOntology.owl#disease_staging</efo:alternative_term>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0004110 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0004110">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">validation flag</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <efo:definition_editor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dani Welter</efo:definition_editor>
+        <efo:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flag to mark any term permitted in Atlas</efo:definition>
+        <efo:organizational_class rdf:datatype="http://www.w3.org/2001/XMLSchema#string">true</efo:organizational_class>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0004118 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0004118">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">factor type flag</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0004110"/>
+        <efo:definition_editor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dani Welter</efo:definition_editor>
+        <efo:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flag for Atlas factor types</efo:definition>
+        <efo:organizational_class rdf:datatype="http://www.w3.org/2001/XMLSchema#string">true</efo:organizational_class>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+    </owl:Class>
+</rdf:RDF>
+<!-- Generated by the OWL API (version 3.2.4.1806) http://owlapi.sourceforge.net -->

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1486130229207" name="http://ontofox.hegroup.org/83qt9oik.owl" uri="OWL/Shadia_v1/ChEBI_afatinib.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1486130229207" name="http://ontofox.hegroup.org/89t4a7au.owl" uri="OWL/Shadia_v1/OAE_drug_administration.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1486130229207" name="http://ontofox.hegroup.org/c04p7gch.owl" uri="OWL/Shadia_v1/OAE_cardiac_disorder_AE.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1486130229207" name="http://ontofox.hegroup.org/dzqrktim.owl" uri="OWL/Shadia_v1/OAE_cardiac_disorder_AE_additional4.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1486130229207" name="http://ontofox.hegroup.org/nzswmsno.owl" uri="OWL/Shadia_v1/ChEBI_sorafenib.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1486130229207" name="http://ontofox.hegroup.org/ph60c4xr.owl" uri="OWL/Shadia_v1/ChEBI_ide_lap_van.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1486130229207" name="http://ontofox.hegroup.org/r2rd45gd.owl" uri="OWL/Shadia_v1/ChEBI_erl_gef.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1486130229207" name="http://ontofox.hegroup.org/w8egbut2.owl" uri="OWL/Shadia_v1/OAE_cardiovascular_AE.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1486130229207" name="http://www.ebi.ac.uk/efo/" uri="PredicTOX_EFO_V1_0.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1486130229207" name="http://www.ebi.ac.uk/efo/predictox" uri="OWL/Shadia_v1/predictox_shadia01merged.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1486130229207" name="shadowed:http://www.ebi.ac.uk/efo/" uri="OWL/Shadia_v1/PredicTOX_EFO_V1_0.owl"/>
+    </group>
+</catalog>
